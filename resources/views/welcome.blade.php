@@ -53,20 +53,20 @@
             <div class="animation-preloader">
                 <div class="spinner"></div>
                 <div class="txt-loading">
-                    <span data-text-preloader="a" class="letters-loading">
-                        a
+                    <span data-text-preloader="C" class="letters-loading">
+                        C
                     </span>
-                    <span data-text-preloader="t" class="letters-loading">
-                        t
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
                     </span>
-                    <span data-text-preloader="r" class="letters-loading">
-                        r
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
                     </span>
-                    <span data-text-preloader="i" class="letters-loading">
-                        i
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
                     </span>
-                    <span data-text-preloader="x" class="letters-loading">
-                        x
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
                     </span>
                 </div>
             </div>  
@@ -112,14 +112,14 @@
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo-3.png" alt="" /></a>
+                            <a href="/"><img src="../assets/images/logo-3new.png" alt="" /></a>
                         </div>
                         <div class="text-box">
-                            <h4>About Atrix</h4>
-                            <p>Lorem ipsum dolor amet consectetur adipisicing  sed do eiusmod tempor incididunt labore magna aliqua enim minim veniam nostrud exercitation aboris nis aliquip exeo.</p>
+                            <h4>О нас</h4>
+                            <p>Коротко о CAAAE </p>
                         </div>
                         <div class="info-inner">
-                            <h4>Find Us Our Location</h4>
+                            <h4>Наш адрес</h4>
                             <ul class="info clearfix">
                                 <li><i class="icon-180"></i>629 12th St, Modesto, CA 95354 United States</li>
                                 <li><i class="icon-181"></i><a href="mailto:atrixmain@gmail.com">atrixmain@gmail.com</a></li>
@@ -127,7 +127,7 @@
                             </ul>
                         </div>
                         <div class="social-inner">
-                            <h4>Follow Us On</h4>
+                            <h4>Следуйте за нами в соцсетях</h4>
                             <ul class="social-links clearfix">
                                 <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
@@ -155,7 +155,7 @@
         <div class="outer-container">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="assets/images/logo-3.png" alt=""></a></figure>
+                    <figure class="logo"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <!--Mobile Navigation Toggler-->
@@ -167,8 +167,8 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix home-menu">
-                                <li class="current dropdown"><a href="index.html">Home</a>
-                                    <div class="megamenu">
+                                <li class="current"><a href="/">Главная</a>
+                                    <!-- <div class="megamenu">
                                         <div class="row clearfix">
                                             <div class="col-lg-4 column">
                                                 <ul>
@@ -204,10 +204,10 @@
                                                 </ul>
                                             </div>                                        
                                         </div>                                            
-                                    </div>
+                                    </div> -->
                                 </li>
-                                <li class="dropdown"><a href="index.html">Pages</a>
-                                    <div class="megamenu">
+                                <li class="dropdown"><a href="index.html">Наши проекты</a>
+                                    <!-- <div class="megamenu">
                                         <div class="row clearfix">
                                             <div class="col-lg-3 column">
                                                 <ul>
@@ -281,10 +281,10 @@
                                                 </ul>
                                             </div>                                     
                                         </div>                                            
-                                    </div>
+                                    </div> -->
                                 </li>
-                                <li class="dropdown"><a href="index.html">Project</a>
-                                    <ul>
+                                <li class="dropdown"><a href="index.html">Academ Kitap</a>
+                                    <!-- <ul>
                                         <li><a href="project.html">Project Style 1</a></li>
                                         <li><a href="project-2.html">Project Style 2</a></li>
                                         <li><a href="project-3.html">Project Style 3</a></li>
@@ -300,20 +300,20 @@
                                                 <li><a href="project-details-5.html">Project Details 5</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li> 
-                                <li class="dropdown"><a href="index.html">Shop</a>
-                                    <ul>
+                                <li class="dropdown"><a href="index.html">Uniever</a>
+                                    <!-- <ul>
                                         <li><a href="shop.html">Shop 1</a></li>
                                         <li><a href="shop-2.html">Shop 2</a></li>
                                         <li><a href="shop-details.html">shop Details 1</a></li>
                                         <li><a href="shop-details-2.html">shop Details 2</a></li>
                                         <li><a href="cart.html">Cart Page</a></li>
                                         <li><a href="checkout.html">Checkout</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-                                <li class="dropdown"><a href="about-1.html">Elements</a>
-                                    <div class="megamenu">
+                                <li class="dropdown"><a href="about-1.html">Новости</a>
+                                    <!-- <div class="megamenu">
                                         <div class="row clearfix">
                                             <div class="col-lg-3 column">
                                                 <ul>
@@ -398,10 +398,10 @@
                                                 </ul>
                                             </div>                                       
                                         </div>                                            
-                                    </div>
+                                    </div> -->
                                 </li>
-                                <li class="dropdown"><a href="index.html">Blog</a>
-                                    <ul>
+                                <li class="dropdown"><a href="index.html">Контакты</a>
+                                    <!-- <ul>
                                         <li><a href="blog.html">Blog Standard 1</a></li>
                                         <li><a href="blog-2.html">Blog Standard 2</a></li>
                                         <li><a href="blog-3.html">Blog Grid 1</a></li>
@@ -415,7 +415,7 @@
                                                 <li><a href="blog-details-3.html">Blog Details 3</a></li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>   
                             </ul>
                         </div>
@@ -500,10 +500,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                    <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
+                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
                     </div>
                 </div> 
             </div>
@@ -512,10 +512,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                    <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
+                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
                     </div>
                 </div> 
             </div>
@@ -524,10 +524,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-6.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                    <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
+                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
                     </div>
                 </div> 
             </div>
@@ -549,7 +549,7 @@
                                 <div class="icon p_relative d_iblock g_color_2"><i class="icon-6"></i></div>
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-12.png" alt=""></div>
                             </div>
-                            <h4 class="d_block fs_20 lh_30 mb_0">Quick Innovative Solutions</h4>
+                            <h4 class="d_block fs_20 lh_30 mb_0">Текст</h4>
                         </div>
                     </div>
                 </div>
@@ -560,7 +560,7 @@
                                 <div class="icon p_relative d_iblock g_color_2"><i class="icon-7"></i></div>
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-13.png" alt=""></div>
                             </div>
-                            <h4 class="d_block fs_20 lh_30 mb_0">Quick Innovative Solutions</h4>
+                            <h4 class="d_block fs_20 lh_30 mb_0">Текст</h4>
                         </div>
                     </div>
                 </div>
@@ -571,7 +571,7 @@
                                 <div class="icon p_relative d_iblock g_color_2"><i class="icon-8"></i></div>
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-14.png" alt=""></div>
                             </div>
-                            <h4 class="d_block fs_20 lh_30 mb_0">Quick Innovative Solutions</h4>
+                            <h4 class="d_block fs_20 lh_30 mb_0">Текст</h4>
                         </div>
                     </div>
                 </div>
@@ -595,8 +595,8 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">About Us</span>
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">The Best Solutions for Best Business</h2>
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">О нас</span>
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Заголовок</h2>
                         <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod  tempor incididunt labore dolore.</p>
                     </div>
                 </div>
@@ -662,7 +662,7 @@
     </div>
     <div class="auto-container">
         <div class="sec-title-two p_relative d_block mb_50">
-            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">SERVICES</span><br />
+            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">УСЛУГИ</span><br />
             <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br />
             <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
         </div>
@@ -735,8 +735,8 @@
             </div>
             <div class="content-box p_relative d_block pl_15 pr_15">
                 <div class="sec-title-two p_relative d_block mb_30 light">
-                    <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">CHOOSE Atrix</span>
-                    <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_20">Few Reasons Why You Should<br /> Choose Us</h2><br />
+                    <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Выберайте САААЕ</span>
+                    <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_20">Причиные почему нужно<br /> выбрать нас</h2><br />
                     <p class="fs_18 font_family_oxygen mb_0">Fruit is their fill meat, hath abundantly place meat don't stars so & which<br /> signs third second after seasons under.</p>
                 </div>
                 <div class="inner-box">
@@ -784,7 +784,7 @@
 <section class="team-one p_relative sec-pad">
     <div class="auto-container">
         <div class="sec-title-two p_relative d_block mb_50 centred">
-            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Our Teem</span><br />
+            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Наша команда</span><br />
             <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br />
             <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
         </div>
@@ -885,7 +885,7 @@
         <div class="row clearfix">
             <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                 <div class="sec-title-two p_relative d_block mb_50 mr_70">
-                    <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Expertise</span><br />
+                    <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Экспертность</span><br />
                     <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Build Better Business Software a Lot faster and Easier with Atrix.</h2><br />
                     <p class="fs_18 font_family_oxygen mb_0">Fruit is their fill meat, hath abundantly place meat don't stars. so and which signs third second after seasons under.</p>
                 </div>
@@ -963,7 +963,7 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Projects</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Проекты</span><br />
                         <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2>
                     </div>
                 </div>
@@ -1031,7 +1031,7 @@
     </div>
     <div class="auto-container">
         <div class="sec-title-two p_relative d_block mb_50 centred">
-            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Testimonials</span>
+            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Отзывы</span>
             <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Trusted by More Than 3k Clients <br />Around The World</h2>
             <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
 
@@ -1239,7 +1239,7 @@
             <div class="row align-items-center clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Article</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Новости/Статьи</span><br />
                         <h2 class="d_block fs_40 fw_bold font_family_oxygen">Latest Articles</h2><br />
                     </div>
                 </div>
