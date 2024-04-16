@@ -38,7 +38,7 @@
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  color: #f4244f;
+  color: #41a0ea;;
 }
 
 .main-menu .navigation > li > ul > li > a:hover,
@@ -2467,20 +2467,20 @@
 
 .main-header.service-page-1 .main-menu .navigation > li.current > a, 
 .main-header.service-page-1 .main-menu .navigation > li:hover > a{
-  color: #f4244f;
+  color: #41a0ea;
 }
 
 .main-header.service-page-1 .main-menu .navigation > li > ul > li > a:hover, 
 .main-header.service-page-1 .main-menu .navigation > li > .megamenu li > a:hover{
-	color: #f4244f;
+	color: #41a0ea;
 }
 
 .main-header.service-page-1 .main-menu .navigation > li > .megamenu li > a:before{
-	background: #f4244f;
+	background: #41a0ea;;
 }
 
 .main-header.service-page-1 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-	color: #f4244f;
+	color: #41a0ea;;
 }
 
 .main-header.service-page-1 .nav-right .search-box-outer:hover, 
