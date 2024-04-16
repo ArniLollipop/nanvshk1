@@ -27,8 +27,9 @@
 <body class="antialiased">
 @include('partials.header')
 
-
 @yield('content')
+
+@include('partials.footer')
 
 </body>
 </html>

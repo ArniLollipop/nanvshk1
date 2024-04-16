@@ -1,6 +1,11 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\ProjectsController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +22,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
+Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
+Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
+Route::get('/news', [NewsController::class, 'index'])->name('news');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
