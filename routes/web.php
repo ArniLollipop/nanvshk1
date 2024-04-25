@@ -26,7 +26,9 @@ Route::get('/', function () {
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
+Route::get('/project-details', [ProjectsController::class, 'detail'])->name('project-details');
 Route::get('/news', [NewsController::class, 'index'])->name('news');
+Route::get('/news-details', [NewsController::class, 'detail'])->name('news-details');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/dashboard', function () {

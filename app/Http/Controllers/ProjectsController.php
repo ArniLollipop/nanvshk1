@@ -11,4 +11,10 @@ class ProjectsController extends Controller
         
         return view('projects');
     }
+
+    public function detail()
+    {
+        
+        return view('project-details');
+    }
 }

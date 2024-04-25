@@ -4,6 +4,45 @@
 <div class="boxed_wrapper">
 
 
+<!-- mouse-pointer -->
+<div class="mouse-pointer display_none" id="mouse-pointer">
+    <div class="icon"><i class="far fa-angle-left"></i><i class="far fa-angle-right"></i></div>
+</div>
+<!-- mouse-pointer end -->
+
+
+<!-- preloader -->
+<div class="loader-wrap">
+    <div class="preloader">
+        <div class="preloader-close">x</div>
+        <div id="handle-preloader" class="handle-preloader home-14">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="a" class="letters-loading">
+                        a
+                    </span>
+                    <span data-text-preloader="t" class="letters-loading">
+                        t
+                    </span>
+                    <span data-text-preloader="r" class="letters-loading">
+                        r
+                    </span>
+                    <span data-text-preloader="i" class="letters-loading">
+                        i
+                    </span>
+                    <span data-text-preloader="x" class="letters-loading">
+                        x
+                    </span>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-- preloader end -->
+
+
+
 
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
@@ -13,11 +52,11 @@
     </div>
     <div class="auto-container">
         <div class="content-box">
-            <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Project Masonry 3</h1>
+            <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Project Grid 3</h1>
             <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                 <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="index.html">Home</a></li>
                 <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Project</li>
-                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Masonry 3</li>
+                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Grid 3</li>
             </ul>
         </div>
     </div>
@@ -26,7 +65,7 @@
 
 
 <!-- project-nine -->
-<section class="project-nine project-page-6 p_relative pt_15 pb_100">
+<section class="project-nine project-page-3 p_relative pt_15 pb_100">
     <div class="outer-container pl_40 pr_40">
         <div class="sortable-masonry">
             <div class="filters mb_70">
@@ -42,11 +81,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all product finance business">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-79.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-56.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -54,11 +93,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis business corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-80.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-57.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -66,11 +105,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all product finance corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-81.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-58.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -78,11 +117,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis finance business">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-82.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-59.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -90,11 +129,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all business finance corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-83.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-60.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -102,11 +141,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis business corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-85.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-61.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -114,11 +153,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all business finance corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-86.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-62.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -126,59 +165,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis business corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-84.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project-63.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all product finance business">
-                    <div class="project-block-one">
-                        <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-87.jpg" alt=""></figure>
-                            <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
-                                <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis business corporate">
-                    <div class="project-block-one">
-                        <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-90.jpg" alt=""></figure>
-                            <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
-                                <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all product finance corporate">
-                    <div class="project-block-one">
-                        <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-88.jpg" alt=""></figure>
-                            <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
-                                <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all analytis finance business">
-                    <div class="project-block-one">
-                        <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-89.jpg" alt=""></figure>
-                            <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
-                                <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -201,7 +192,7 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/logo-21.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/footer-logo-8.png" alt=""></a></figure>
                         <div class="text">
                             <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
                         </div>
@@ -312,6 +303,5 @@
 
 <!-- main-js -->
 <script src="assets/js/script.js"></script>
-
 
 @endsection

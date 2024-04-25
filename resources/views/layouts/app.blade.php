@@ -22,11 +22,13 @@
 <link href="assets/css/elpath.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<link href="assets/css/blog.css" rel="stylesheet">
+
+
 
 </head>
 <body class="antialiased">
 @include('partials.header')
-
 
 @yield('content')
 
