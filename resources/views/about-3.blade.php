@@ -31,8 +31,8 @@
                 <div class="sortable-masonry">
                     <div class="filters mb_70">
                         <ul class="filter-tabs filter-btns clearfix centred">
-                            <!-- <li class="active filter" data-role="button" data-filter=".all">Все Члены Академии</li> -->
-                            <li class="active filter" data-role="button" data-filter=".analytis">Действительные члены (академики) НАН ВШК</li>
+                            <li class="active filter" data-role="button" data-filter=".all">Все Члены Академии</li>
+                            <li class="filter" data-role="button" data-filter=".analytis">Действительные члены (академики) НАН ВШК</li>
                             <li class="filter" data-role="button" data-filter=".finance">Члены-корреспонденты НАН ВШК</li>
                             <li class="filter" data-role="button" data-filter=".business">Почетные академики НАН ВШК</li>
                         </ul>
