@@ -50,44 +50,12 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix home-menu">
-                                        <li class="current dropdown"><a href="{{ route('about') }}">О нас</a>
-                                            <!-- <div class="megamenu">
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h6>Home Pages</h6></li>
-                                                            <li><a href="index.html">Corporate Business</a></li>
-                                                            <li><a href="index-2.html">Consulting</a></li>
-                                                            <li><a href="index-3.html">Finance</a></li>
-                                                            <li><a href="index-4.html">Insurance</a></li>
-                                                            <li><a href="index-5.html">Law Firm</a></li>
-                                                            <li><a href="index-6.html">Visa Consulting</a></li>
-                                                            <li><a href="index-7.html">Auto Repair</a></li>
-                                                            <li><a href="index-8.html">Psychologist</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h6>Home Pages</h6></li>
-                                                            <li><a href="index-9.html">Logistic Service</a></li>
-                                                            <li><a href="index-10.html">Architecture</a></li>
-                                                            <li><a href="index-11.html">Construction</a></li>
-                                                            <li><a href="index-12.html">Digital Agency</a></li>
-                                                            <li><a href="index-13.html">Data Hosting</a></li>
-                                                            <li><a href="index-14.html">App Landing</a></li>
-                                                            <li><a href="index-15.html">Startup Business</a></li>
-                                                            <li><a href="index-16.html">Electricity Services</a></li>
-                                                        </ul>
-                                                    </div> 
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h6>Home Pages</h6></li>
-                                                            <li><a href="index-17.html">Electric Shop</a></li>
-                                                            <li><a href="index-18.html">Computer Shop</a></li>
-                                                        </ul>
-                                                    </div>                                        
-                                                </div>                                            
-                                            </div> -->
+                                        <li class="dropdown"><a href="">О нас</a>
+                                             <ul>
+                                                <li><a href="{{ route('about') }}">Об академии</a></li>
+                                                <li><a href="{{ route('about-2') }}">Президент НАН ВШК</a></li>
+                                                <li><a href="{{ route('about-3') }}">Члены Академии</a></li>
+                                            </ul>
                                         </li>
                                         <li class="dropdown"><a href="{{ route('projects') }}">Проекты</a>
                                             <!-- <div class="megamenu">

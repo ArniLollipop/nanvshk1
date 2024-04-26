@@ -30,6 +30,9 @@ Route::get('/project-details', [ProjectsController::class, 'detail'])->name('pro
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/news-details', [NewsController::class, 'detail'])->name('news-details');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::get('/about-2', [AboutController::class, 'about2'])->name('about-2');
+Route::get('/about-3', [AboutController::class, 'about3'])->name('about-3');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
