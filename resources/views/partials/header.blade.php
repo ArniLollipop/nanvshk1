@@ -7,13 +7,13 @@
                     <div class="top-inner clearfix p_relative">
                         <div class="shape p_absolute t_0" style="background-image: url(assets/images/shape/shape-1.png);"></div>
                         <div class="top-left pull-left">
-                            <ul class="social-links clearfix">
+                            <!-- <ul class="social-links clearfix">
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <div class="top-right pull-right">
                             <ul class="info clearfix">
@@ -28,6 +28,11 @@
                                     <i class="icon-3"></i>
                                     <p>Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
                                 </li>
+                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
+                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
+                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
+                            
                             </ul>
                         </div>
                     </div>
@@ -50,120 +55,30 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix home-menu">
-                                        <li class="dropdown"><a href="">О нас</a>
+                                        <li class="dropdown"><a href="">О НАС</a>
                                              <ul>
                                                 <li><a href="{{ route('about') }}">Об академии</a></li>
                                                 <li><a href="{{ route('about-2') }}">Президент НАН ВШК</a></li>
-                                                <li><a href="{{ route('about-3') }}">Члены Академии</a></li>
+                                                <li><a href="{{ route('about-3') }}">Члены академии</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('projects') }}">Проекты</a>
-                                            <!-- <div class="megamenu">
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-3 column">
-                                                        <ul>
-                                                            <li><h6>About Pages</h6></li>
-                                                            <li><a href="about.html">About Classic</a></li>
-                                                            <li><a href="about-2.html">About Creative</a></li>
-                                                            <li><a href="about-3.html">About Modern</a></li>
-                                                            <li><a href="about-4.html">About Simple</a></li>
-                                                            <li><a href="about-5.html">About Minimal</a></li>
-                                                            <li><h6>Testimonial Pages</h6></li>
-                                                            <li><a href="testimonial-1.html">Testimonial Page 1</a></li>
-                                                            <li><a href="testimonial-2.html">Testimonial Page 2</a></li>
-                                                            <li><a href="testimonial-3.html">Testimonial Page 3</a></li>
-                                                            <li><a href="testimonial-4.html">Testimonial Page 4</a></li>
-                                                            <li><a href="testimonial-5.html">Testimonial Page 5</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-3 column">
-                                                        <ul>
-                                                            <li><h6>Academ Kitap</h6></li>
-                                                            <li><a href="service.html">Service Style 1</a></li>
-                                                            <li><a href="service-2.html">Service Style 2</a></li>
-                                                            <li><a href="service-3.html">Service Style 3</a></li>
-                                                            <li><a href="service-4.html">Service Style 4</a></li>
-                                                            <li><a href="service-5.html">Service Style 5</a></li>
-                                                            <li><a href="service-details.html">Service Details 1</a></li>
-                                                            <li><a href="service-details-2.html">Service Details 2</a></li>
-                                                            <li><a href="service-details-3.html">Service Details 3</a></li>
-                                                            <li><h6>Other Pages</h6></li>
-                                                            <li><a href="career.html">Career</a></li>
-                                                            <li><a href="process.html">Our Process</a></li>
-                                                            <li><a href="faq.html">FAQ 1</a></li>
-                                                            <li><a href="faq-2.html">FAQ 2</a></li>
-                                                            <li><a href="faq-3.html">FAQ 3</a></li>
-                                                        </ul>
-                                                    </div> 
-                                                    <div class="col-lg-3 column">
-                                                        <ul>
-                                                            <li><h6>Univer</h6></li>
-                                                            <li><a href="team.html">Team Page 1</a></li>
-                                                            <li><a href="team-2.html">Team Page 2</a></li>
-                                                            <li><a href="team-3.html">Team Page 3</a></li>
-                                                            <li><a href="team-4.html">Team Page 4</a></li>
-                                                            <li><a href="team-5.html">Team Page 5</a></li>
-                                                            <li><a href="team-6.html">Team Page 6</a></li>
-                                                            <li><a href="team-7.html">Team Page 7</a></li>
-                                                            <li><a href="team-details.html">Team Details 1</a></li>
-                                                            <li><a href="team-details-2.html">Team Details 2</a></li>
-                                                            <li><a href="team-details-3.html">Team Details 3</a></li>
-                                                            <li><h6>Utilities</h6></li>
-                                                            <li><a href="login.html">Log in</a></li>
-                                                            <li><a href="registration.html">Registration</a></li>
-                                                            <li><a href="error.html">404 Error</a></li>
-                                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                        </ul>
-                                                    </div>   
-                                                    <div class="col-lg-3 column">
-                                                        <ul>
-                                                            <li><h6>Контакты</h6></li>
-                                                            <li><a href="pricing.html">Pricing Table 1</a></li>
-                                                            <li><a href="pricing-2.html">Pricing Table 2</a></li>
-                                                            <li><a href="pricing-3.html">Pricing Table 3</a></li>
-                                                            <li><a href="pricing-4.html">Pricing Table 4</a></li>
-                                                            <li><a href="pricing-5.html">Pricing Table 5</a></li>
-                                                            <li><h6>Contact Pages</h6></li>
-                                                            <li><a href="contact.html">Contact Page 1</a></li>
-                                                            <li><a href="contact-2.html">Contact Page 2</a></li>
-                                                            <li><a href="contact-3.html">Contact Page 3</a></li>
-                                                            <li><a href="contact-4.html">Contact Page 4</a></li>
-                                                            <li><a href="contact-5.html">Contact Page 5</a></li>
-                                                        </ul>
-                                                    </div>                                     
-                                                </div>                                            
-                                            </div> -->
+                                        <li class="dropdown"><a href="">ПРЕЗИДИУМ</a>
+                                             <ul>
+                                                <li><a href="{{ route('about-4') }}">Состав Президиума</a></li>                                                
+                                            </ul>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Univer</a>
-                                            <!-- <ul>
-                                                <li><a href="project.html">Project Style 1</a></li>
-                                                <li><a href="project-2.html">Project Style 2</a></li>
-                                                <li><a href="project-3.html">Project Style 3</a></li>
-                                                <li><a href="project-4.html">Project Style 4</a></li>
-                                                <li><a href="project-5.html">Project Style 5</a></li>
-                                                <li><a href="project-6.html">Project Style 6</a></li>
-                                                <li class="dropdown"><a href="index.html">Project Details</a>
-                                                    <ul>
-                                                        <li><a href="project-details.html">Project Details 1</a></li>
-                                                        <li><a href="project-details-2.html">Project Details 2</a></li>
-                                                        <li><a href="project-details-3.html">Project Details 3</a></li>
-                                                        <li><a href="project-details-4.html">Project Details 4</a></li>
-                                                        <li><a href="project-details-5.html">Project Details 5</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
-                                        </li> 
-                                        <li class="dropdown"><a href="index.html">Academ Kitap</a>
-                                            <!-- <ul>
-                                                <li><a href="shop.html">Shop 1</a></li>
-                                                <li><a href="shop-2.html">Shop 2</a></li>
-                                                <li><a href="shop-details.html">shop Details 1</a></li>
-                                                <li><a href="shop-details-2.html">shop Details 2</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul> -->
+                                        <li class="dropdown"><a href="">СТРУКТУРА</a>
+                                             <ul>
+                                                <li><a href="{{ route('about-5') }}">Структура НАН ВШК</a></li>                                                
+                                            </ul>
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('news') }}">Новости</a>
+                                        <li class="dropdown"><a href="">ПРОЕКТЫ</a>
+                                             <ul>
+                                                <li><a href="{{ route('projects') }}">Проекты НАН ВШК</a></li>                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown"><a href="{{ route('news') }}">НОВОСТИ</a>
                                             <!-- <div class="megamenu">
                                                 <div class="row clearfix">
                                                     <div class="col-lg-3 column">
@@ -251,7 +166,7 @@
                                                 </div>                                            
                                             </div> -->
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('contacts') }}">Контакты</a>
+                                        <li class="dropdown"><a href="{{ route('contacts') }}">КОНТАКТЫ</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog Standard 1</a></li>
                                                 <li><a href="blog-2.html">Blog Standard 2</a></li>

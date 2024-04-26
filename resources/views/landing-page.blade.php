@@ -3,44 +3,6 @@
 <div class="boxed_wrapper">
 
 
-<!-- mouse-pointer -->
-<div class="mouse-pointer style-two" id="mouse-pointer">
-    <div class="icon"><i class="far fa-angle-left"></i><i class="far fa-angle-right"></i></div>
-</div>
-<!-- mouse-pointer end -->
-
-
-<!-- preloader -->
-<div class="loader-wrap">
-    <div class="preloader">
-        <div class="preloader-close">x</div>
-        <div id="handle-preloader" class="handle-preloader home-2">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                </div>
-            </div>  
-        </div>
-    </div>
-</div>
-<!-- preloader end -->
-
-
 <!--Search Popup-->
 <div id="search-popup" class="search-popup">
     <div class="popup-inner">

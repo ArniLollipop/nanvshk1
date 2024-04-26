@@ -23,4 +23,14 @@ class AboutController extends Controller
         
         return view('about-3');
     }
+    public function about4()
+    {
+        
+        return view('about-4');
+    }
+    public function about5()
+    {
+        
+        return view('about-5');
+    }
 }
