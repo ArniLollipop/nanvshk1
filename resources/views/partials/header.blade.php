@@ -6,16 +6,16 @@
                 <div class="auto-container">
                     <div class="top-inner clearfix p_relative">
                         <div class="shape p_absolute t_0" style="background-image: url(assets/images/shape/shape-1.png);"></div>
-                        <div class="top-left pull-left">
-                            <!-- <ul class="social-links clearfix">
+                        <div class="top-left pull-right">
+                            <ul class="social-links clearfix">
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
-                            </ul> -->
+                            </ul>
                         </div>
-                        <div class="top-right pull-right">
+                        <div class="top-right pull-left">
                             <ul class="info clearfix">
                                 <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
                                     <i class="icon-1"></i>
@@ -24,17 +24,14 @@
                                     <i class="icon-2"></i>
                                     <p>Call: <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
                                 </li>
-                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16">
+                                <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3"></i>
                                     <p>Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
                                 </li>
-                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
-                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
-                                <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
-                            
+                               
                             </ul>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -55,30 +52,30 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix home-menu">
-                                        <li class="dropdown"><a href="">О НАС</a>
+                                        <li class="current dropdown"><a href="">О НАС</a>
                                              <ul>
                                                 <li><a href="{{ route('about') }}">Об академии</a></li>
                                                 <li><a href="{{ route('about-2') }}">Президент НАН ВШК</a></li>
                                                 <li><a href="{{ route('about-3') }}">Члены академии</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="">ПРЕЗИДИУМ</a>
+                                        <li class="current dropdown"><a href="">ПРЕЗИДИУМ</a>
                                              <ul>
                                                 <li><a href="{{ route('about-4') }}">Состав Президиума</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="">СТРУКТУРА</a>
+                                        <li class="current dropdown"><a href="">СТРУКТУРА</a>
                                              <ul>
                                                 <li><a href="{{ route('about-5') }}">Структура НАН ВШК</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="">ПРОЕКТЫ</a>
+                                        <li class="current dropdown"><a href="">ПРОЕКТЫ</a>
                                              <ul>
                                                 <li><a href="{{ route('projects') }}">Проекты НАН ВШК</a></li>                                                
                                             </ul>
                                         </li>
                                         
-                                        <li class="dropdown"><a href="{{ route('news') }}">НОВОСТИ</a>
+                                        <li class="current dropdown"><a href="{{ route('news') }}">НОВОСТИ</a>
                                             <!-- <div class="megamenu">
                                                 <div class="row clearfix">
                                                     <div class="col-lg-3 column">

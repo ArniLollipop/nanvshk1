@@ -33,7 +33,7 @@
                             <div class="team-info">
                                 <h4 class="d_block fs_20 lh_30 mb_2">Мутанов Галимкаир Мутанович</h4>
                                 <p class="font_family_poppins">Президент НАН ВШК</p>
-                                <p class="font_family_poppins mb_30">доктор технических наук (1993), профессор, академик НАН РК</p>
+                                <p class="font_family_poppins mb_30">доктор технических наук, профессор, академик НАН РК</p>
                                 <ul class="social-links clearfix">
                                     <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-facebook-f"></i></a></li>
                                     <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-twitter"></i></a></li>
