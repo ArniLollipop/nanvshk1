@@ -7,11 +7,11 @@
     <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/page-title-5.jpg);"></div>
     <div class="auto-container">
         <div class="content-box">
-            <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Blog Grid</h1>
+            <!-- <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Blog Grid</h1>
             <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                 <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="index.html">Home</a></li>
                 <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Blog</li>
-                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">Blog 3</li>
+                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">Blog 3</li> -->
             </ul>
         </div>
     </div>
@@ -28,7 +28,8 @@
                 <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box p_relative d_block mb_70">
                         <div class="image-box p_relative d_block">
-                            <figure class="image p_relative d_block"><a href="{{ route('news-details') }}"><img src="{{ asset('posts/$info->image') }}" alt=""></a></figure>
+                       
+                            <figure class="image p_relative d_block"><a href="{{ route('news-details') }}"><img src="{{ asset('storage/'.$info->image) }}" alt=""></a></figure>
                             <div class="post-date-two p_absolute l_30 t_30 w_60 centred pt_10 pb_10 b_shadow_6"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">{{ $info->created_at->format('d') }}<span class="d_block fs_14">{{ $info->created_at->format('M') }}</span></h4></div>
                         </div>
                         <div class="lower-content p_relative d_block pt_25">
