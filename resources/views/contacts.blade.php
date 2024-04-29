@@ -37,8 +37,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 info-column">
                         <div class="info-inner">
                             <div class="sec-title p_relative d_block mb_40">
-                                <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_17">Get In Touch</h5>
-                                <h3 class="d_block fs_30 lh_40 fw_bold">Have a Project in Mind? <br>Let’s Contact</h3>
+                                <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_17">Будьте на связи</h5>
+                                <h3 class="d_block fs_30 lh_40 fw_bold">Есть вопросы, предложения? <br>Пишите нам</h3>
                             </div>
                             <ul class="info-list clearfix">
                                 <li class="p_relative d_block pl_100 pb_18 mb_25">
@@ -46,8 +46,8 @@
                                         <div class="icon p_relative d_iblock"><i class="icon-180"></i></div>
                                         <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
                                     </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
-                                    <p class="font_family_poppins">629 12th St, Modesto, CA 95354 United States</p>
+                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Адрес</h4>
+                                    <p class="font_family_poppins">Республика Казахстан, индекс 050040, г. Алматы, Бостандыкский район, микрорайон Коктем-3, дом 24, н.п. №379.</p>
                                 </li>
                                 <li class="p_relative d_block pl_100 pb_18 mb_25">
                                     <div class="icon-box p_absolute l_0 t_0 d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">

@@ -163,7 +163,7 @@
                                                 </div>                                            
                                             </div> -->
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('contacts') }}">КОНТАКТЫ</a>
+                                        <li class="current dropdown"><a href="{{ route('contacts') }}">КОНТАКТЫ</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog Standard 1</a></li>
                                                 <li><a href="blog-2.html">Blog Standard 2</a></li>

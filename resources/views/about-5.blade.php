@@ -34,12 +34,12 @@
                                 <h3 class="d_block fs_30 lh_30 mb_30">Структура НАН ВШК</h3>
                                
                                     <ul class="clearfix p_relative d_block">
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">  1.	Мутанов Галимкаир Мутанович - Президент</li>
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Абжаппаров Абдумуталип Абжаппарович - Первый вице-президент</li>
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Хикметов Аскар Кусупбекович - Вице-президент</li>
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Сыдыков Ерлан Батташевич - Вице-президент (Астанинское отделение)</li>
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Есполов Тлектес Исабаевич - Вице-президент</li>
-                                    <li class="p_relative d_block fs_16 lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Купчишин Анатолий Иванович - Главный ученый секретарь</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">  1.	Мутанов Галимкаир Мутанович - Президент</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Абжаппаров Абдумуталип Абжаппарович - Первый вице-президент</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Хикметов Аскар Кусупбекович - Вице-президент</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Сыдыков Ерлан Батташевич - Вице-президент (Астанинское отделение)</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Есполов Тлектес Исабаевич - Вице-президент</li>
+                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Купчишин Анатолий Иванович - Главный ученый секретарь</li>
                                    
                                     </ul>
                             </div>
