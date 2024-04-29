@@ -180,7 +180,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
                         <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">О нас</span>
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Академия Наук Высшей Школы Казахстана</h2>
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2>
                         <p class="fs_18 font_family_oxygen mb_0">Была образована как Казахстанское отделение Международной Академии Наук Высшей Школы (МАН ВШ) в 1992 г. </p>
                     </div>
                 </div>
