@@ -42,6 +42,7 @@
                         <div class="logo-box">
                             <figure class="logo"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
                         </div>
+                        <div class="mr_60"> <p class="fs_18 mb_5">Национальная академия наук</h4><br>  <p class="fs_18">Высшей школы Казахстана</h4></div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -51,7 +52,7 @@
                             </div>
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix home-menu">
+                                    <ul class="navigation clearfix">
                                         <li class="current dropdown"><a href="">О НАС</a>
                                              <ul>
                                                 <li><a href="{{ route('about') }}">Об академии</a></li>
@@ -196,7 +197,7 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-3new.png" alt=""></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">
@@ -204,7 +205,7 @@
                             </nav>
                         </div>
                         <div class="btn-box">
-                            <a href="index.html" class="theme-btn theme-btn-one">Get A Quote<i class="icon-4"></i></a>
+                            <a href="{{ route('contacts') }}" class="theme-btn theme-btn-one">Напишите нам<i class="icon-4"></i></a>
                         </div>
                     </div>
                 </div>
@@ -218,12 +219,12 @@
     <div class="close-btn"><i class="fas fa-times"></i></div>
     
     <nav class="menu-box">
-        <div class="nav-logo"><a href="index.html"><img src="assets/images/mobile-logo.png" alt="" title=""></a></div>
+        <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-3new.png" alt="" title=""></a></div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         <div class="contact-info">
             <h4>Contact Info</h4>
             <ul>
-                <li>Chicago 12, Melborne City, USA</li>
+                <li>Казахстан, г. Алматы, мкрн Коктем-3,24</li>
                 <li><a href="tel:+8801682648101">+88 01682648101</a></li>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
             </ul>

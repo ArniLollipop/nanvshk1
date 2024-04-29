@@ -28,7 +28,7 @@
 
 
 <!-- sidebar cart item -->
-<div class="xs-sidebar-group info-group info-sidebar">
+<!-- <div class="xs-sidebar-group info-group info-sidebar">
     <div class="xs-overlay xs-bg-black"></div>
     <div class="xs-sidebar-widget">
         <div class="sidebar-widget-container">
@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- END sidebar widget item -->
 
 
@@ -84,10 +84,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
-                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
+                    <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
+                    <p class="d_block fs_18 mb_45"> <br /></p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
+                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -96,10 +96,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
-                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
+                    <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
+                    <p class="d_block fs_18 mb_45"></p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
+                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -108,10 +108,10 @@
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-6.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
-                    <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Тут какой-то</span><br /><span class="slider-text-anim">Текст.</span></h2>
-                    <p class="d_block fs_18 mb_45">И короткое описание <br />к этому тексту.</p>
+                    <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
+                    <p class="d_block fs_18 mb_45"></p>
                     <div class="btn-box clearfix">
-                        <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Перейти</span></a>
+                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -122,7 +122,7 @@
 
 
 <!-- feature-two -->
-<section class="feature-two p_relative">
+<!-- <section class="feature-two p_relative">
     <div class="auto-container">
         <div class="inner-container p_relative d_block b_radius_5 b_shadow_6 pt_50 pr_80 pb_50 pl_80">
             <div class="row clearfix">
@@ -162,7 +162,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- feature-two end -->
 
 
@@ -180,19 +180,19 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
                         <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">О нас</span>
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Заголовок</h2>
-                        <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod  tempor incididunt labore dolore.</p>
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Академия Наук Высшей Школы Казахстана</h2>
+                        <p class="fs_18 font_family_oxygen mb_0">Была образована как Казахстанское отделение Международной Академии Наук Высшей Школы (МАН ВШ) в 1992 г. </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_16 font_family_oxygen mb_25">Lorem ipsum dolor sit amet consect etur adipisicing elit sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
-                            <p class="fs_16 font_family_oxygen">Quis nostrud exertation lamco lab oris aliquip comodo.</p>
+                            <p class="fs_16 font_family_oxygen mb_25">МАН ВШ - неправительственная организация, объединяющая почти 1200 крупных и известных ученых и педагогов системы профессионального образования 45 стран мира. В состав Академии входят 43 вуза страны, более 136 членов из всех регионов.</p>
+                            <p class="fs_16 font_family_oxygen">В том же  году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_16 font_family_oxygen mb_25">Tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation.</p>
-                            <p class="fs_16 font_family_oxygen">Laboris aliquip ex commodo conse quat duis aute irure dolor in reprehen derit in voluptate.</p>
+                            <p class="fs_16 font_family_oxygen mb_25">По рекомендации Президента МАН ВШ В.Е. Шукшунова  16 марта 2012 года  на должность Президента НАН ВШК единогласно был избран доктор технических наук, академик Г.М. Мутанов.</p>
+                            <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
 
 
 <!-- clients-one -->
-<section class="clients-one p_relative pb_140">
+<section class="clients-one p_relative pb_70">
     <div class="auto-container">
         <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
             <div class="clients-logo-box">
@@ -239,7 +239,7 @@
 
 
 <!-- service-two -->
-<section class="service-two p_relative sec-pad centred">
+<!-- <section class="service-two p_relative sec-pad centred">
     <div class="pattern-layer">
         <div class="pattern-1 p_absolute t_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-39.png);"></div>
         <div class="pattern-2 p_absolute r_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-40.png);"></div>
@@ -304,12 +304,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- service-two end -->
 
 
 <!-- chooseus-two -->
-<section class="chooseus-two p_relative">
+<!-- <section class="chooseus-two p_relative">
     <div class="outer-container clearfix">
         <div class="bg-layer p_absolute l_0 t_0" style="background-image: url(assets/images/background/chooseus-bg.jpg);"></div>
         <div class="content-inner p_relative d_block pt_150 pr_100 pb_150 pl_100">
@@ -360,7 +360,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- chooseus-two end -->
 
 
@@ -369,8 +369,8 @@
     <div class="auto-container">
         <div class="sec-title-two p_relative d_block mb_50 centred">
             <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Наша команда</span><br />
-            <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br />
-            <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
+            <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br /> -->
+            <!-- <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p> -->
         </div>
         <div class="row clearfix">
             <div class="col-lg-3 col-md-6 col-sm-12 team-block">
@@ -464,7 +464,7 @@
 
 
 <!-- graph-one -->
-<section class="graph-one p_relative">
+<!-- <section class="graph-one p_relative">
     <div class="auto-container">
         <div class="row clearfix">
             <div class="col-lg-6 col-md-12 col-sm-12 title-column">
@@ -485,59 +485,60 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- graph-one end -->
 
 
-
-<!-- funfact-two -->
-<section class="funfact-two pt_140 text-center p_relative">
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block">
-                        <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                            <span class="count-text" data-speed="2500" data-stop="90">0</span>
+                    <!-- funfact-two -->
+                    <section class="funfact-two pt_50 text-center p_relative">
+                        <div class="auto-container">
+                            <div class="row clearfix">
+                            <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                        <div class="inner-box p_relative d_block">
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
+                                                <span class="count-text" data-speed="2500" data-stop="32">0</span>
+                                            </div>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">За года работы</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box p_relative d_block">
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
+                                                <span class="count-text" data-speed="2500" data-stop="43">0</span>
+                                            </div>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">с нами ВУЗ-ов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                        <div class="inner-box p_relative d_block">
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
+                                                <span class="count-text" data-speed="2500" data-stop="136">0</span>
+                                            </div>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">и членов из всех регионов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                        <div class="inner-box p_relative d_block">
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
+                                                <span class="count-text" data-speed="2500" data-stop="1.2">0</span><span>M</span>
+                                            </div>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">крупных и известных ученых и педагогов</p>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
                         </div>
-                        <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">Successful projects</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block">
-                        <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                            <span class="count-text" data-speed="2500" data-stop="2.6">0</span><span>M</span>
-                        </div>
-                        <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">Satisfied Clients</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block">
-                        <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                            <span class="count-text" data-speed="2500" data-stop="35">0</span>
-                        </div>
-                        <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">Experienced Staff</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block">
-                        <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                            <span class="count-text" data-speed="2500" data-stop="10">0</span>
-                        </div>
-                        <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">Awards Win</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- funfact-two end -->
+                    </section>
+                    <!-- funfact-two end -->
 
 
 <!-- project-one -->
@@ -799,7 +800,7 @@
 
 
 <!-- cta-two -->
-<section class="cta-two p_relative pt_130 pb_140 centred">
+<!-- <section class="cta-two p_relative pt_130 pb_140 centred">
     <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/cta-bg.jpg);"></div>
     <div class="pattern-layer">
         <div class="pattern-1 p_absolute l_0 t_0" style="background-image: url(assets/images/shape/shape-48.png);"></div>
@@ -812,7 +813,7 @@
             <a href="index-2.html" class="theme-btn theme-btn-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><span data-text="Get Started">Get Started</span></a>
         </div>
     </div>
-</section>
+</section> -->
 <!-- cta-two end -->
 
 
@@ -905,7 +906,7 @@
 
 
 <!-- subscribe-one -->
-<section class="subscribe-one p_relative">
+<!-- <section class="subscribe-one p_relative">
     <div>
         <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
@@ -944,32 +945,20 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- subscribe-one -->
 
 
 <!-- footer-two -->
 <footer class="footer-two">
     <div class="auto-container">
-        <div class="footer-top-two clearfix">
-            <figure class="footer-logo pull-left">
-                <a href="index.html"><img src="assets/images/footer-logo-2.png" alt=""></a>
-            </figure>
-            <ul class="footer-menu mt_12 pull-right clearfix">
-                <li><a href="index-2.html">Management</a></li>
-                <li><a href="index-2.html">Company</a></li>
-                <li><a href="index-2.html">Career</a></li>
-                <li><a href="index-2.html">Location</a></li>
-                <li><a href="index-2.html">Contact</a></li>
-            </ul>
-        </div>
+       
         <div class="footer-widget-section">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="widget-title">
-                            <h4>About</h4>
-                        </div>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/footer-logo-2.png" alt=""></a></figure>
+
                         <div class="text">
                             <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
                         </div>
