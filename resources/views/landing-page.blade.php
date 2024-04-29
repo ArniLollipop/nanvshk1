@@ -824,81 +824,41 @@
             <div class="row align-items-center clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Новости/Статьи</span><br />
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">Latest Articles</h2><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Новости</span><br />
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">Главные новости</h2><br />
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block pl_100">
-                        <p class="fs_18">Our design services starts and ends with a best-in-class experience strategy that builds brands.</p>
+                        <!-- <p class="fs_18">Our design services starts and ends with a best-in-class experience strategy that builds brands.</p> -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
-                            <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">20 <span class="d_block">Oct</span></h4></div>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
-                            <ul class="post-info clearfix p_relative d_block mb_5">
-                                <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
-                                <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
-                            </ul>
-                            <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Unsatiable Entreaties May Collecting Power.</a></h4>
-                            <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
-                            <div class="btn-box">
-                                <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+            @foreach($news as $info)
+                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                    <div class="news-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
+                            <div class="image-box p_relative d_block">
+                                <figure class="image p_relative d_block"><a href="{{ route('news-details', ['info' => $info->slug] ) }}"><img src="{{ asset('storage/'.$info->image) }}" alt=""></a></figure>
+                                <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">{{ $info->created_at->format('d') }} <span class="d_block">{{ $info->created_at->format('M') }}</span></h4></div>
+                            </div>
+                            <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
+                                <ul class="post-info clearfix p_relative d_block mb_5">
+                                    <!-- <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
+                                    <li class="p_relative d_iblock float_left fs_16">10 mins Read</li> -->
+                                </ul>
+                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug] ) }}">{{ $info->title }}</a></h4>
+                                <!-- <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p> -->
+                                <div class="btn-box">
+                                    <a href="{{ route('news-details', ['info' => $info->slug] ) }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow slideInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
-                            <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">15 <span class="d_block">Oct</span></h4></div>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
-                            <ul class="post-info clearfix p_relative d_block mb_5">
-                                <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
-                                <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
-                            </ul>
-                            <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Need Help Finding The Best Solution.</a></h4>
-                            <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
-                            <div class="btn-box">
-                                <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
-                            <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">13 <span class="d_block">Oct</span></h4></div>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
-                            <ul class="post-info clearfix p_relative d_block mb_5">
-                                <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
-                                <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
-                            </ul>
-                            <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Make Your Dream Come True & Great Number</a></h4>
-                            <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
-                            <div class="btn-box">
-                                <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>

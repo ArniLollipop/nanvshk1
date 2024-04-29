@@ -9,13 +9,13 @@
     <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/page-title-6.jpg);"></div>
     <div class="auto-container">
         <div class="content-box">
-            <div class="post-title p_relative d_block mb_60">
+            <!-- <div class="post-title p_relative d_block mb_60">
                 <div class="category p_relative d_block mb_7"><a href="blog-details.html" class="d_iblock fs_16 font_family_poppins uppercase">Business</a></div>
                 <h2 class="d_block fs_40 lh_50 fw_bold mb_7">The Best Remote UX and UI Design <br />Conferences</h2>
                 <ul class="post-info clearfix p_relative d_block">
                     <li class="p_relative d_iblock mr_30 fs_16">Oct 20, 2021</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -45,7 +45,18 @@
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
                                 <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title }}</h3>
-                                <p class="font_family_poppins mb_25">{!! $info->body !!}</p>
+                                <div class="image-box p_relative d_block mb_60">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image2) }}" alt=""></figure>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image3) }}" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <figure class="author-thumb p_absolute l_40 t_40 w_100 h_100 b_radius_50"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure> -->
+                                <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body !!}</p>
                                 <!-- <p class="font_family_poppins mb_60">Nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipis elit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> -->
                                 <!-- <blockquote class="p_relative d_block pt_30 pr_150 pb_30 pl_40 b_radius_5 b_shadow_6 mb_65">
                                     <div class="icon-box p_absolute t_45 r_45 fs_60"><i class="icon-176"></i></div>
@@ -62,16 +73,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-box p_relative d_block mb_60">
+                <!-- <div class="image-box p_relative d_block mb_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                            <figure class="image p_relative d_block b_radius_5"><img src="assets/images/news/news-59.jpg" alt=""></figure>
+                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                            <figure class="image p_relative d_block b_radius_5"><img src="assets/images/news/news-60.jpg" alt=""></figure>
+                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image2) }}" alt=""></figure>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="content-three">
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
@@ -84,6 +95,22 @@
                     </div>
                 </div> -->
             </div>
+                <div class="inner-content p_relative d_block">
+                    <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
+                        @foreach($images as $image)
+                            <div class="project-block-one">
+                                <div class="inner-box p_relative d_block b_radius_5">
+                                    <figure class="image-box"><img src="{{ asset('storage/'.$image) }}" alt=""></figure>
+                                    <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                                        <!-- <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div> -->
+                                        <!-- <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4> -->
+                                        <!-- <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div> -->
+                                    </div>
+                                </div>
+                            </div>   
+                        @endforeach                   
+                    </div>
+                </div>
             <div class="row clearfix">
                 <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                     <!-- <div class="post-share-option clearfix p_relative d_block pt_35 pb_35 mb_70">
