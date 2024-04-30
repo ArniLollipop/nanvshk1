@@ -135,13 +135,13 @@
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn prev-btn p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>Previous</a></h6>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>Предыдущая новость</a></h6>
                                     <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title }}</h5>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn next-btn text-right p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug] ) }}" class="d_iblock color_black">Next<i class="far fa-long-arrow-right"></i></a></h6>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug] ) }}" class="d_iblock color_black">Следующая новость<i class="far fa-long-arrow-right"></i></a></h6>
                                     <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title }}</h5>
                                 </div>
                             </div>
@@ -154,31 +154,31 @@
                     </div> -->
                     <div class="comments-form-area">
                         <div class="group-title p_relative d_block mb_15">
-                            <h3 class="fs_30 lh_40">Leave a Comment</h3>
+                            <h3 class="fs_30 lh_40">Оставьте комментарий</h3>
                         </div>
                         <div class="form-inner">
                             <form method="post" action="sendemail.php" id="contact-form"> 
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="Your Name" required="">
+                                        <input type="text" name="username" placeholder="ФИО" required="">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="email" name="email" placeholder="Your email" required="">
+                                        <input type="email" name="email" placeholder="Еmail" required="">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <input type="text" name="phone" required="" placeholder="Phone">
+                                        <input type="text" name="phone" required="" placeholder="Телефон">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Message"></textarea>
+                                        <textarea name="message" placeholder="Сообщение"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <div class="check-box">
                                             <input class="check" type="checkbox" id="checkbox">
-                                            <label for="checkbox">I agree that my submitted data is being collected and stored. *</label>
+                                            <label for="checkbox">Согласен на сбор данных *</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
-                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">Send Message <i class="icon-4"></i></button>
+                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">Отправить <i class="icon-4"></i></button>
                                     </div>
                                 </div>
                             </form>

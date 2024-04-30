@@ -23,8 +23,8 @@ class NewsController extends Controller
 
         $images = json_decode($info->images);
         
-        $info_prev = News::inRandomOrder()->where('id', '!=', $info->id)->first();
-        $info_next = News::inRandomOrder()->where('id', '!=', $info->id)->where('id', '!=', $info_prev->id)->first();
+        $info_prev = News::inRandomOrder()->first();
+        $info_next = News::inRandomOrder()->first();
         return view('news-details')->with([
             'info' => $info,
             'info_prev' => $info_prev,
