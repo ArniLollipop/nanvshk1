@@ -31,17 +31,16 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
-                                <h3 class="d_block fs_30 lh_30 mb_30">Структура НАН ВШК</h3>
-                               
-                                    <ul class="clearfix p_relative d_block">
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">  1.	Мутанов Галимкаир Мутанович - Президент</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Абжаппаров Абдумуталип Абжаппарович - Первый вице-президент</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Хикметов Аскар Кусупбекович - Вице-президент</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Сыдыков Ерлан Батташевич - Вице-президент (Астанинское отделение)</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Есполов Тлектес Исабаевич - Вице-президент</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Купчишин Анатолий Иванович - Главный ученый секретарь</li>
-                                   
-                                    </ul>
+                                <!-- <h3 class="d_block fs_30 lh_30 mb_30">Структура НАН ВШК</h3> -->
+                                    <div class="image-box p_relative d_block mb_60">
+                                        <div class="row clearfix">
+                                            <!-- <div class="col-lg-12 col-md-6 col-sm-12 image-column"> -->
+                                                <figure class="image p_relative d_block b_radius_5"><img src="assets/images/structure.png" alt=""></figure>
+                                            <!-- </div> -->
+                                            
+                                        </div>
+                                    </div>
+                                 
                             </div>
                         </div>
                     </div>

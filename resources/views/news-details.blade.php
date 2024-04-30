@@ -95,8 +95,10 @@
                     </div>
                 </div> -->
             </div>
+            @if($images)
                 <div class="inner-content p_relative d_block">
                     <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
+                        
                         @foreach($images as $image)
                             <div class="project-block-one">
                                 <div class="inner-box p_relative d_block b_radius_5">
@@ -108,9 +110,11 @@
                                     </div>
                                 </div>
                             </div>   
-                        @endforeach                   
+                        @endforeach 
+                                        
                     </div>
                 </div>
+            @endif 
             <div class="row clearfix">
                 <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                     <!-- <div class="post-share-option clearfix p_relative d_block pt_35 pb_35 mb_70">

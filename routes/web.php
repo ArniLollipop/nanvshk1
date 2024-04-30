@@ -33,7 +33,7 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/about-2', [AboutController::class, 'about2'])->name('about-2');
 Route::get('/about-3', [AboutController::class, 'about3'])->name('about-3');
 Route::get('/about-4', [AboutController::class, 'about4'])->name('about-4');
-Route::get('/about-5', [AboutController::class, 'about4'])->name('about-5');
+Route::get('/about-5', [AboutController::class, 'about5'])->name('about-5');
 
 
 
