@@ -8,7 +8,7 @@
         <!-- google-map-section -->
         <section class="google-map-section">
             <div class="map-inner">
-                <div 
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa2fce80e081f32d5116e89d541306fa9af45b9c88616e8e3337300ddc1476a62&amp;source=constructor" width="100%" height="507" frameborder="0"></iframe>                <!-- <div 
                     class="google-map p_relative d_block" 
                     id="contact-google-map" 
                     data-map-lat="40.712776" 
@@ -20,7 +20,7 @@
                         "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
                     }'>
 
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- google-map-section end -->
