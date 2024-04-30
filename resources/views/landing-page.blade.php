@@ -180,18 +180,18 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
                         <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">О нас</span>
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2>
-                        <p class="fs_18 font_family_oxygen mb_0">Была образована как Казахстанское отделение Международной Академии Наук Высшей Школы (МАН ВШ) в 1992 г. </p>
+                        <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2> -->
+                        <p class="fs_20 color_black font_family_oxygen mb_0">Национальная академия наук Высшей школы Казахстана была образована как Казахстанское отделение Международной Академии Наук Высшей Школы (МАН ВШ) в 1992 г. </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_16 font_family_oxygen mb_25">МАН ВШ - неправительственная организация, объединяющая почти 1200 крупных и известных ученых и педагогов системы профессионального образования 45 стран мира. В состав Академии входят 43 вуза страны, более 136 членов из всех регионов.</p>
-                            <p class="fs_16 font_family_oxygen">В том же  году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25">МАН ВШ - неправительственная организация, объединяющая почти 1200 крупных и известных ученых и педагогов системы профессионального образования 45 стран мира. В состав Академии входят 43 вуза страны, более 136 членов из всех регионов.</p>
+                            <!-- <p class="fs_16 font_family_oxygen"></p> -->
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_16 font_family_oxygen mb_25">По рекомендации Президента МАН ВШ В.Е. Шукшунова  16 марта 2012 года  на должность Президента НАН ВШК единогласно был избран доктор технических наук, академик Г.М. Мутанов.</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25">В том же  году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
                             <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
@@ -364,103 +364,138 @@
 <!-- chooseus-two end -->
 
 
-<!-- team-one -->
-<section class="team-one p_relative sec-pad">
-    <div class="auto-container">
-        <div class="sec-title-two p_relative d_block mb_50 centred">
-            <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Наша команда</span><br />
-            <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br /> -->
-            <!-- <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p> -->
-        </div>
-        <div class="row clearfix">
-            <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                            <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                            <figure class="image p_relative d_block"><img src="assets/images/team/team-1.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
+  <!-- team-three -->
+  <section class="team-three team-page-3 p_relative centred pt_130 pb_150">
+            <div class="auto-container">
+                <div class="sec-title p_relative mb_50">
+                    <h2 class="d_block fs_40 fw_bold mb_30">ПРАВЛЕНИЕ<br></h2>
+                    <!-- <p class="fs_16 lh_28 font_family_poppins">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br>labore dolore magna aliquaenim ad minim veniam.</p> -->
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block mb_50">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm1.png" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Мутанов Галимкаир Мутанович</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Президент НАН ВШК, академик</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                            <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Roger Jones</a></h4>
-                            <span class="designation fs_16 p_relative d_block">Designer</span>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block mb_50">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm2.jpg" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Абжаппаров Абдумуталип Абжаппарович</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Первый вице-президент, академик НАН ВШК</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block mb_50">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm3.jpg" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Хикметов Аскар Кусупбекович</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm4.jpg" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Сыдыков Ерлан Батташевич</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент, академик НАН РК</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm5.jpg" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Есполов Тлектес Исабаевич</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент, академик НАН РК</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <div class="image-box p_relative d_block b_radius_10">
+                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm6.png" alt=""></figure>
+                                    <ul class="social-links-two">
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="lower-content p_relative d_block ml_40 mr_40">
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Купчишин Анатолий Иванович</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Главный ученый секретарь</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                            <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                            <figure class="image p_relative d_block"><img src="assets/images/team/team-2.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                            <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Ann Dowson</a></h4>
-                            <span class="designation fs_16 p_relative d_block">Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                            <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                            <figure class="image p_relative d_block"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                            <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Nicolas Lawson</a></h4>
-                            <span class="designation fs_16 p_relative d_block">Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                        <div class="image-box p_relative d_block">
-                            <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                            <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                            <figure class="image p_relative d_block"><img src="assets/images/team/team-4.jpg" alt=""></figure>
-                            <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                            <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Erik Genie</a></h4>
-                            <span class="designation fs_16 p_relative d_block">Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- team-one end -->
+        </section>
+        <!-- team-three end -->
 
 
 <!-- graph-one -->

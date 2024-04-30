@@ -22,11 +22,11 @@
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                                     <i class="icon-2"></i>
-                                    <p>Call: <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
+                                    <p> <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3"></i>
-                                    <p>Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
+                                    <p>Email: <a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></p>
                                 </li>
                                
                             </ul>
@@ -42,7 +42,7 @@
                         <div class="logo-box">
                             <figure class="logo"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
                         </div>
-                        <div class="mr_60"> <p class="fs_18 mb_5 color_black">Национальная академия наук</h4><br>  <p class="fs_18 color_black">Высшей школы Казахстана</h4></div>
+                        <div class="mr_50"> <h4 class="fs_20 mb_5 color_black">Национальная академия наук</br> Высшей школы Казахстана</h4></div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
