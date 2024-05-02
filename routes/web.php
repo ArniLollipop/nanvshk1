@@ -26,7 +26,15 @@ Route::get('/', function () {
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
-Route::get('/project-details', [ProjectsController::class, 'detail'])->name('project-details');
+Route::get('/project-details1', [ProjectsController::class, 'detail1'])->name('project-details1');
+Route::get('/project-details2', [ProjectsController::class, 'detail2'])->name('project-details2');
+Route::get('/project-details3', [ProjectsController::class, 'detail3'])->name('project-details3');
+Route::get('/project-details4', [ProjectsController::class, 'detail4'])->name('project-details4');
+Route::get('/project-details5', [ProjectsController::class, 'detail5'])->name('project-details5');
+Route::get('/project-details6', [ProjectsController::class, 'detail6'])->name('project-details6');
+Route::get('/project-details7', [ProjectsController::class, 'detail7'])->name('project-details7');
+Route::get('/project-details8', [ProjectsController::class, 'detail8'])->name('project-details8');
+
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/news-details', [NewsController::class, 'detail'])->name('news-details');
 Route::get('/about', [AboutController::class, 'index'])->name('about');

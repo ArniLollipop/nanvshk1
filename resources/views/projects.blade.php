@@ -44,11 +44,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all product finance business">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-56.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/univer.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Корпоративная информационная система «univer»</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1') }}">Корпоративная информационная система «univer»</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -56,11 +56,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all analytis business corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-57.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/logop3.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Национальная платформа открытого образования казахстана moocs.kz</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2') }}">Национальная платформа открытого образования казахстана moocs.kz</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -68,11 +68,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all product finance corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-58.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/pr42.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Информационная система мониторинга мнений OMS (opinion monitor system)</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details3') }}">Информационная система мониторинга мнений OMS (opinion monitor system)</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details3') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -80,11 +80,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all analytis finance business">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-59.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/color-logo.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">«AKADEM KITAP» / Издательство «Өнегелі өмір»</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">«AKADEM KITAP» / Издательство «Өнегелі өмір»</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -92,11 +92,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all business finance corporate">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5 mb_50">
-                            <figure class="image-box"><img src="assets/images/project/project-60.jpg" alt=""></figure>
+                            <figure class="image-box"><img src="assets/images/project/project8.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Заслуженный деятель высшей школы</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5') }}">Заслуженный деятель высшей школы</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
                             <figure class="image-box"><img src="assets/images/project/project-61.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details') }}">Центрально-Азиатская Ассоциация по аккредитации образования (CAAAE).</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6') }}">Центрально-Азиатская Ассоциация по аккредитации образования (CAAAE).</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>

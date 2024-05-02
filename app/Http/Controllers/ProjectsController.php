@@ -12,9 +12,44 @@ class ProjectsController extends Controller
         return view('projects');
     }
 
-    public function detail()
+    public function detail1()
     {
         
-        return view('project-details');
+        return view('project-details1');
+    }
+    public function detail2()
+    {
+        
+        return view('project-details2');
+    }
+    public function detail3()
+    {
+        
+        return view('project-details3');
+    }
+    public function detail4()
+    {
+        
+        return view('project-details4');
+    }
+    public function detail5()
+    {
+        
+        return view('project-details5');
+    }
+    public function detail6()
+    {
+        
+        return view('project-details6');
+    }
+    public function detail7()
+    {
+        
+        return view('project-details7');
+    }
+    public function detail8()
+    {
+        
+        return view('project-details8');
     }
 }

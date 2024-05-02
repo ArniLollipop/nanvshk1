@@ -191,7 +191,7 @@
                             <!-- <p class="fs_16 font_family_oxygen"></p> -->
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25">В том же  году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25">В 2012 году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
                             <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
@@ -213,24 +213,44 @@
     <div class="auto-container">
         <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl1.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl1.jpg" alt=""></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl2.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl2.jpg" alt=""></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl3.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl3.jpg" alt=""></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl4.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl4.jpg" alt=""></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl5.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl5.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl6.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl6.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl8.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl8.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl9.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl9.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
             </div>
         </div>
     </div>
@@ -584,12 +604,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
                         <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Проекты</span><br />
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2>
+                        <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_80 mt_60">
-                        <p class="fs_18 font_family_oxygen">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore.</p>
+                        <!-- <p class="fs_18 font_family_oxygen">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore.</p> -->
                     </div>
                 </div>
             </div>
@@ -598,41 +618,121 @@
             <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="assets/images/project/univer1.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1') }}">Корпоративная информационная система «univer»</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project-2.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="assets/images/project/univer.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Корпоративная информационная система «univer»</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project-3.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="assets/images/project/univer2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1') }}">Корпоративная информационная система «univer»</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project-4.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="assets/images/project/project2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2') }}">НАЦИОНАЛЬНАЯ ПЛАТФОРМА ОТКРЫТОГО ОБРАЗОВАНИЯ КАЗАХСТАНА  MOOCS.KZ</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/pr42.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/project4.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/projects4.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/project5.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5') }}">ЦЕНТРАЛЬНО-АЗИАТСКАЯ АССОЦИАЦИЯ ПО АККРЕДИТАЦИИ ОБРАЗОВАНИЯ (CAAAE)</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/projects5.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5') }}">ЦЕНТРАЛЬНО-АЗИАТСКАЯ АССОЦИАЦИЯ ПО АККРЕДИТАЦИИ ОБРАЗОВАНИЯ (CAAAE)</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/project6.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6') }}">РЕСПУБЛИКАНСКОЕ РЕЙТИНГОВОЕ АГЕНТСТВО НАН ВШК</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/color-logo.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7') }}">«AKADEM KITAP» Издательство / “Өнегелі өмір” сериясы</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-block-one">
+                    <div class="inner-box p_relative d_block b_radius_5">
+                        <figure class="image-box"><img src="assets/images/project/project8.jpg" alt=""></figure>
+                        <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
+                            <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8') }}">ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ВЫСШЕЙ ШКОЛЫ</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
