@@ -40,7 +40,7 @@
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="assets/images/project/project6.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/project/project6.jpg" alt=""></a></figure>
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project6.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project6.jpg') }}" alt=""></a></figure>
                                 </div>                              
                             </div>
                         </div>
@@ -49,10 +49,10 @@
                                 <div data-animation-box class="image-box p_relative d_block mb_70">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="assets/images/project/pr61.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/project/pr61.jpg" alt=""></a></figure>
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr61.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr61.jpg') }}" alt=""></a></figure>
                                         </div> 
                                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="assets/images/project/pr62.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/project/pr62.jpg" alt=""></a></figure>
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr62.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr62.jpg') }}" alt=""></a></figure>
                                         </div>                              
                                     </div>
                                 </div>                    
@@ -68,10 +68,10 @@
        
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details5') }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details7') }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -79,67 +79,61 @@
 <!-- project-details end -->
 
 
-<!-- footer-three -->
-<footer class="footer-three p_relative service-page">
-    <div class="pattern-layer">
-        <div class="pattern-1 p_absolute l_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-62.png);"></div>
-        <div class="pattern-2 p_absolute r_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-63.png);"></div>
-    </div>
+<!-- footer-two -->
+<footer class="footer-two">
     <div class="auto-container">
+       
         <div class="footer-widget-section">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/logo-20.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="{{ asset('assets/images/logo-3new.png') }}" alt=""></a></figure>
+
                         <div class="text">
-                            <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
+                            <!-- <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p> -->
                         </div>
+                        <ul class="footer-social-two clearfix">
+                                <li ><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-whatsapp"></i></a></li>
+                               
+                           
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Links</h4>
+                            <h4>Ссылки</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="index.html">Services</a></li>
-                                <li><a href="index.html">Job</a></li>
-                                <li><a href="index.html">opportunities</a></li>
-                                <li><a href="index.html">Location</a></li>
-                                <li><a href="index.html">Article</a></li>
+                                                <li><a href="{{ route('about', app()->getLocale()) }}">Об академии</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">Президент НАН ВШК</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">Члены академии</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">Состав Президиума</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">Структура НАН ВШК</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}">Проекты НАН ВШК</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}">НОВОСТИ</a> 
+                                              
+
+                                               
+                              
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                    <div class="footer-widget links-widget wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="widget-title">
-                            <h4>Services</h4>
-                        </div>
-                        <div class="widget-content">
-                            <ul class="links-list clearfix">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="index.html">Services</a></li>
-                                <li><a href="index.html">Job</a></li>
-                                <li><a href="index.html">opportunities</a></li>
-                                <li><a href="index.html">Location</a></li>
-                                <li><a href="index.html">Article</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Contacts</h4>
+                            <h4>Контакты</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
-                                <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                <li><a href="tel:23055873407">+2(305) 587-3407</a></li>
-                                <li><a href="mailto:sample@example.com">sample@example.com</a></li>
+                                <li>РК, индекс 050040, г. Алматы, Бостандыкский район, микрорайон Коктем-3, дом 24, н.п. №379.</li>
+                                <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
+                                <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -151,17 +145,17 @@
         <div class="auto-container">
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
-                    <p><a href="index.html">ATRIX</a> &copy; 2021 All Right Reserved</p>
+                    <p><a href="/">НАН ВШК</a> &copy; {{ date('Y') }} Все права защищены</p>
                 </div>
                 <ul class="footer-nav clearfix pull-right">
-                    <li><a href="index.html">Terms of Service</a></li>
-                    <li><a href="index.html">Privacy Policy</a></li>
+                    <!-- <li><a href="index.html">Terms of Service</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li> -->
                 </ul>
             </div>
         </div>
     </div>
 </footer>
-<!-- footer-three end -->
+<!-- footer-two end -->
 
 
 <!--Scroll to top-->

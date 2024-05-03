@@ -3,29 +3,6 @@
 <div class="boxed_wrapper">
 
 
-<!--Search Popup-->
-<div id="search-popup" class="search-popup">
-    <div class="popup-inner">
-        <div class="upper-box clearfix">
-            <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo-3.png" alt=""></a></figure>
-            <div class="close-search pull-right"><span class="icon-179"></span></div>
-        </div>
-        <div class="overlay-layer"></div>
-        <div class="auto-container">
-            <div class="search-form">
-                <form method="post" action="index.html">
-                    <div class="form-group">
-                        <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
-                            <button type="submit"><i class="icon-1"></i></button>
-                        </fieldset>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <!-- sidebar cart item -->
 <!-- <div class="xs-sidebar-group info-group info-sidebar">
@@ -87,7 +64,6 @@
                     <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
                     <p class="d_block fs_18 mb_45"> <br /></p>
                     <div class="btn-box clearfix">
-                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -99,7 +75,6 @@
                     <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
                     <p class="d_block fs_18 mb_45"></p>
                     <div class="btn-box clearfix">
-                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -111,7 +86,6 @@
                     <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
                     <p class="d_block fs_18 mb_45"></p>
                     <div class="btn-box clearfix">
-                        <!-- <a href="{{ route('about') }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a> -->
                     </div>
                 </div> 
             </div>
@@ -179,19 +153,19 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">О нас</span>
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.about')</span>
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2> -->
-                        <p class="fs_20 color_black font_family_oxygen mb_0">Национальная академия наук Высшей школы Казахстана была образована как Казахстанское отделение Международной Академии Наук Высшей Школы (МАН ВШ) в 1992 г. </p>
+                        <p class="fs_20 color_black font_family_oxygen mb_0">@lang('main.about.info1')</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25">МАН ВШ - неправительственная организация, объединяющая почти 1200 крупных и известных ученых и педагогов системы профессионального образования 45 стран мира. В состав Академии входят 43 вуза страны, более 136 членов из всех регионов.</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25">@lang('main.about.info2')</p>
                             <!-- <p class="fs_16 font_family_oxygen"></p> -->
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25">В 2012 году «Общественная Академия Наук Высшей Школы Казахстана» была реорганизована в Учреждение «Национальная Академия Наук Высшей Школы Казахстана».</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25">@lang('main.about.info3')</p>
                             <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
@@ -211,6 +185,12 @@
 <!-- clients-one -->
 <section class="clients-one p_relative pb_70">
     <div class="auto-container">
+    <div class="col-lg-6 col-md-12 col-sm-12 title-column">
+                    <div class="sec-title-two p_relative d_block mr_100">
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.about.partners')</span><br />
+                        <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
+                    </div>
+                </div>
         <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
             <div class="clients-logo-box">
                 <figure class="image"><a href="index.html"><img src="assets/images/clients/cl1.jpg" alt=""></a></figure>
@@ -387,9 +367,11 @@
   <!-- team-three -->
   <section class="team-three team-page-3 p_relative centred pt_130 pb_150">
             <div class="auto-container">
-                <div class="sec-title p_relative mb_50">
-                    <h2 class="d_block fs_40 fw_bold mb_30">ПРАВЛЕНИЕ<br></h2>
-                    <!-- <p class="fs_16 lh_28 font_family_poppins">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br>labore dolore magna aliquaenim ad minim veniam.</p> -->
+                 <div class="col-lg-12 col-md-12 col-sm-12 title-column">
+                    <div class="sec-title-two p_relative d_block mr_100">
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.about.team')</span><br />
+                        <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
+                    </div>
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 team-block">
@@ -405,8 +387,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Мутанов Галимкаир Мутанович</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Президент НАН ВШК, академик</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team1')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team11')</span>
                                     </div>
                                 </div>
                             </div>
@@ -425,8 +407,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Абжаппаров Абдумуталип Абжаппарович</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Первый вице-президент, академик НАН ВШК</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team2')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team22')</span>
                                     </div>
                                 </div>
                             </div>
@@ -445,8 +427,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Хикметов Аскар Кусупбекович</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team3')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team33')</span>
                                     </div>
                                 </div>
                             </div>
@@ -465,8 +447,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Сыдыков Ерлан Батташевич</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент, академик НАН РК</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team4')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team44')</span>
                                     </div>
                                 </div>
                             </div>
@@ -485,8 +467,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Есполов Тлектес Исабаевич</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Вице-президент, академик НАН РК</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team5')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team55')</span>
                                     </div>
                                 </div>
                             </div>
@@ -505,8 +487,8 @@
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
                                     <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">Купчишин Анатолий Иванович</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">Главный ученый секретарь</span>
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team6')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team66')</span>
                                     </div>
                                 </div>
                             </div>
@@ -554,7 +536,7 @@
                                             <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
                                                 <span class="count-text" data-speed="2500" data-stop="32">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">За года работы</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform1')</p>
                                         </div>
                                     </div>
                                 </div>
@@ -564,7 +546,7 @@
                                             <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
                                                 <span class="count-text" data-speed="2500" data-stop="43">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">с нами ВУЗ-ов</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform2')</p>
                                         </div>
                                     </div>
                                 </div>
@@ -574,7 +556,7 @@
                                             <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
                                                 <span class="count-text" data-speed="2500" data-stop="136">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">и членов из всех регионов</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform3')</p>
                                         </div>
                                     </div>
                                 </div>
@@ -584,7 +566,7 @@
                                             <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
                                                 <span class="count-text" data-speed="2500" data-stop="1.2">0</span><span>M</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">крупных и известных ученых и педагогов</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform4')</p>
                                         </div>
                                     </div>
                                 </div>
@@ -603,7 +585,7 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Проекты</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.projects')</span><br />
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                     </div>
                 </div>
@@ -621,8 +603,8 @@
                         <figure class="image-box"><img src="assets/images/project/univer1.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1') }}">Корпоративная информационная система «univer»</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -631,8 +613,8 @@
                         <figure class="image-box"><img src="assets/images/project/univer.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Корпоративная информационная система «univer»</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -641,8 +623,8 @@
                         <figure class="image-box"><img src="assets/images/project/univer2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1') }}">Корпоративная информационная система «univer»</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -651,8 +633,8 @@
                         <figure class="image-box"><img src="assets/images/project/project2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2') }}">НАЦИОНАЛЬНАЯ ПЛАТФОРМА ОТКРЫТОГО ОБРАЗОВАНИЯ КАЗАХСТАНА  MOOCS.KZ</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}">@lang('main.about.pr2')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -661,8 +643,8 @@
                         <figure class="image-box"><img src="assets/images/project/pr42.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -671,8 +653,8 @@
                         <figure class="image-box"><img src="assets/images/project/project4.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -681,8 +663,8 @@
                         <figure class="image-box"><img src="assets/images/project/projects4.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4') }}">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -691,8 +673,8 @@
                         <figure class="image-box"><img src="assets/images/project/project5.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5') }}">ЦЕНТРАЛЬНО-АЗИАТСКАЯ АССОЦИАЦИЯ ПО АККРЕДИТАЦИИ ОБРАЗОВАНИЯ (CAAAE)</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.about.pr4')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -701,8 +683,8 @@
                         <figure class="image-box"><img src="assets/images/project/projects5.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5') }}">ЦЕНТРАЛЬНО-АЗИАТСКАЯ АССОЦИАЦИЯ ПО АККРЕДИТАЦИИ ОБРАЗОВАНИЯ (CAAAE)</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.about.pr4')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -711,8 +693,8 @@
                         <figure class="image-box"><img src="assets/images/project/project6.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6') }}">РЕСПУБЛИКАНСКОЕ РЕЙТИНГОВОЕ АГЕНТСТВО НАН ВШК</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}">@lang('main.about.pr5')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -721,8 +703,8 @@
                         <figure class="image-box"><img src="assets/images/project/color-logo.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7') }}">«AKADEM KITAP» Издательство / “Өнегелі өмір” сериясы</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}">@lang('main.about.pr6')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -731,8 +713,8 @@
                         <figure class="image-box"><img src="assets/images/project/project8.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8') }}">ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ВЫСШЕЙ ШКОЛЫ</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8') }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}">@lang('main.about.pr7')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -744,7 +726,7 @@
 
 
 <!-- testimonial-two -->
-<section class="testimonial-two p_relative sec-pad">
+<!-- <section class="testimonial-two p_relative sec-pad">
     <div class="pattern-layer">
         <div class="pattern-1 p_absolute t_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-39.png);"></div>
         <div class="pattern-2 p_absolute r_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-40.png);"></div>
@@ -930,7 +912,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- testimonial-one -->
 
 
@@ -959,8 +941,8 @@
             <div class="row align-items-center clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Новости</span><br />
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">Главные новости</h2><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.news')</span><br />
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">@lang('main.about.news1')</h2><br />
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column">
@@ -976,7 +958,7 @@
                     <div class="news-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
                             <div class="image-box p_relative d_block">
-                                <figure class="image p_relative d_block"><a href="{{ route('news-details', ['info' => $info->slug] ) }}"><img src="{{ asset('storage/'.$info->image) }}" alt=""></a></figure>
+                                <figure class="image p_relative d_block"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}"><img src="{{ asset('storage/'.$info->image) }}" alt=""></a></figure>
                                 <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">{{ $info->created_at->format('d') }} <span class="d_block">{{ $info->created_at->format('M') }}</span></h4></div>
                             </div>
                             <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
@@ -984,10 +966,10 @@
                                     <!-- <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li> -->
                                 </ul>
-                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug] ) }}">{{ $info->title }}</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
                                 <!-- <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p> -->
                                 <div class="btn-box">
-                                    <a href="{{ route('news-details', ['info' => $info->slug] ) }}" class="theme-btn theme-btn-two"><span data-text="Перейти">Перейти</span></a>
+                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
                                 </div>
                             </div>
                         </div>
@@ -1052,63 +1034,53 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/footer-logo-2.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
 
                         <div class="text">
-                            <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
+                            <!-- <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p> -->
                         </div>
                         <ul class="footer-social-two clearfix">
-                            <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index-2.html"><i class="fab fa-vimeo-v"></i></a></li>
-                            <li><a href="index-2.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li ><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-whatsapp"></i></a></li>
+                               
+                           
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Links</h4>
+                            <h4>Ссылки</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="index.html">Services</a></li>
-                                <li><a href="index.html">Job</a></li>
-                                <li><a href="index.html">opportunities</a></li>
-                                <li><a href="index.html">Location</a></li>
-                                <li><a href="index.html">Article</a></li>
+                                                <li><a href="{{ route('about', app()->getLocale()) }}">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">@lang('main.about4')</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about11')</a> </li> 
+                                              
+
+                                               
+                              
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                    <div class="footer-widget links-widget wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="widget-title">
-                            <h4>Services</h4>
-                        </div>
-                        <div class="widget-content">
-                            <ul class="links-list clearfix">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="index.html">Services</a></li>
-                                <li><a href="index.html">Job</a></li>
-                                <li><a href="index.html">opportunities</a></li>
-                                <li><a href="index.html">Location</a></li>
-                                <li><a href="index.html">Article</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Contacts</h4>
+                            <h4>@lang('main.about.contacts')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
-                                <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                <li><a href="tel:23055873407">+2(305) 587-3407</a></li>
-                                <li><a href="mailto:sample@example.com">sample@example.com</a></li>
+                                <li>@lang('main.about.contactinfo')</li>
+                                <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
+                                <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1120,11 +1092,11 @@
         <div class="auto-container">
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
-                    <p><a href="index.html">ATRIX</a> &copy; 2021 All Right Reserved</p>
+                    <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
                 </div>
                 <ul class="footer-nav clearfix pull-right">
-                    <li><a href="index.html">Terms of Service</a></li>
-                    <li><a href="index.html">Privacy Policy</a></li>
+                    <!-- <li><a href="index.html">Terms of Service</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li> -->
                 </ul>
             </div>
         </div>
@@ -1149,26 +1121,5 @@
 </div>
 
 
-<!-- jequery plugins -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/validation.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/parallax.min.js"></script>
-<script src="assets/js/circle-progress.js"></script>
-<script src="assets/js/jquery.countTo.js"></script>
-<script src="assets/js/nav-tool.js"></script>
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<script src="assets/js/parallax-scroll.js"></script>
 
-<!-- main-js -->
-<script src="assets/js/script.js"></script>
-    </body>
-</html>
 @endsection

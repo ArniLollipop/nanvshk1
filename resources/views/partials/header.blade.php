@@ -13,16 +13,18 @@
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
+                                
                             </ul>
+                           
                         </div>
                         <div class="top-right pull-left">
                             <ul class="info clearfix">
-                                <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
+                                <!-- <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
                                     <i class="icon-1"></i>
-                                </li>
+                                </li> -->
                                 <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                                     <i class="icon-2"></i>
-                                    <p> <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
+                                    <p> <a href="tel:77770565527">+7 (777)- 056-55-27</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3"></i>
@@ -30,7 +32,9 @@
                                 </li>
                                
                             </ul>
+                            
                         </div>
+                        
                         
                     </div>
                 </div>
@@ -40,9 +44,9 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
+                            <figure class="logo"><a href="/"><img src="{{ asset('assets/images/logo-3new.png') }}" alt=""></a></figure>
                         </div>
-                        <div class="mr_50"> <h4 class="fs_20 mb_5 color_black">Национальная академия наук</br> Высшей школы Казахстана</h4></div>
+                        <div class="mr_50"> <h4 class="fs_19 mb_5 color_black">@lang('main.name')</h4></div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -53,30 +57,30 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="">О НАС</a>
+                                        <li class="current dropdown"><a href="">@lang('main.about1')</a>
                                              <ul>
-                                                <li><a href="{{ route('about') }}">Об академии</a></li>
-                                                <li><a href="{{ route('about-2') }}">Президент НАН ВШК</a></li>
-                                                <li><a href="{{ route('about-3') }}">Члены академии</a></li>
+                                                <li><a href="{{ route('about', app()->getLocale()) }}">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">@lang('main.about4')</a></li>
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="">ПРЕЗИДИУМ</a>
+                                        <li class="current dropdown"><a href="">@lang('main.about5')</a>
                                              <ul>
-                                                <li><a href="{{ route('about-4') }}">Состав Президиума</a></li>                                                
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="">СТРУКТУРА</a>
+                                        <li class="current dropdown"><a href="">@lang('main.about7')</a>
                                              <ul>
-                                                <li><a href="{{ route('about-5') }}">Структура НАН ВШК</a></li>                                                
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="">ПРОЕКТЫ</a>
+                                        <li class="current dropdown"><a href="">@lang('main.about9')</a>
                                              <ul>
-                                                <li><a href="{{ route('projects') }}">Проекты НАН ВШК</a></li>                                                
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>                                                
                                             </ul>
                                         </li>
                                         
-                                        <li class="current dropdown"><a href="{{ route('news') }}">НОВОСТИ</a>
+                                        <li class="current dropdown"><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about11')</a>
                                             <!-- <div class="megamenu">
                                                 <div class="row clearfix">
                                                     <div class="col-lg-3 column">
@@ -164,7 +168,7 @@
                                                 </div>                                            
                                             </div> -->
                                         </li>
-                                        <li class="current dropdown"><a href="{{ route('contacts') }}">КОНТАКТЫ</a>
+                                        <li class="current dropdown"><a href="{{ route('contacts', app()->getLocale()) }}">@lang('main.about12')</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog Standard 1</a></li>
                                                 <li><a href="blog-2.html">Blog Standard 2</a></li>
@@ -180,7 +184,7 @@
                                                     </ul>
                                                 </li>
                                             </ul> -->
-                                        </li>   
+                                        </li>  
                                     </ul>
                                 </div>
                             </nav>
@@ -197,7 +201,7 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-3new.png" alt=""></a></figure>
+                            <figure class="logo"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">
@@ -205,7 +209,7 @@
                             </nav>
                         </div>
                         <div class="btn-box">
-                            <a href="{{ route('contacts') }}" class="theme-btn theme-btn-one">Напишите нам<i class="icon-4"></i></a>
+                            <a href="{{ route('contacts', app()->getLocale()) }}" class="theme-btn theme-btn-one">@lang('main.write')<i class="icon-4"></i></a>
                         </div>
                     </div>
                 </div>

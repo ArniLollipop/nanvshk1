@@ -19,10 +19,40 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('settinglocale/{lang}', function ($lang) {
 
+    $referer = Redirect::back()->getTargetUrl();; //URL предыдущей страницы
+    $parse_url = parse_url($referer, PHP_URL_PATH); //URI предыдущей страницы
+
+    //разбиваем на массив по разделителю
+    $segments = explode('/', $parse_url);
+
+    //Если URL (где нажали на переключение языка) содержал корректную метку языка
+    if (in_array($segments[1], Config::get('app.locales'))) {
+
+        unset($segments[1]); //удаляем метку
+    }
+
+    //Добавляем метку языка в URL (если выбран не язык по-умолчанию)
+    array_splice($segments, 1, 0, $lang);
+
+    //формируем полный URL
+    $url = Request::root() . implode("/", $segments);
+
+    //если были еще GET-параметры - добавляем их
+    if (parse_url($referer, PHP_URL_QUERY)) {
+        $url = $url . '?' . parse_url($referer, PHP_URL_QUERY);
+    }
+    return redirect($url); //Перенаправляем назад на ту же страницу
+
+})->name('settinglocale');
+
+
+Route::group([
+    'prefix' => '{locale}',
+    'where' => ['locale' => '[a-zA-Z]{2}'],
+    'middleware' => 'localed'
+], function () {
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
@@ -43,22 +73,46 @@ Route::get('/about-3', [AboutController::class, 'about3'])->name('about-3');
 Route::get('/about-4', [AboutController::class, 'about4'])->name('about-4');
 Route::get('/about-5', [AboutController::class, 'about5'])->name('about-5');
 
-
-
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
+    Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+});
 
 
+Route::get('/', function () {
+    return redirect(app()->getLocale());
+});
+
+
+Route::group([
+    'prefix' => '{locale?}',
+    'where' => ['locale' => '^ru|en|kz$'],
+    'middleware' => 'localed'
+], function () {
+    Route::get('/', function () {
+        return view('index');
+    });
+    Auth::routes();
+    // Route::get('registerb', 'Auth\RegisterController@showRegistrationForm')->name('registerb');
+    Route::get(
+        'password/reset/{token}',
+        'Auth\ResetPasswordController@showResetForm'
+    )
+        ->name('password.reset');
+});
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+require __DIR__.'/auth.php';
+
+
