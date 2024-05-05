@@ -31,7 +31,7 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">ИНФОРМАЦИОННАЯ СИСТЕМА МОНИТОРИНГА МНЕНИЙ OMS (OPINION MONITOR SYSTEM)</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project4.title')</h3></br>
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-4 col-md-6 col-sm-12 image-column">
@@ -45,8 +45,8 @@
                                 </div>                              
                             </div>
                         </div>
-                        <h4 class="d_block  lh_40 fw_sbold mb_15">Имеется Свидетельство о государственной регистрации прав на объект авторского права №2300 от 16 июля 2018 года, выданное Министерством юстиции РК</h4>
-                        <h4 class="d_block  lh_40 fw_sbold mb_15">Что является нашим Продуктом?</h4>
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info1')</h4>
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info2')</h4>
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
@@ -56,19 +56,19 @@
                         </div>
                         <!-- <div class="col-lg-4 col-md-12 col-sm-12 info-column"> -->
                             <!-- <div class="info p_relative d_block pl_100 pt_20 pb_20 mt_15"> -->
-                        <h4 class="d_block  lh_40 fw_sbold mb_15"> Информационная система мониторинга мнений</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">Сегодня актуально: </p>  
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info3')</h4>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project4.info4') </p>  
                                 <ul class="info-list clearfix">
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• мониторинг актуальной социально-политической ситуации в стране.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• использование социальных сетей в государственном управлении.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• технологии «мониторинга социальных сетей» (social listening), контент-анализ.</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project4.info5')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project4.info6')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project4.info7')</li>
                                 </ul>
                             <!-- </div> -->
                         <!-- </div> -->
-                        <h4 class="d_block  lh_40 fw_sbold mb_15"> Механизм реализации:</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">Глубинный, количественный анализ неструктурированной информации, извлечение знаний и получения важной информации из текстовых массивов по оценке пользовательского восприятия контента, формирование аналитического материала.</p>  
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info8')</h4>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project4.info9')</p>  
  
-                        <p class="font_family_poppins mb_25 color_black fs_18">Первая отечественная ИС мониторинга мнений OMSystem позволяющая мониторить веб-ресурсы и социальные сети с подсистемой моделирования социального самочувствия общества, посредством оценки тональности сообщений/мнений, поддерживающая тональный словарь казахского языка, построенный с применением алгоритмов машинного обучения.</p>  
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project4.info10')</p>  
 
     
                     </div>
@@ -78,19 +78,30 @@
         </div>
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
-                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4.jpg') }}" alt=""></a></figure>
-                                </div>                              
+                                                @if(app()->getLocale() == 'ru')
+                                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4.jpg') }}" alt=""></a></figure>
+                                                </div>                                               
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4kz.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4kz.jpg') }}" alt=""></a></figure>
+                                                </div>  
+                                                @else
+                                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4en.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4en.jpg') }}" alt=""></a></figure>
+                                                </div>                                               
+                                                @endif
+                                                          
                             </div>
                         </div>
        
        
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details3', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details3', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

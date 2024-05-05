@@ -35,7 +35,13 @@
                                     <div class="image-box p_relative d_block mb_60">
                                         <div class="row clearfix">
                                             <!-- <div class="col-lg-12 col-md-6 col-sm-12 image-column"> -->
+                                                @if(app()->getLocale() == 'ru')
                                                 <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('assets/images/structure.png') }}" alt=""></figure>
+                                                @elseif(app()->getLocale() == 'kz')
+                                                <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('assets/images/structure1.png') }}" alt=""></figure>
+                                                @else
+                                                <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('assets/images/structure2.png') }}" alt=""></figure>
+                                                @endif
                                             <!-- </div> -->
                                             
                                         </div>

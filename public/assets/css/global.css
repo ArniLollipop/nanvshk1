@@ -78,7 +78,7 @@ body {
 
 .auto-container{
   position:static;
-  max-width:1200px;
+  max-width:1500px;
   padding:0px 15px;
   margin:0 auto;
 }
@@ -4379,4 +4379,50 @@ div#mCSB_1_container{
 .footer-three.service-page .footer-bottom a{
   font-size: 15px;
   font-family: 'Oxygen', sans-serif;
+}
+
+#lang{
+	cursor: pointer;
+	position: absolute;
+}
+.lang{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	margin-right: 35px;
+}
+.lang img{
+	width: 50x;
+	position: relative;
+	bottom: 2.5px;
+}
+.show_lang{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-right: 20px;
+	cursor: pointer;
+	margin-right: 35px;
+	position: relative;
+	height: auto;
+	background: #e4e4e4;
+	border-radius: 5px;
+}
+.choose_lang_style{
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	bottom: 2.5px;
+}
+.choose_lang_arrow{
+	position: absolute;
+	top: 10px;
+	right: 2px;
+}
+.hidden{
+	display: none !important;
 }

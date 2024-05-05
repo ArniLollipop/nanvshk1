@@ -31,14 +31,14 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">ВНЕДРЕНИЕ НОВЫХ ОБРАЗОВАТЕЛЬНЫХ ТЕХНОЛОГИЙ</h3></br>
-                        <h4 class="d_block  lh_40 fw_sbold mb_15"> Массовые открытые онлайн курсы на сайте http://open.kaznu.kz</h4>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project2.title')</h3></br>
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project2.info1')</h4>
                         <!-- <div class="col-lg-12 col-md-12 col-sm-12 info-column"> -->
                             <!-- <div class="info p_relative d_block pl_100 pt_20 pb_20 mt_15"> -->
                                 <ul class="info-list clearfix">
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">Количество разработанных и апробированных курсов: 32</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">Количество зарегистрированных слушателей: 11 000+</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">Количество слушателей закончивших  МООК: 7000+</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project2.info2')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project2.info3')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project2.info4')</li>
                                 </ul>
                             <!-- </div> -->
                         <!-- </div> -->

@@ -31,7 +31,7 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">ЦЕНТРАЛЬНО-АЗИАТСКАЯ АССОЦИАЦИЯ ПО АККРЕДИТАЦИИ ОБРАЗОВАНИЯ (CAAAE)</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project5.title')</h3></br>
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
@@ -39,15 +39,15 @@
                                 </div>                              
                             </div>
                         </div>
-                        <h4 class="d_block  lh_40 fw_sbold mb_15">CAAAE является представителем, а также членом следующих международных организаций:</h4>
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info1')</h4>
                                 <ul class="info-list clearfix">
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Международного консорциума обществ инженерного образования IFEES.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Европейской Федерации Национальных инженерных сообществ FEANI.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Международной сети по обеспечению качества INQAAHE.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Европейской сети по аккредитации в области инженерного образования ENAEE.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Заключено соглашение о партнерстве с Ассоциацией инженерного образования России, Португалии и аккредитационным агентством в области инженерии QUACING.</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Заключены трехсторонние договора о сотрудничестве между Консорциумом вузов по подготовке специалистов в рамках ГПИИР, CAAAE и ENAEE и Консорциумом вузов по подготовке специалистов в рамках ГПИИР, CAAAE и IGIP</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">• Заключено Худжандское соглашение Центрально-Азиатских обществ инженерного образования</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info2')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info3')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info4')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info5')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info6')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info7')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info8')</li>
                                 </ul>   
                            
                                 <div data-animation-box class="image-box p_relative d_block mb_70">
@@ -58,10 +58,10 @@
                                     </div>
                                 </div>
 
-                        <h4 class="d_block  lh_40 fw_sbold mb_15"> Европейская сеть по аккредитации инженерных и естественно-научных образовательных программ (ENAEE):</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">ENAEE - это сеть аккредитационных агентств, отвечает за функционирование общеевропейской системы аккредитации инженерных образовательных программ. ENAEE признана международным сообществом и состоит из инженерных организаций стран Европы.</p>   
-                        <p class="font_family_poppins mb_25 color_black fs_18">ENAEE по результатам аккредитации обеспечивает присвоение  европейского знака качества EUR-ACE Label, и международного сертификата ENAEE.</p>  
-                        <p class="font_family_poppins mb_25 color_black fs_18">Аккредитационный Центр KazSEE признанный партнер ЕС в рамках проектов по инженерному образованию и аккредитации который имеет партнерские отношения с ENAEE.</p>  
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info9')</h4>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info10')</p>   
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info11')</p>  
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info12')</p>  
 
     
                         <div data-animation-box class="image-box p_relative d_block mb_70">
@@ -75,8 +75,8 @@
                             </div>
                         </div>
 
-                        <h4 class="d_block  lh_40 fw_sbold mb_15"> Центрально-Азиатская Ассоциация по аккредитации образования (CAAAE):</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">На основании решения Республиканского аккредитационного совета издан приказ Министра образования и науки Республики Казахстан от 27 сентября 2017 года №482 о признании аккредитационным органом и включении в Реестр 1 Центрально-Азиатской Ассоциации по аккредитации образования (CAAAE) / Казахстанской Ассоциации Инженерного Образования.</p>   
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info13')</h4>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info14')</p>   
                         
                      </div>
                 </div>                
@@ -87,10 +87,10 @@
        
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

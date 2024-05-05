@@ -8,18 +8,14 @@ return [
     'about3' => 'President of the NAS HSK',
     'about4' => 'Члены академии',
     'about5' => 'ПРЕЗИДИУМ',
-    'about6' => 'Состав Президиума',
-    'about7' => 'СТРУКТУРА',
-    'about8' => 'Структура НАН ВШК',
+    'about6' => 'Composition of the Presidium',
+    'about7' => 'STRUCTURE',
+    'about8' => 'Structure OF THE NAS HSK',
     'about9' => 'ПРОЕКТЫ',
     'about10' => 'Проекты НАН ВШК',
     'about11' => 'НОВОСТИ',
     'about12' => 'КОНТАКТЫ',
     'write' => 'Напишите нам',
-    'about5' => 'ПРЕЗИДИУМ',
-    'about6' => 'Состав Президиума',
-    'about7' => 'СТРУКТУРА',
-    'about8' => 'Структура НАН ВШК',
 
     'about' => [
         'about' => 'О нас',
@@ -98,4 +94,54 @@ return [
         
 
     ],
+
+    'presidium' => [
+        'prtitle' => 'Composition of the Presidium of the National Academy of Sciences of Higher School of Kazakhstan',
+        'prbody' => '
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">  1.	Mutanov Galimkair Mutanovich – President</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Abzhapparov Abdumutalip Abzhapparovich - First Vice President</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Khikmetov Askar Kusupbekovich - Vice President</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Sydykov Erlan Battashevich - Vice-President (Astana branch)</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Espolov Tlektes Isabaevich - Vice President</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Kupchishin Anatoly Ivanovich - Chief Scientific Secretary</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">7.	Suleev Dosym Kasymovich</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">8.	Kunanbaeva Salima Sagievna</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">9.	Bektemesov Maktagali Abdimazhitovich</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">10.	Ibatov Marat Kenesovich (Central Kazakhstan branch)</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">11.	Burkitbaev Mukhambetkali Myrzabaevich</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">12.	Shaikenov Barlyk Amangaleevich</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">13.	Kozhakhmetov Asylbek Bazarbaevich</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">14.	Shaimardanov Zhasulan Kudaibergenovich</li>
+                                     
+        '
+    ],
+
+    'projects' => [
+        'prtitle' => 'КОМПЛЕКСНАЯ АВТОМАТИЗАЦИЯ ДЕЯТЕЛЬНОСТИ ВЫСШИХ УЧЕБНЫХ ЗАВЕДЕНИЙ, НИИ И ВНЕДРЕНИЯ ЦИФРОВЫХ СЕРВИСОВ',
+        'info1' => 'КРАТКОЕ ОПИСАНИЕ',
+        'info2' => 'ЦЕЛЬ:',
+        'info3' => '• автоматизация процессов управления образовательных учреждений путем внедрения облачных цифровых сервисов',
+        'info4' => '• формирование единого информационного пространства высшего и средне-специального образования',
+        'info5' => '• интеграция информационных ресурсов образовательных учреждений в отечественное образовательное пространство',
+        'info6' => 'ПОТРЕБИТЕЛИ:',
+        'info7' => '• Высшие учебные заведения',
+        'info8' => '• Колледжи',
+        'info9' => '• Научно-исследовательские институты',
+        'info10' => 'ЗАДАЧИ:',
+        'info11' => 'Исследование технологии блокчейн для применения в сфере криптографической защиты и верификации подлинности официальных документов процесса обучения в вузах: проблемы, зарубежный опыт, методы. ',
+        'info12' => 'Разработка процедуры по оцифровке, хранению и защите от фальсификации официальных документов процесса обучения с применением технологии блокчейн. ',
+        'info13' => 'Проектирование и разработка информационной системы верификации документов вуза, интегрированной в международную платформу с модулями цифрового реестра официальных документов процесса обучения, криптографической защиты данных в децентрализованной системе и интеграции с внешними платформами вузов для синхронизации данных, на примере информационно-программного комплекса «UNIVER 2.0», и международной платформой.',
+        'info14' => 'Оформление результатов разработки информационной системы верификации официальных документов процесса обучения в вузах Казахстана, интегрированной в международную платформу для получения охранного документа.',
+        'info15' => 'Опытное тестирование программного продукта верификации подлинности официальных документов процесса обучения на базе КазНУ им. Аль-Фараби, распространение опыта среди вузов с системой «UNIVER 2.0».',
+        'info16' => 'ЭТАПЫ РЕАЛИЗАЦИИ ПРОЕКТА:',
+        'info17' => '1 этап – Исследование технологии блокчейн для применения в сфере криптографической защиты и верификации подлинности документов об образовании: проблемы, методы, модели, алгоритмы. Срок – 3 мес.',
+        'info18' => '2 этап – Проектирование и разработка информационной системы верификации документов в вузах, интегрированной в международную платформу. Срок – 12 мес.',
+        'info19' => '3 этап – Разработка научно-методологического обоснования формирования цифрового реестра официальных документов процесса обучения в вузе с применением технологии блокчейн. Срок – 12 мес.',
+        'info20' => 'ПЕРИОД РЕАЛИЗАЦИИ: ',
+        'info21' => 'Октябрь 2020 - декабрь 2022 (27 мес.).',
+        'prev' => 'Предыдущий проект',
+        'next' => 'Следующий проект'
+
+    ],
+
 ];

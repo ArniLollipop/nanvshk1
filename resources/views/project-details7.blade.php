@@ -31,16 +31,16 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">О проекте «Akadem kitap»</h3>
-                        <p class="font_family_poppins mb_25 color_black fs_18">«Книга несет человечеству знания и просвещенность. Книга хранит в себе тайны бытия рода человеческого. Книга – самый терпеливый учитель. Для человека мыслящего нет ничего дороже книги!» Эти слова принадлежат Елбасы Н.А. Назарбаеву.</p>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project7.title')</h3>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info1')</p>
 
-                        <p class="font_family_poppins mb_25 color_black fs_18">Книги являются источниками знаний о духовной и нравственной жизни. Их роль в образовании, воспитании, интеллектуальном развитии молодежи очень велика. Через обращение к книге, чтению человек приобщается к духовным ценностям, развивается, расширяет свой кругозор. Чтение высокохудожественной литературы способствует формированию гармоничной личности – личности активной, творческой, сочетающей в себе духовное богатство, моральную чистоту, физическое совершенство. </p>
-                        <p class="font_family_poppins mb_25 color_black fs_18"> Жизнь предъявляет повышенные требования к человечеству, и задача каждого учебного заведения – подготовить молодых специалистов, которые будут востребованы в дальнейшей жизни, указать им правильные ориентиры. По инициативе академика Г. Мутанова в 2010 году начался выпуск книг серии «Өнегелі өмір» о жизни и творчестве известных государственных и общественных деятелей, ученых. В 2011 году вышла в свет первая книга этой серии – о докторе юридических наук, профессоре, академике Национальной академии Республики Казахстан Салыке Зиманове. </p>
-                        <p class="font_family_poppins mb_25 color_black fs_18">Над каждым выпуском работает группа специалистов, осуществляющих сбор и подготовку материала к печати. В рамках данной серии издано 216 книг.</p>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info2')</p>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info3')</p>
+                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info4')</p>
                     </div>
                 </div>
 
-                <h4 class="d_block fs_30 lh_40 fw_sbold mt_50">Специальный выпуск</h4>
+                <h4 class="d_block fs_30 lh_40 fw_sbold mt_50">@lang('main.project7.info5')</h4>
 
                 <!-- <div class="col-lg-4 col-md-12 col-sm-12 info-column">
                     <div class="info p_relative d_block pl_100 pt_20 pb_20 mt_15">
@@ -59,8 +59,8 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr71.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr71.jpg') }}" alt=""></a></figure>
                 </div>
-                <p class="font_family_poppins mb_25 color_black fs_18">Спецвыпуск  серии книг «Онегели омир» посвящен академику Канышу Имантаевичу Сатпаеву –  выдающемуся ученому-геологу и организатору науки, крупнейшему мыслителю и естествоиспытателю,  общественному и государственному деятелю. </p> 
-                <p class="font_family_poppins mb_25 color_black fs_18">Каныш Имантаевич Сатпаев – доктор геолого-минералогических наук (1942), профессор (1950), первый директор Института геологии казахского филиала Академии наук СССР (1941-1964), заместитель председателя этого филиала (1942-1946), академик Академии наук СССР (1946), организатор и первый президент АН КазССР (1946), лауреат Государственной (1942) и Ленинской (1958) премий. </p>              
+                <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info6')</p> 
+                <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info7') </p>              
              
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr72.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr72.jpg') }}" alt=""></a></figure>
                 </div>
-                <p class="font_family_poppins mb_25 color_black fs_18">Мұхтар Омарханұлы Әуезовке арналады. «Сіз әлі «Абайды» оқыған жоқпысыз? Онда сіз мүлдем ештеңе оқымағаныңыз. Бұл – таңғажайып, бұл – керемет!» деп неміс жазушысы Альфред Курелла тамсанып таңдай қаққан, әлемнің тоқсан тіліне аударылған туындының авторын білмейтін, сірә, қазақ баласы жоқ болар. Өйткені Әуезов десе, «Абай жолы», «Абай жолы» десе ХІХ ғасырдағы көшпелі қазақ халқының өмір құбылысы еске түседі. «Өнегелі өмір» сериясының арнаулы шығарылымы осы туындыға тіл бітірген, қазақ халқының ұлы жазушысы, қоғам қайраткері, ғұлама ғалым, ұлағаты мол ұстаз, Қазақстан Ғылым академиясының академигі, филология ғылымдарының докторы, профессор. </p>              
+                <p class="font_family_poppins mb_25 color_black fs_18"> @lang('main.project7.info8')</p>              
             </div>
         </div>
         <div data-animation-box class="image-box p_relative d_block mb_110">
@@ -77,17 +77,17 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr73.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr73.jpg') }}" alt=""></a></figure>
                 </div>
-                <p class="font_family_poppins mb_25 color_black fs_18">Ерім ел,  қайдан тусын». «Елім» деп өткен осындай ерлердің бірі, белгілі мемлекет және қоғам қайраткері, Социалистік Еңбек Ері, Д. Қонаевпен бірге үкімет басындағы мәртебелі қызметте болып, елдің экономикасын, халықтың әл-ауқатын көтеруге бар қажыр-қайратын жұмсаған Бәйкен Әшімовтің 100 жылдығына орай «Өнегелі өмір» сериясының арнаулы шығарылымы жарық көрді.   </p>   
-                <p class="font_family_poppins mb_25 color_black fs_18">Қазақ елінің бірнеше облысына басшылық жасап, Қазақ КСР Министрлер Кеңесінің және Жоғарғы Кеңес Төралқасының төрағасы қызметтерін атқарған Бәйкен Әшімовтің «мектебі – өмір, ұстазы – халық» болды.</p>              
+                <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info9') </p>   
+                <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info10')</p>              
            
             </div>
         </div>
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

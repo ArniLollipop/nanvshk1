@@ -31,7 +31,7 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">НАЦИОНАЛЬНАЯ ПЛАТФОРМА ОТКРЫТОГО ОБРАЗОВАНИЯ КАЗАХСТАНА    MOOCS.KZ</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project3.title')</h3></br>
                         
                     </div>
                 </div>

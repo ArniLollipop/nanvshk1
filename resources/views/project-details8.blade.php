@@ -31,7 +31,7 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ВЫСШЕЙ ШКОЛЫ</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project8.title')</h3></br>
 
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
@@ -42,60 +42,10 @@
                         </div>
                       
                            
-                        <h4 class="d_block fs_30 lh_40 fw_sbold mt_50 mb_50">Награждение памятными медалями НАН ВШК</h4>
+                        <h4 class="d_block fs_30 lh_40 fw_sbold mt_50 mb_50">@lang('main.project8.info1')</h4>
                         <ul class="clearfix p_relative d_block">
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 1.Сагадиев Ерлан Кенжегалиевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.Журинов Мурат Журинович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.Сагадиев Кенжегали Абенович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.Нарибаев Копжасар Нарибаевич </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.Кожамкулов Толеген Абдисагиевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.Мамыров Нургали Кулшыманович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">7.Мансуров Зульхаир Аймухаметович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">8.Сулеев Досым Касымович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">9.Кунанбаева Салима Сагиевна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">10.Кулажанов Куралбек Садибаевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">11.Есполов Тлектес Исабаевич </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">12.Мамбетказиев Ережеп Альхаирович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">13.Шайхутдинов Еренгаип Маликович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">14.Белецкая Наталья Петровна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">15.Тайшыбай Заркын Сыздыкулы</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">16.Табакова Зинаида Петровна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">17.Жолболсынова Амина Сыздыковна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">18.Гусаков Виктор Петрович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">19.Атыгаева Клара Мнайдаровна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">20.Поляков Владилен Васильевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">21.Муканов Кайролла Муканович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">22.Никифиров Александр Владимирович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">23.Назарова Валентина Дмитриевна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">24.Бондаренко Виктор Антонович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">25.Сартаев Султан</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">26.Шукенова Раушан Жунискызы</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">27.Валиев Хусаин Хасенович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">28.Жолдасбеков Мырзатай Жолдасбекович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">29.Шукшунов Валентин Ефимович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30.Носков Анатолий Аристарханович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">31.Ни Валентин Хаксунович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">32.Оспанов Хабибулла Кусаинович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">33.Айсагалиев Серикбай</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">34.Бисенов Кылышбай Алдабергенулы</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">35.Пучков Лев Александрович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">36.Сыдыков Улыкпан Есилханулы </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">37.Алтаев Жакыпбек Алтайулы</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">38.Нуриев Марат Алмасайулы</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">39.Молдахметов Зейнолла Молдахметович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">40.Ипалаков Тулеген Турсынович </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">41.Линок Николай Николаевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">42.Чикунов Олег Николаевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">43.Баталов Юрий Васильевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">44.Шаймарданов Жасулан Кудайбергенович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">45.Гольцев Анатолий Григорьевич</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">46.Милицина Олег Викторовна</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">47.Елешев Рахимжан Елешевич </li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">48.Абжаппаров Абдумуталип Абжаппарович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">49.Шаймарданов Жасулан Кудайбергенович</li>
-                            <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">50.Ракишев Баян Ракишевич</li>
-
-                           </ul>
+                            @lang('main.project8.body')
+                        </ul>
     
                         
    
@@ -108,10 +58,10 @@
        
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

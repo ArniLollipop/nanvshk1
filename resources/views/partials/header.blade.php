@@ -12,10 +12,24 @@
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
+                                <!-- <li class="p_relative d_iblock float_left  lh_55">
+                                    <a href="{{ route('settinglocale', ['lang' => 'ru']) }}"><img src="{{ asset('assets/images/russia.png') }}" alt="язык"></a>                                   
+                                </li>
+                                <li class="p_relative d_iblock float_left lh_55"> 
+                                    <a href="{{ route('settinglocale', ['lang' => 'kz']) }}"><img src="{{ asset('assets/images/world.png') }}" alt="язык"></a>
+                                </li>
+                                <li class="p_relative d_iblock float_left lh_55">
+                                    <a href="{{route('settinglocale', ['lang' => 'en']) }}"><img src="{{ asset('assets/images/en.png') }}" alt="язык" ></a>
+                                </li> -->
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'ru']) }}" class="p_relative d_iblock fs_16"><img src="{{ asset('assets/images/russia.png') }}" alt=""></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'kz']) }}" class="p_relative d_iblock fs_16"><img src="{{ asset('assets/images/world.png') }}" alt=""></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="{{ route('settinglocale', ['lang' => 'en']) }}" class="p_relative d_iblock fs_16"><img src="{{ asset('assets/images/en.png') }}" alt=""></a></li>
+                               
+                                
                                 
                             </ul>
-                           
+                            
                         </div>
                         <div class="top-right pull-left">
                             <ul class="info clearfix">
@@ -34,6 +48,9 @@
                             </ul>
                             
                         </div>
+                        
+                            
+                      
                         
                         
                     </div>
@@ -184,7 +201,7 @@
                                                     </ul>
                                                 </li>
                                             </ul> -->
-                                        </li>  
+                                        </li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -244,3 +261,8 @@
         </div>
     </nav>
 </div><!-- End Mobile Menu -->
+
+<script>
+
+
+</script>

@@ -114,6 +114,12 @@
 		});
 	}
 
+	$('#lang').on('click', function() {
+		$('#lang').toggleClass('lang');
+		$('.choose_lang').toggleClass('hidden');
+		$('#lang').toggleClass('show_lang');
+   });
+   
 	//Fact Counter + Text Count
 	if($('.count-box').length){
 		$('.count-box').appear(function(){

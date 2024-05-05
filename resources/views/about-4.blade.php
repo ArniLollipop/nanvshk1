@@ -31,24 +31,10 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
-                                <h3 class="d_block fs_30 lh_30 mb_30">Состав Президиума НАН ВШК</h3>
+                                <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.presidium.prtitle')</h3>
                                
                                     <ul class="clearfix p_relative d_block">
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1.	Мутанов Галимкаир Мутанович – Президент </li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Абжаппаров Абдумуталип Абжаппарович - Первый вице-президент </li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Хикметов Аскар Кусупбекович - Вице-президент </li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Сыдыков Ерлан Батташевич - Вице-президент (Астанинское отделение) </li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Есполов Тлектес Исабаевич - Вице-президент </li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Купчишин Анатолий Иванович - Главный ученый секретарь</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">7.	Сулеев Досым Касымович</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">8.	Кунанбаева Салима Сагиевна</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">9.	Бектемесов Мактагали Абдимажитович</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">10.	Ибатов Марат Кенесович (Центрально-Казахстанское отделение)</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">11.	Буркитбаев Мухамбеткали Мырзабаевич</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">12.	Шайкенов Барлык Амангалеевич</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">13.	Кожахметов Асылбек Базарбаевич</li>
-                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">14.	Шаймарданов Жасулан Кудайбергенович</li>
-                                       
+                                        @lang('main.presidium.prbody')
                                     </ul>
                             </div>
                         </div>
