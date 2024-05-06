@@ -603,7 +603,7 @@
                         <figure class="image-box"><img src="assets/images/project/univer1.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -613,7 +613,7 @@
                         <figure class="image-box"><img src="assets/images/project/univer.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -623,7 +623,7 @@
                         <figure class="image-box"><img src="assets/images/project/univer2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.about.pr1')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -633,7 +633,7 @@
                         <figure class="image-box"><img src="assets/images/project/project2.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}">@lang('main.about.pr2')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}">@lang('main.project2.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -643,7 +643,7 @@
                         <figure class="image-box"><img src="assets/images/project/pr42.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -653,7 +653,7 @@
                         <figure class="image-box"><img src="assets/images/project/project4.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -663,7 +663,7 @@
                         <figure class="image-box"><img src="assets/images/project/projects4.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.about.pr3')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -673,7 +673,7 @@
                         <figure class="image-box"><img src="assets/images/project/project5.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.about.pr4')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.project5.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -683,7 +683,7 @@
                         <figure class="image-box"><img src="assets/images/project/projects5.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.about.pr4')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.project5.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -693,7 +693,7 @@
                         <figure class="image-box"><img src="assets/images/project/project6.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}">@lang('main.about.pr5')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}">@lang('main.project6.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -703,7 +703,7 @@
                         <figure class="image-box"><img src="assets/images/project/color-logo.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}">@lang('main.about.pr6')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}">@lang('main.project7.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -713,7 +713,7 @@
                         <figure class="image-box"><img src="assets/images/project/project8.jpg" alt=""></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}">@lang('main.about.pr7')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}">@lang('main.project8.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -1051,7 +1051,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Ссылки</h4>
+                            <h4>@lang('main.links')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
@@ -1061,7 +1061,7 @@
                                                 <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                                                 
                                                 <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li> 
                                                 <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>   
-                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about11')</a> </li> 
+                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about.news')</a> </li> 
                                               
 
                                                

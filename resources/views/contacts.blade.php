@@ -37,8 +37,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 info-column">
                         <div class="info-inner">
                             <div class="sec-title p_relative d_block mb_40">
-                                <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_17">Будьте на связи</h5>
-                                <h3 class="d_block fs_30 lh_40 fw_bold">Есть вопросы, предложения? <br>Пишите нам</h3>
+                                <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_17">@lang('main.contacts.info1')</h5>
+                                <h3 class="d_block fs_30 lh_40 fw_bold">@lang('main.contacts.info2')</h3>
                             </div>
                             <ul class="info-list clearfix">
                                 <li class="p_relative d_block pl_100 pb_18 mb_25">
@@ -46,8 +46,8 @@
                                         <div class="icon p_relative d_iblock"><i class="icon-180"></i></div>
                                         <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
                                     </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Адрес</h4>
-                                    <p class="font_family_poppins">Республика Казахстан, индекс 050040, г. Алматы, Бостандыкский район, микрорайон Коктем-3, дом 24, н.п. №379.</p>
+                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">@lang('main.contacts.adr')</h4>
+                                    <p class="font_family_poppins">@lang('main.about.contactinfo')</p>
                                 </li>
                                 <li class="p_relative d_block pl_100 pb_18 mb_25">
                                     <div class="icon-box p_absolute l_0 t_0 d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
@@ -62,7 +62,7 @@
                                         <div class="icon p_relative d_iblock"><i class="icon-182"></i></div>
                                         <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
                                     </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Свяжитесь с нами:</h4>
+                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">@lang('main.contacts.adr1')</h4>
                                     <p class="font_family_poppins"><a href="tel:77770565527">+7 (777)- 056-55-27</a><br /></p>
                                 </li>
                             </ul>
@@ -71,27 +71,27 @@
                     <div class="col-lg-8 col-md-12 col-sm-12 form-column">
                         <div class="form-inner p_relative ml_40 pt_45 pr_50 pb_50 pl_50 b_radius_10 b_shadow_6">
                             <div class="text p_relative d_block mb_35">
-                                <h3 class="d_block fs_30 lh_40 fw_bold">Отправить сообщение</h3>
+                                <h3 class="d_block fs_30 lh_40 fw_bold">@lang('main.contacts.adr2')</h3>
                             </div>
                             <form method="post" action="sendemail.php" id="contact-form"> 
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="ФИО" required="">
+                                        <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="email" name="email" placeholder="Email" required="">
                                     </div>
                                     <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                        <input type="text" name="phone" required="" placeholder="Номер телефона">
+                                        <input type="text" name="phone" required="" placeholder="@lang('main.contacts.phone')">
                                     </div>
                                     <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                        <input type="text" name="subject" required="" placeholder="Тема">
+                                        <input type="text" name="subject" required="" placeholder="@lang('main.contacts.theme')">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Ваш комментарий"></textarea>
+                                        <textarea name="message" placeholder="@lang('main.contacts.comments')"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                        <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">Отправить<i class="icon-4"></i></button>
+                                        <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">@lang('main.contacts.send')<i class="icon-4"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -102,7 +102,6 @@
         </section>
         <!-- contact-four end -->
 
-
 <!-- footer-two -->
 <footer class="footer-two">
     <div class="auto-container">
@@ -111,7 +110,7 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="{{ asset('assets/images/logo-3new.png') }}" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
 
                         <div class="text">
                             <!-- <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p> -->
@@ -128,17 +127,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Ссылки</h4>
+                            <h4>@lang('main.links')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                                <li><a href="{{ route('about', app()->getLocale()) }}">Об академии</a></li>
-                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">Президент НАН ВШК</a></li>
-                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">Члены академии</a></li>  
-                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">Состав Президиума</a></li>                                                                                 
-                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">Структура НАН ВШК</a></li> 
-                                                <li><a href="{{ route('projects', app()->getLocale()) }}">Проекты НАН ВШК</a></li>   
-                                                <li><a href="{{ route('news', app()->getLocale()) }}">НОВОСТИ</a> 
+                                                <li><a href="{{ route('about', app()->getLocale()) }}">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">@lang('main.about4')</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about.news')</a> </li> 
                                               
 
                                                
@@ -151,11 +150,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Контакты</h4>
+                            <h4>@lang('main.about.contacts')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
-                                <li>РК, индекс 050040, г. Алматы, Бостандыкский район, микрорайон Коктем-3, дом 24, н.п. №379.</li>
+                                <li>@lang('main.about.contactinfo')</li>
                                 <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
                                 <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
                             </ul>
@@ -169,7 +168,7 @@
         <div class="auto-container">
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
-                    <p><a href="/">НАН ВШК</a> &copy; {{ date('Y') }} Все права защищены</p>
+                    <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
                 </div>
                 <ul class="footer-nav clearfix pull-right">
                     <!-- <li><a href="index.html">Terms of Service</a></li>

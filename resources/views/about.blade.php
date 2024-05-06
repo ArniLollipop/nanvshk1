@@ -37,7 +37,7 @@
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info4')</p>
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info5')</p>
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info6')</p>
-                                <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info7')</h3>
+                                    <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info7')</h3>
                                     <ul class="list clearfix p_relative d_block">
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info8')</li>
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info9')</li>
@@ -45,13 +45,15 @@
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info11') </li>
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info12')</li>
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info13') </li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info14')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info15')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info16') </li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info14')</li>                                        
+                                    </ul>
+                                    <h3 class="d_block fs_30 lh_30 mb_30 mt_50">@lang('main.academy.info15')</h3>
+                                    <ul class="list clearfix p_relative d_block">
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info16')</li>
                                         <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info17')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info18') </li>
-
-
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25  mb_12 color_black">@lang('main.academy.info18')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info19') </li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info20')</li>
                                     </ul>
                             </div>
                         </div>
@@ -143,7 +145,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Ссылки</h4>
+                            <h4>@lang('main.links')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
