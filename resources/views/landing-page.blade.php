@@ -1099,7 +1099,11 @@
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
                     <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
-                    
+                     <!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=97245871&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/97245871/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="97245871" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
                 </div>
                 <ul class="footer-nav clearfix pull-right">
                     <!-- <li><a href="index.html">Terms of Service</a></li>
