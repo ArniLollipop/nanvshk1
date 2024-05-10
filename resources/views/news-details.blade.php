@@ -63,7 +63,7 @@
                                 </div>
                                 <!-- <figure class="author-thumb p_absolute l_40 t_40 w_100 h_100 b_radius_50"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure> -->
                                                 @if(app()->getLocale() == 'ru')
-                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body)!!}</p>
+                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body !!}</p>
                                                  @elseif(app()->getLocale() == 'kz')
                                                  <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body_kz !!}</p>
                                                 @else
