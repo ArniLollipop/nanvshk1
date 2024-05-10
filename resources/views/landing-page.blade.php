@@ -1099,6 +1099,7 @@
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
                     <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
+                    
                 </div>
                 <ul class="footer-nav clearfix pull-right">
                     <!-- <li><a href="index.html">Terms of Service</a></li>
