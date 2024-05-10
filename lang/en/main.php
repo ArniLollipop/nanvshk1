@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => 'National Academy of Sciences</br>Higher School of Kazakhstan',
+    'name' => 'National Academy of Sciences of</br>Higher School of Kazakhstan',
     'about1' => 'ABOUT US',
     'about2' => 'About NAS HSK',
     'about3' => 'The President of NAS HSK',
