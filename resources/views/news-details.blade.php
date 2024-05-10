@@ -63,11 +63,11 @@
                                 </div>
                                 <!-- <figure class="author-thumb p_absolute l_40 t_40 w_100 h_100 b_radius_50"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure> -->
                                                 @if(app()->getLocale() == 'ru')
-                                                <p class="font_family_poppins mb_25 color_black fs_18">{!! trim($info->body) !!}</p>
+                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! trim($info->body) !!}</p>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body_kz !!}</p>
+                                                 <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body_kz !!}</p>
                                                 @else
-                                                <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body_en !!}</p>
+                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body_en !!}</p>
                                                 @endif
                                 <!-- <p class="font_family_poppins mb_60">Nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipis elit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> -->
                                 <!-- <blockquote class="p_relative d_block pt_30 pr_150 pb_30 pl_40 b_radius_5 b_shadow_6 mb_65">
