@@ -33,7 +33,16 @@
                             <div class="post-date-two p_absolute l_30 t_30 w_60 centred pt_10 pb_10 b_shadow_6"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">{{ $info->created_at->format('d') }}<span class="d_block fs_14">{{ $info->created_at->format('M') }}</span></h4></div>
                         </div>
                         <div class="lower-content p_relative d_block pt_25">
-                            <h4 class="d_block fs_20 lh_30 mb_6"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                                @if(app()->getLocale() == 'ru')
+                                                <h4 class="d_block fs_20 lh_30 mb_6"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                            
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h4 class="d_block fs_20 lh_30 mb_6"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_kz }}</a></h4>
+
+                                                @else
+                                                <h4 class="d_block fs_20 lh_30 mb_6"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_en }}</a></h4>
+                                            
+                                                @endif
                           
                         </div>
                     </div>

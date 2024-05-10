@@ -44,7 +44,13 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
-                                <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title }}</h3>
+                                                @if(app()->getLocale() == 'ru')
+                                                <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title }}</h3>                                            
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title_kz}}</h3>
+                                                @else
+                                                <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title_en }}</h3>
+                                                @endif
                                 <div class="image-box p_relative d_block mb_60">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
@@ -56,7 +62,13 @@
                                     </div>
                                 </div>
                                 <!-- <figure class="author-thumb p_absolute l_40 t_40 w_100 h_100 b_radius_50"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure> -->
-                                <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body !!}</p>
+                                                @if(app()->getLocale() == 'ru')
+                                                <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body !!}</p>
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body_kz !!}</p>
+                                                @else
+                                                <p class="font_family_poppins mb_25 color_black fs_18">{!! $info->body_en !!}</p>
+                                                @endif
                                 <!-- <p class="font_family_poppins mb_60">Nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipis elit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> -->
                                 <!-- <blockquote class="p_relative d_block pt_30 pr_150 pb_30 pl_40 b_radius_5 b_shadow_6 mb_65">
                                     <div class="icon-box p_absolute t_45 r_45 fs_60"><i class="icon-176"></i></div>
@@ -135,14 +147,26 @@
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn prev-btn p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug, app()->getLocale()] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>Предыдущая новость</a></h6>
-                                    <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title }}</h5>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug, app()->getLocale()] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>@lang('about.prevnews')</a></h6>
+                                                @if(app()->getLocale() == 'ru')
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title }}</h5>
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title_kz }}</h5>
+                                                @else
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title_en }}</h5>
+                                                @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn next-btn text-right p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black">Следующая новость<i class="far fa-long-arrow-right"></i></a></h6>
-                                    <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title }}</h5>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black">@lang('about.nextnews')<i class="far fa-long-arrow-right"></i></a></h6>
+                                                @if(app()->getLocale() == 'ru')
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title }}</h5>
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title_kz }}</h5>
+                                                @else
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title_en }}</h5>
+                                                @endif
                                 </div>
                             </div>
                         </div>
