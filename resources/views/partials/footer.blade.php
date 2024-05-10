@@ -6,7 +6,7 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/logo-3new.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
 
                         <div class="text">
                             <!-- <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p> -->
@@ -23,17 +23,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Ссылки</h4>
+                            <h4>@lang('main.links')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                                <li><a href="{{ route('about', app()->getLocale()) }}">Об академии</a></li>
-                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">Президент НАН ВШК</a></li>
-                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">Члены академии</a></li>  
-                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">Состав Президиума</a></li>                                                                                 
-                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">Структура НАН ВШК</a></li> 
-                                                <li><a href="{{ route('projects', app()->getLocale()) }}">Проекты НАН ВШК</a></li>   
-                                                <li><a href="{{ route('news', app()->getLocale()) }}">НОВОСТИ</a> 
+                                                <li><a href="{{ route('about', app()->getLocale()) }}">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">@lang('main.about4')</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about.news')</a> </li> 
                                               
 
                                                
@@ -46,11 +46,11 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>Контакты</h4>
+                            <h4>@lang('main.about.contacts')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
-                                <li>РК, индекс 050040, г. Алматы, Бостандыкский район, микрорайон Коктем-3, дом 24, н.п. №379.</li>
+                                <li>@lang('main.about.contactinfo')</li>
                                 <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
                                 <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
                             </ul>
@@ -64,8 +64,8 @@
         <div class="auto-container">
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
-                    <p><a href="/">НАН ВШК</a> &copy; {{ date('Y') }} Все права защищены</p>
-                    <!-- Yandex.Metrika informer -->
+                    <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
+                     <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=97245871&amp;from=informer"
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/97245871/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
 style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="97245871" data-lang="ru" /></a>
@@ -80,3 +80,19 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
     </div>
 </footer>
 <!-- footer-two end -->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top">
+    <div>
+        <div class="scroll-top-inner">
+            <div class="scroll-bar">
+                <div class="bar-inner"></div>
+            </div>
+            <div class="scroll-bar-text g_color_2">Go To Top</div>
+        </div>
+    </div>
+</div>
+<!-- Scroll to top end -->
+
+</div>

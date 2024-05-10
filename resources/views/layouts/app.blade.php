@@ -47,6 +47,8 @@
 
 @yield('content')
 
+@include('partials.footer')
+
 <!-- jequery plugins -->
 <script src="{{ asset('assets/js/jquery.js') }}"></script>
 <script src="{{ asset('assets/js/popper.min.js') }}"></script>
