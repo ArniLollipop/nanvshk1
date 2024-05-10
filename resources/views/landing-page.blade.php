@@ -966,7 +966,13 @@
                                     <!-- <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li> -->
                                 </ul>
-                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                                 @if(app()->getLocale() == 'ru')
+                                                 <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_kz}}</a></h4>
+                                                @else
+                                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_en }}</a></h4>
+                                                @endif
                                 <!-- <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p> -->
                                 <div class="btn-box">
                                     <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
