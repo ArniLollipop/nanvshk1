@@ -184,7 +184,7 @@
                             <form method="post" action="sendemail.php" id="contact-form"> 
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="@lang('main.contacts.name)" required="">
+                                        <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="email" name="email" placeholder="Еmail" required="">
@@ -193,7 +193,7 @@
                                         <input type="text" name="phone" required="" placeholder="Телефон">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="@lang('main.mess)"></textarea>
+                                        <textarea name="message" placeholder="@lang('main.mess')"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <!-- <div class="check-box">
@@ -202,7 +202,7 @@
                                         </div> -->
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
-                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">@lang('main.contacts.send) <i class="icon-4"></i></button>
+                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">@lang('main.contacts.send') <i class="icon-4"></i></button>
                                     </div>
                                 </div>
                             </form>
