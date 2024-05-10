@@ -147,7 +147,7 @@
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn prev-btn p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug, app()->getLocale()] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>@lang('about.prevnews')</a></h6>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug, app()->getLocale()] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>@lang('main.prevnews')</a></h6>
                                                 @if(app()->getLocale() == 'ru')
                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title }}</h5>
                                                  @elseif(app()->getLocale() == 'kz')
@@ -159,7 +159,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn next-btn text-right p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black">@lang('about.nextnews')<i class="far fa-long-arrow-right"></i></a></h6>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black">@lang('main.nextnews')<i class="far fa-long-arrow-right"></i></a></h6>
                                                 @if(app()->getLocale() == 'ru')
                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title }}</h5>
                                                  @elseif(app()->getLocale() == 'kz')
