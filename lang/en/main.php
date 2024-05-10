@@ -17,6 +17,11 @@ return [
     'about12' => 'CONTACTS',
     'write' => 'Contact us',
     'links' => 'Links',
+    'prevnews' => 'Previous news',
+    'nextnews' => 'Next news',
+    'comments' => 'Your comments',
+    'mess' => 'Message',
+    
 
     'about' => [
         'about' => 'About us',

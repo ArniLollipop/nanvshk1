@@ -178,13 +178,13 @@
                     </div> -->
                     <div class="comments-form-area">
                         <div class="group-title p_relative d_block mb_15">
-                            <h3 class="fs_30 lh_40">Оставьте комментарий</h3>
+                            <h3 class="fs_30 lh_40">@lang('main.comments')</h3>
                         </div>
                         <div class="form-inner">
                             <form method="post" action="sendemail.php" id="contact-form"> 
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="ФИО" required="">
+                                        <input type="text" name="username" placeholder="@lang('main.contacts.name)" required="">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="email" name="email" placeholder="Еmail" required="">
@@ -193,16 +193,16 @@
                                         <input type="text" name="phone" required="" placeholder="Телефон">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Сообщение"></textarea>
+                                        <textarea name="message" placeholder="@lang('main.mess)"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <div class="check-box">
+                                        <!-- <div class="check-box">
                                             <input class="check" type="checkbox" id="checkbox">
                                             <label for="checkbox">Согласен на сбор данных *</label>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
-                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">Отправить <i class="icon-4"></i></button>
+                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">@lang('main.contacts.send) <i class="icon-4"></i></button>
                                     </div>
                                 </div>
                             </form>
