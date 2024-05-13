@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => 'National Academy of Sciences of</br>The Higher School of Kazakhstan',
+    'name' => 'National Academy of Sciences of</br>the Higher School of Kazakhstan',
     'about1' => 'ABOUT US',
     'about2' => 'About NAS HSK',
     'about3' => 'The President of NAS HSK',
@@ -106,9 +106,10 @@ return [
     'allmembers' => [
         'all' => 'Members of the Academy ',
         'a1' => 'Full members (academicians) of NAS HSK',
-        'a2' => 'ҚЖМ ҰҒА корреспондент мүшелері',
+        'a2' => 'Corresponding members of NAS HSK',
         'a3' => 'Honorary Academicians of the NAS HSK',
         'a4' => '
+      
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1. Kusainov Amirlan Aydarbekovich - Doctor of Technical Sciences, Professor, Academician of the International and National Engineering Academies</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2. Aimagambetov Erkara Balkaraevich - Doctor of Economics, Professor</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 3. Zhautikov Bakhyt Akhatovich - Doctor of Technical Sciences, Professor</li>
@@ -191,38 +192,40 @@ return [
 
        
         'a5' => '
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1.	Панин Михаил Семенович - биология ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2. Булашев Айтбай Қабыкешұлы - ветеринария ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3. Қазиханов Рашит Қазиханұлы - ауыл шаруашылығы ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4. Әбілов Жарылқасын Әбдуахитұлы - химия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5. Амриев Ракши Амриевич - химия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6. Асқарова Әлия Сандыбайқызы - физика-математика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">7. Жапбасбаев ұзақ Қайырбекұлы - техника ғылымдарының докторы, профессор.</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">8. Қалтаев Айдархан Жүсіпбекұлы - физика-математика ғылымдарының докторы, профессор, Қазақстан Республикасы Ұлттық Инженерлік академиясының академигі</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">9. Қамысбаев Дүйсек Хайсағалиұлы - химия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">10. Менлигазиев Есенгелді Жұмаділұлы - философия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">11. Нұркеева Зәуреш Сағиқызы - химия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">12. Патсаев Анапия Қаныбекұлы - химия ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">13. Төлешов Амандық Қуатұлы - техника ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">14. Баталов Юрий Васильевич - экономика ғылымдарының докторы, профессор, ҚР ҰҒА академигі</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">15. Дамитов Базар Қабдошұлы - физика-математика ғылымдарының кандидаты</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">16. Закирьянов Қайрат Қайроллаұлы - педагогика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">17. Озғанбаев Өмірзақ - тарих ғылымдарының докторы, педагогика ғылымдарының кандидаты, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">18. Жусубалиева Дина Мұхтарханқызы - педагогика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">19. Қалыш Аманжол - тарих ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">20. Биекенов Кеңес Үмбетжанұлы - әлеуметтану ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">21. Қайыржанов Абай Қайыржанұлы-филология ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">22. Қопабаев Өмірәлі Қажыбайұлы - заң ғылымдарының докторы, профессор, ҚР Жоғары мектебі академиясының академигі</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">23. Күмісбаев Өтеген Күмісбайұлы - филология ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">24. Мырзахметов Мекемтас - филология ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">25. Аймағамбетов Ерқара Балқарайұлы - экономика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">26. Бердалиев Кеңес Бердалиұлы - экономика ғылымдарының кандидаты, профессор.</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">27. Дугалова Гүлнар Нәжімиденқызы - экономика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">28. Гамарник Геннадий Николаевич - экономика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">29. Ералы Аленбек Қамзаұлы - экономика ғылымдарының докторы, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Шайкенов Барлык Амангалеевич - химия ғылымдарының кандидаты</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">31. Ербөбек Шыңғыс Құлебекұлы - заң ғылымдарының кандидаты</li>',
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 1.	Panin Mikhail Semenovich - Doctor of Biological Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Bulashev Aitbay Kabykeshovich - Doctor of Veterinary Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3.	Kazikhanov Rashit Kazikhanovich - Doctor of Agricultural Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">4.	Abilov Zharylkasyn Abduakhitovich - Doctor of Chemical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">5.	Amriev Rakshi Amrievich - Doctor of Chemical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">6.	Askarova Aliya Sandybaevna - Doctor of Physics and Mathematics, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">7. Zapbasbaev Uzak Kairbekovich - Doctor of Technical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">8. Kaltaev Aydarkhan Zhusupbekovich - Doctor of Physical and Mathematical Sciences, Professor, Academician of the National Engineering Academy of the Republic of Kazakhstan</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">9. Kamysbaev Duisek Khaisagalievich - Doctor of Chemical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">10. Menligaziev Yesengeldy Zhumadilovich - Doctor of Philosophy, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">11. Nurkeeva Zauresh Sagievna - Doctor of Chemical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">12. Patsaev Anapia Kanybekovich - Doctor of Chemical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">13. Tuleshov Amandyk Kuatovich - Doctor of Technical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">14. Batalov Yuri Vasilievich - Doctor of Economics, Professor, Academician of NAS RK</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">15. Damitov Bazar Kabdoshevich - Candidate of Physical and Mathematical Sciences</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">16. Zakiryanov Kairat Kairullinovich - Doctor of Pedagogical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">17. Ozganbaev Omirzak - Doctor of Historical Sciences, Candidate of Pedagogical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">18. Dzhusubalieva Dina Mukhtakhanovna - Doctor of Pedagogical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">19. Kalysh Amanzhol - Doctor of Historical Sciences, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">20. Biekenov Kenes Umbetzhanovich - Doctor of Sociology, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">21. Kairzhanov Abay Kairzhanovich - Doctor of Philology, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">22. Kopabaev Omrali Kazhibaevich - Doctor of Law, Professor, Academician of the Higher School of the Republic of Kazakhstan</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">23. Kumisbaev Utegen Kumisbaevich - Doctor of Philology, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">24. Myrzakhmetov Mekemtas - Doctor of Philology, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">25. Aimaganbetov Erkary Balkaraevich - Doctor of Economics, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">26. Berdaliev Kenes Berdalievich - candidate of economic sciences, professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">27. Dugalova Gulnar Nazhmidenovna - Doctor of Economics, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">28. Gamarnik Gennady Nikolaevich - Doctor of Economics, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">29. Yeraly Alenbek Kamzauly - Doctor of Economics, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Shaikenov Barlyk Amangaleevich - Candidate of Chemical Sciences</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">31. Ergobek Shyngys Kulebekovich - Candidate of Law Sciences</li>',
+       
 
+        
          'a6' => '
          <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1. Zhubanov Kair Akhmetovich - Doctor of Chemical Sciences, Professor, Academician of the National Academy of Sciences of Kazakhstan</li>
          <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2. Ermatov Saduakas Ermatovich - Doctor of Physical and Mathematical Sciences, Professor, Academician of the International Academy of Sciences</li>
