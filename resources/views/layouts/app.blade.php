@@ -24,6 +24,8 @@
 <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/blog.css') }}" rel="stylesheet">
 
+<meta name="yandex-verification" content="d87d4f3ba4bbe051" />
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
