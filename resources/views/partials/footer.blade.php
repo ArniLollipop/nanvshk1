@@ -65,14 +65,29 @@
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
                     <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
-                     <!-- Yandex.Metrika informer -->
+                 <ul class="footer-nav clearfix pull-right">
+                    <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=97245871&amp;from=informer"
 target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/97245871/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
 style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="97245871" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
-                </div>
-                <a href="https://webmaster.yandex.ru/siteinfo/?site=nanvshk.kz"><img width="88" height="31" alt="" border="0" src="https://yandex.ru/cycounter?nanvshk.kz&theme=light&lang=ru"/></a>
-                <ul class="footer-nav clearfix pull-right">
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(97245871, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/97245871" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
                     <!-- <li><a href="index.html">Terms of Service</a></li>
                     <li><a href="index.html">Privacy Policy</a></li> -->
                 </ul>
