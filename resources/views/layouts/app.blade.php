@@ -24,7 +24,7 @@
 <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/blog.css') }}" rel="stylesheet">
 
-<!-- <meta name="yandex-verification" content="d87d4f3ba4bbe051" /> -->
+<meta name="yandex-verification" content="d87d4f3ba4bbe051" />
 
 
 <!-- Yandex.Metrika counter -->
