@@ -71,6 +71,7 @@ target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/972
 style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="97245871" data-lang="ru" /></a>
 <!-- /Yandex.Metrika informer -->
                 </div>
+                <a href="https://webmaster.yandex.ru/siteinfo/?site=nanvshk.kz"><img width="88" height="31" alt="" border="0" src="https://yandex.ru/cycounter?nanvshk.kz&theme=light&lang=ru"/></a>
                 <ul class="footer-nav clearfix pull-right">
                     <!-- <li><a href="index.html">Terms of Service</a></li>
                     <li><a href="index.html">Privacy Policy</a></li> -->
