@@ -172,9 +172,9 @@
                 </div>
             </div>
         </div>
-        <div class="video-inner p_relative d_block pt_200 pb_200 b_radius_5 centred wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/background/video-bg-2.jpg);">
+        <div class="video-inner p_relative d_block pt_200 pb_200 b_radius_5 centred wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/background/video-bg-2.png);">
             <div class="video-btn">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image video-btn p_relative d_iblock w_100 h_100 lh_100 text-center b_radius_50 fs_30" data-caption=""><i class="icon-10"></i></a>
+                <a href="https://youtu.be/Qm0xPE6bzTE" class="lightbox-image video-btn p_relative d_iblock w_100 h_100 lh_100 text-center b_radius_50 fs_30" data-caption=""><i class="icon-10"></i></a>
             </div>
         </div>
     </div>
