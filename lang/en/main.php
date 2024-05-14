@@ -188,7 +188,9 @@ return [
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">76. Nysanbayev Sultan Nysanbayevich - Doctor of Economics, Professor</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">77. Pasechenko Petr Stepanovich - Doctor of Economics, Professor</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">78. Sabden Orazaly - Doctor of Economics, Professor</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 79. Altaev Zhakypbek Altaevich - Doctor of Philosophy, Professor</li>',
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 79. Altaev Zhakypbek Altaevich - Doctor of Philosophy, Professor</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12"> 80. Khikmetov Askar Kusupbekovich — Candidate of Physical and Mathematical Sciences</li>',
+       
 
        
         'a5' => '
@@ -221,7 +223,7 @@ return [
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">27. Dugalova Gulnar Nazhmidenovna - Doctor of Economics, Professor</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">28. Gamarnik Gennady Nikolaevich - Doctor of Economics, Professor</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">29. Yeraly Alenbek Kamzauly - Doctor of Economics, Professor</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Shaikenov Barlyk Amangaleevich - Candidate of Chemical Sciences</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Shaikenov Barlyk Amangaleevich - Candidate of Pedagogical Sciences</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">31. Ergobek Shyngys Kulebekovich - Candidate of Law Sciences</li>',
        
 
@@ -290,7 +292,7 @@ return [
         'info2' => 'developed and tested courses – 32',
         'info3' => 'number of registered listeners – 11 000+',
         'info4' => 'number of registered listeners – 11 000+',
-
+        'partners' => 'PARTNER UNIVERSITIES'
 
     ],
 

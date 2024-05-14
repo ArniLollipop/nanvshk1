@@ -27,7 +27,7 @@
 <!-- project-details -->
 <section class="project-details p_relative pb_110">
     <div class="auto-container">
-        <div class="project-info p_relative d_block mb_110">
+        <div class="project-info p_relative d_block mb_70">
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
@@ -48,6 +48,7 @@
                 
             </div>
         </div>
+        
         <div data-animation-box class="image-box p_relative d_block mb_70">
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
@@ -55,13 +56,81 @@
                 </div>
                </div>
         </div>
+                    <div class="text p_relative d_block mr_40 mb_70">
+                    <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project3.title')</h4>
+
+                        
+                    </div>
+                    <div data-animation-box class="image-box p_relative d_block mb_70">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
+                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project3.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project3.jpg') }}" alt=""></a></figure>
+                </div>
+               </div>
+        </div>
+
+        <!-- clients-one -->
+<section class="clients-one p_relative pb_70">
+    <div class="auto-container">
+    <div class="col-lg-6 col-md-12 col-sm-12 title-column">
+                    <div class="sec-title-two p_relative d_block mr_100">
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.project2.partners')</span><br />
+                        <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
+                    </div>
+                </div>
+        <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl1.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl1.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl2.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl2.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl3.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl3.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl4.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl4.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl5.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl5.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl6.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl6.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl7.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl7.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl8.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl8.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl9.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl9.jpg') }}" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl10.jpg') }}" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl10.jpg') }}" alt=""></a></figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- clients-one end -->
+
        
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Предыдущий проект</a>
+                <a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details3', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Следующий проект<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

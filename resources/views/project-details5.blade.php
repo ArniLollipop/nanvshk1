@@ -35,7 +35,7 @@
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="assets/images/project/project5.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/project/project5.jpg" alt=""></a></figure>
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project5.jpg') }}" alt=""></a></figure>
                                 </div>                              
                             </div>
                         </div>
@@ -47,36 +47,102 @@
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info5')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info6')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info7')</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info8')</li>
+                                    <!-- <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black"></li> -->
                                 </ul>   
-                           
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info8')</h4>
+
                                 <div data-animation-box class="image-box p_relative d_block mb_70">
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="assets/images/project/projects5.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/project/projects5.jpg" alt=""></a></figure>
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects5.jpg') }}" alt=""></a></figure>
                                         </div>                              
                                     </div>
                                 </div>
-
-                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info9')</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info10')</p>   
-                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info11')</p>  
-                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info12')</p>  
-
     
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project5.jpg') }}" alt=""></a></figure>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <h3 class="font_family_poppins mb_25 color_black fs_20">@lang('main.project5.info9')</h3>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
                                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr1.jpg') }}" alt=""></a></figure>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr2.jpg') }}" alt=""></a></figure>
+                            </div>
+                        </div>
+                        <div data-animation-box class="image-box p_relative d_block mb_70">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/cert1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/cert1.jpg') }}" alt=""></a></figure>
+                                </div>                               
+                                <div class="col-lg-6">
+                                    <p class="font_family_poppins color_black fs_18">@lang('main.project5.info10')</p>   
+                                    <p class="font_family_poppins color_black fs_18">@lang('main.project5.info11')</p>  
+                                    <p class="font_family_poppins mb_50 color_black fs_18">@lang('main.project5.info12')</p>                                   
+                                        <div class="col-lg-12 col-md-6 col-sm-12 image-column mt_20">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr2.jpg') }}" alt=""></a></figure>
+                                        </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-animation-box class="image-box p_relative d_block mb_70">
+                            <div class="row clearfix">
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project5.jpg') }}" alt=""></a></figure>
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr1.jpg') }}" alt=""></a></figure>
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr3.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr3.jpg') }}" alt=""></a></figure>
+
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <h3 class="font_family_poppins mb_170 color_black fs_20">@lang('main.project5.info15')</h3>
+                                    <h3 class="font_family_poppins mb_25 color_black fs_20">@lang('main.project5.info16')</h3>
+
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/cert4.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/cert4.jpg') }}" alt=""></a></figure>
+                                </div>
+                            </div>
+                        </div>
+                      
+
+                        <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info13')</h4>
+                        <div data-animation-box class="image-box p_relative d_block mb_70">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 image-column ">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10 mb_70" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project5.jpg') }}" alt=""></a></figure>
+                                    <h3 class="font_family_poppins mb_170 color_black fs_20">@lang('main.project5.info14')</h3>   
+                                </div>                               
+                                <div class="col-lg-6">
+                                        <div class="col-lg-12 col-md-6 col-sm-12 image-column mt_20">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/cert5.png') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/cert5.png') }}" alt=""></a></figure>
+                                        </div> 
                                 </div>
                             </div>
                         </div>
 
                         <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project5.info13')</h4>
-                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project5.info14')</p>   
+                        <div data-animation-box class="image-box p_relative d_block mb_70">
+                            <div class="row clearfix">
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10 mb_20" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c1.jpg') }}" alt=""></a></figure>
+                                    <p class="font_family_poppins color_black fs_18 mb_20">@lang('main.project5.info18')</p>  
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c4.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c4.jpg') }}" alt=""></a></figure> 
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10 mb_20" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c2.jpg') }}" alt=""></a></figure>
+                                    <p class="font_family_poppins color_black fs_18 mb_20">@lang('main.project5.info19')</p>  
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c5.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c5.jpg') }}" alt=""></a></figure> 
+                                 </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10 mb_20" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c3.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c3.jpg') }}" alt=""></a></figure>
+                                    <p class="font_family_poppins color_black fs_18 mb_20">@lang('main.project5.info20')</p>  
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/c6.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/c6.jpg') }}" alt=""></a></figure> 
+                                 </div>
+                            </div>
+                        </div>
                         
                      </div>
                 </div>                

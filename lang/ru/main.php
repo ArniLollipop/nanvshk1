@@ -187,7 +187,8 @@ return [
                                                                     <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">76. Нысанбаев Султан Нысанбаевич - доктор экономических наук, профессор</li>
                                                                     <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">77. Пасеченко Петр Степанович - доктор экономических наук, профессор</li>
                                                                     <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">78. Сабден Оразалы - доктор экономических наук, профессор</li>
-                                                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">79. Алтаев Жакыпбек Алтаевич - доктор философских наук, профессор </li>',
+                                                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">79. Алтаев Жакыпбек Алтаевич - доктор философских наук, профессор </li>
+                                                                    <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">80. Хикметов Аскар Кусупбекович — кандидат физико-математических наук</li>',
 
         'a5' => '<li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1.	Панин Михаил Семенович - доктор биологических наук, профессор</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2.	Булашев Айтбай Кабыкешович - доктор ветеринарных наук, профессор</li>
@@ -218,8 +219,9 @@ return [
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">27. Дугалова Гульнар Нажмиденовна - доктор экономических наук, профессор</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">28. Гамарник Геннадий Николаевич - доктор экономических наук, профессор</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">29. Ералы Аленбек Камзаулы - доктор экономических наук, профессор</li>
-        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Шайкенов Барлык Амангалеевич - кандидат химических наук</li>
+        <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">30. Шайкенов Барлык Амангалеевич - кандидат педагогических наук</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">31. Ергобек Шынгыс Кулебекович - кандидат юридических наук</li>',
+
         'a6' => '<li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1. Жубанов Каир Ахметович	- доктор химических наук, профессор, академик Национальной академии наук Казахстана</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">2. Эрматов Садуакас Ерматович	- доктор физико - математических наук, профессор, академик Международной академии наук</li>
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">3. Мамыров Нургали Кулшыманович - доктор экономических наук, профессор, академик НАН РК</li>',
@@ -250,7 +252,6 @@ return [
     
     'projects' => [
         'title' => 'ПРОЕКТЫ НАН ВШК',
-
         'prtitle' => 'КОМПЛЕКСНАЯ АВТОМАТИЗАЦИЯ ДЕЯТЕЛЬНОСТИ ВЫСШИХ УЧЕБНЫХ ЗАВЕДЕНИЙ, НИИ И ВНЕДРЕНИЯ ЦИФРОВЫХ СЕРВИСОВ',
         'info1' => 'КРАТКОЕ ОПИСАНИЕ',
         'info2' => 'ЦЕЛЬ:',
@@ -284,12 +285,13 @@ return [
         'info2' => 'Количество разработанных и апробированных курсов: 32',
         'info3' => 'Количество зарегистрированных слушателей: 11 000+',
         'info4' => 'Количество слушателей закончивших  МООК: 7000+',
+        'partners' => 'ВУЗЫ-ПАРТНЕРЫ'
 
 
     ],
 
     'project3' => [
-        'title' => 'НАЦИОНАЛЬНАЯ ПЛАТФОРМА ОТКРЫТОГО ОБРАЗОВАНИЯ КАЗАХСТАНА  MOOCS.KZ',
+        'title' => '«ЦЕНТРАЛЬНО-АЗИАТСКИЙ ЦЕНТР СЕРТИФИКАЦИИ СПЕЦИАЛИСТОВ»',
 
 
     ],

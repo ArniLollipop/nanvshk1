@@ -99,7 +99,7 @@
 
         <div class="nav-btn clearfix">
             <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
+                <a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
                 <a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
