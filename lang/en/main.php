@@ -297,7 +297,23 @@ return [
     ],
 
     'project3' => [
-        'title' => 'NATIONAL OPEN EDUCATION PLATFORM OF KAZAKHSTAN MOOCS.KZ',
+         'title' => '«CENTRAL ASIAN CENTER FOR CERTIFICATION OF SPECIALISTS»',
+        'title1' => 'NATIONAL OPEN EDUCATION PLATFORM OF KAZAKHSTAN MOOCS.KZ',
+        'info1' => 'The subject of the organization\'s activity:',
+        'info2' => '
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- development of the national certification system of the Republic of Kazakhstan;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- assistance in improving professional skills and competence of specialists in various sectors of the economy;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- development of international cooperation in the field of certification;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- assistance in ensuring quality assurance of engineering education and engineering activities;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- carrying out one or more types of activities not prohibited by the legislation of the Republic of Kazakhstan and corresponding to the goals of the non-profit organization provided for by its constituent documents;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- the implementation of activities requiring accreditation or licensing can be implemented after compliance with the relevant requirements of the legislation of the Republic of Kazakhstan.</li>
+        ',
+        'info3' => 'The objectives of the organization are:',
+        'info4' => '
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black"> - organization of certification of specialists in various sectors of the economy of the Republic of Kazakhstan;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- organization of specialists training for certification procedure;</li>
+        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">- development of international activities for certification of specialists of the Republic of Kazakhstan and countries of the Central Asian region.</li>
+        ',
 
 
     ],
@@ -312,8 +328,8 @@ return [
         'info6' => '• use of social networks in public administration.',
         'info7' => '• technologies of «monitoring social networks» (social listening), content analysis.',
         'info8' => 'Implementation mechanism:',
-        'info9' => 'In-depth, quantitative analysis of unstructured information, extraction of knowledge and obtaining important information from text arrays to assess user perception of content, generation of analytical material.',
-        'info10' => 'The first domestic opinion monitoring system OMSystem allows you to monitor web resources and social networks with a subsystem for modeling the social well-being of society, by assessing the sentiment of messages/opinions, supporting a sentiment dictionary of the Kazakh language, built using machine learning algorithms.',
+        'info9' => '<b>Implementation mechanism:</b> In-depth, quantitative analysis of unstructured information, extraction of knowledge and obtaining important information from text arrays to assess user perception of content, generation of analytical material.',
+        'info10' => '<b>The first domestic opinion monitoring system OMSystem</b> allows you to monitor web resources and social networks with a subsystem for modeling the social well-being of society, by assessing the sentiment of messages/opinions, supporting a sentiment dictionary of the Kazakh language, built using machine learning algorithms.',
         
 
     ],
@@ -327,14 +343,22 @@ return [
         'info5' => '• INQAAHE International Quality Assurance Network.',
         'info6' => '• A partnership agreement has been concluded with the Association of Engineering Education of Russia, Portugal and the accreditation agency in the field of engineering QUACING.',
         'info7' => '• Trilateral cooperation agreements have been concluded between the Consortium of universities for the training of specialists within the framework of the state program of industrial and innovative development (SPIID), CAAAE and ENAEE and the Consortium of universities for the training of specialists within the SPIID, CAAAE and IGIP.',
-        'info8' => '• The Khujand agreement of Central Asian societies of engineering education is concluded.',
+        'info8' => 'The Khujand agreement of Central Asian societies of engineering education is concluded.',
         'info9' => 'European Network for Accreditation of Engineering and Natural Science Educational Programs (ENAEE):',
         'info10' => 'ENAEE is a network of accreditation agencies responsible for the functioning of the pan-European accreditation system for engineering educational programs. ENAEE is recognized by the international community and consists of engineering organizations from European countries.',
         'info11' => 'Based on the accreditation results, ENAEE ensures the assignment of the European quality mark EUR-ACE Label and the international ENAEE certificate.',
         'info12' => 'CAAAE Accreditation Center is a recognized EU partner in engineering education and accreditation projects that has partnerships with ENAEE.',
         'info13' => 'Central Asian Association for Accreditation of Education (CAAAE):',
-        'info14' => 'Based on the decision of the Republican Accreditation Council, an order was issued by the Minister of Education and Science of the Republic of Kazakhstan dated September 27, 2017 No. 482 on recognition as an accreditation body and inclusion in Register 1 of the Central Asian Association for Accreditation of Education (CAAAE )/Kazakhstan Association of Engineering Education.',
-        
+        'info14' => 'Based on the decision of the Republican Accreditation Council, an order was issued by the Minister of Education and Science of the Republic of Kazakhstan dated September 27, 2017 No. 482 on recognition as an accreditation body and inclusion in Register 1 of the Central Asian Association for Accreditation of Education (CAAAE)/Kazakhstan Association of Engineering Education.',
+        'info15' => 'The General Assembly of the ENAEE<br> November 21, 2017<br> Brussels (Belgium)',
+        'info16' => 'CAAAE has received the right <br>to assign the European quality<br> mark EUR-ACE Label ',
+        'info17' => 'International Accreditation of Kazakhstan and Uzbek Universities',
+        'info18' => 'Kazakh National Research Technical University',
+        'info19' => 'Kazakh National Agrarian Research University',
+        'info20' => 'L.N. Gumilyov Eurasian National University',
+        'info21' => 'D. Serikbayev East Kazakhstan technical university',
+        'info22' => 'Karaganda Technical University',
+        'info23' => 'Rudnensky Industrial Institute',
 
     ],
 
@@ -342,7 +366,8 @@ return [
         'title' => 'National Academy of Sciences of Higher School of Kazakhstan (NAS YSK)',
         'info1' => 'It was created in 2017 by a decision of the Presidium of the National Academy of Sciences of Sciences of Higher School of Kazakhstan on behalf of the Minister of Education and Science of the Republic of Kazakhstan E.K. Sagadiev.',
         'info2' => 'An agreement was signed with the President of IREG Observatory on Academic Ranking and Excellence (IREG Observatory) Jan Sadlak.',
-       
+        'info3' => 'RRA STRATEGIC PARTNERS',
+
 
     ],
 
@@ -364,6 +389,7 @@ return [
 
     'project8' => [
         'title' => 'HONORED WORKER OF HIGHER EDUCATION ',
+        'title1' => 'Scientists\' contribution',
         'info1' => 'Awarding commemorative medals of NAS HSC',
         'body' => '
         <li class="p_relative d_block fs_18 color_black lh_25 fw_medium font_family_inter pl_25 mb_12">1.Sagadiev Erlan Kenzhegalievich</li>

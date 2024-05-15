@@ -44,22 +44,14 @@
                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr88.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr88.jpg') }}" alt=""></a></figure>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                    <h4 class="d_block  lh_40 fw_sbold mb_15">Ұйым қызметінің мәні:</h4>
+                    <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project3.info1')</h4>
                     <ul class="info-list clearfix">
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">ҚР ұлттық сертификаттау жүйесін дамыту;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">экономиканың түрлі салаларындағы мамандардың кәсіби дағдылары мен құзыреттерін арттыруға жәрдемдесу;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">сертификаттау саласындағы халықаралық ынтымақтастықты дамыту;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">инженерлік білім беру мен инженерлік қызмет сапасының кепілдіктерін қамтамасыз етуге жәрдемдесу;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">ҚР заңнамасында тыйым салынбаған және коммерциялық емес ұйымның құрылтай құжаттарында көзделген қызметінің мақсаттарына сәйкес келетін қызметтің бір немесе бірнеше түрін жүзеге асыру;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">аккредиттеу немесе лицензиялау рәсімінен өтуді талап ететін қызмет түрлерін іске асыру ҚР заңнамасының тиісті талаптары орындалғаннан кейін іске асырылуы мүмкін.</li>
-                    
+                        @lang('main.project3.info2')
                     </ul>
-                    <h4 class="d_block  lh_40 fw_sbold mb_15">Ұйым қызметінің мақсаттары:</h4>
+                    <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project3.info3')</h4>
                     <ul class="info-list clearfix">
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">ҚР экономикасының түрлі салаларындағы мамандарды сертификаттауды ұйымдастыру;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">мамандарды сертификаттау рәсіміне даярлауды ұйымдастыру;</li>
-                        <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">Қазақстан Республикасының және Орталық Азия өңірі елдерінің мамандарын сертификаттау жөніндегі халықаралық қызметті дамыту.</li>
-                       
+                        @lang('main.project3.info4')
+                        
                     </ul>
                 </div>
             </div>

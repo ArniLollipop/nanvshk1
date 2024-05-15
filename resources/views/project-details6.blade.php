@@ -73,7 +73,7 @@
                                                 </div>    
                                                 @else
                                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project6en.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project6en.jpg') }}" alt=""></a></figure>
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project6en.png') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project6en.png') }}" alt=""></a></figure>
                                                 </div>                                                
                                                 @endif
                                                            
@@ -103,7 +103,7 @@
                                                 </div>     
                                                 @else
                                                 <div class="col-lg-4 col-md-6 col-sm-12 image-column">
-                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr62en.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr62en.jpg') }}" alt=""></a></figure>
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr62en.png') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr62en.png') }}" alt=""></a></figure>
                                                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr61.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr61.jpg') }}" alt=""></a></figure>
                                                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/photo2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/photo2.jpg') }}" alt=""></a></figure>
 

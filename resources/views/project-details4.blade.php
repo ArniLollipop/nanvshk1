@@ -32,27 +32,15 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
                         <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project4.title')</h3></br>
+                       
                         <div data-animation-box class="image-box p_relative d_block">
                             <div class="row clearfix">
-                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr41.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr41.jpg') }}" alt=""></a></figure>
+                                <div class="col-lg-12 col-md-12 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr41.png') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr41.png') }}" alt=""></a></figure>
                                 </div>                                                             
                             </div>
                         </div>
-                        <div data-animation-box class="image-box p_relative d_block">
-                            <div class="row clearfix">                            
-                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr42.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr42.jpg') }}" alt=""></a></figure>
-                                </div>                                                          
-                            </div>
-                        </div>
-                        <div data-animation-box class="image-box p_relative d_block mb_70">
-                            <div class="row clearfix">                               
-                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/pr43.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/pr43.jpg') }}" alt=""></a></figure>
-                                </div>                              
-                            </div>
-                        </div>
+                       
                         <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info1')</h4>
                         <h4 class="d_block  lh_40 fw_sbold mb_15">@lang('main.project4.info2')</h4>
                         <div data-animation-box class="image-box p_relative d_block mb_70">
@@ -96,7 +84,7 @@
                                                 </div>  
                                                 @else
                                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4en.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4en.jpg') }}" alt=""></a></figure>
+                                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/projects4en.png') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/projects4en.png') }}" alt=""></a></figure>
                                                 </div>                                               
                                                 @endif
                                                           

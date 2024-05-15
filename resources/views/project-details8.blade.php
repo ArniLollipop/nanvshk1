@@ -32,7 +32,8 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
                         <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project8.title')</h3></br>
-
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project8.title1')</h3></br>
+                       
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
