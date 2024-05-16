@@ -508,7 +508,7 @@
   .main-menu .navigation > li > ul > li > ul,
   .main-menu .navigation > li > .megamenu{
     display:block !important;
-    visibility:hidden;
+    /*visibility:hidden;*/
     opacity:0;
   }
 }

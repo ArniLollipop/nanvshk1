@@ -1,20 +1,20 @@
 <!-- footer-two -->
-<footer class="footer-two">
+<footer class="footer-two color--change">
     <div class="auto-container">
        
         <div class="footer-widget-section">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="/"><img src="assets/images/logo-3new.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="/"><div class="img--change"><img src="assets/images/logo-3new.png" alt=""></div></a></figure>
 
                         <div class="text">
                             <!-- <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p> -->
                         </div>
                         <ul class="footer-social-two clearfix">
-                                <li ><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-whatsapp"></i></a></li>
+                                <li ><a href="index.html" class="color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                <li><a href="index.html" class="color--change"><i class="fab fa-instagram text--resize"></i></a></li>
+                                <li><a href="index.html" class="color--change"><i class="fab fa-whatsapp text--resize"></i></a></li>
                                
                            
                         </ul>
@@ -23,17 +23,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>@lang('main.links')</h4>
+                            <h4 class="text--resize">@lang('main.links')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                                <li><a href="{{ route('about', app()->getLocale()) }}">@lang('main.about2')</a></li>
-                                                <li><a href="{{ route('about-2', app()->getLocale()) }}">@lang('main.about3')</a></li>
-                                                <li><a href="{{ route('about-3', app()->getLocale()) }}">@lang('main.about4')</a></li>  
-                                                <li><a href="{{ route('about-4', app()->getLocale()) }}">@lang('main.about6')</a></li>                                                                                 
-                                                <li><a href="{{ route('about-5', app()->getLocale()) }}">@lang('main.about8')</a></li> 
-                                                <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>   
-                                                <li><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about.news')</a> </li> 
+                                                <li><a href="{{ route('about', app()->getLocale()) }}" class="text--resize">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}" class="text--resize">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}" class="text--resize">@lang('main.about4')</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}" class="text--resize">@lang('main.about6')</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}" class="text--resize">@lang('main.about8')</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize">@lang('main.about10')</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}" class="text--resize">@lang('main.about.news')</a> </li> 
                                               
 
                                                
@@ -46,13 +46,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
-                            <h4>@lang('main.about.contacts')</h4>
+                            <h4 class="text--resize">@lang('main.about.contacts')</h4>
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
-                                <li>@lang('main.about.contactinfo')</li>
-                                <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
-                                <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
+                                <li class="text--resize">@lang('main.about.contactinfo')</li>
+                                <li><a href="tel:77770565527" class="text--resize">+7 (777)- 056-55-27</a></li>
+                                <li><a href="mailto:nanvshk@gmail.com" class="text--resize">nanvshk@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,11 +60,11 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom color--change">
         <div class="auto-container">
             <div class="bottom-inner clearfix">
                 <div class="copyright pull-left">
-                    <p><a href="/">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
+                    <p><a href="/" class="text--resize">@lang('main.about.nanvshk') &copy; {{ date('Y') }} @lang('main.about.reserved')</a></p>
                  <ul class="footer-nav clearfix pull-right">
                     <!-- Yandex.Metrika informer -->
 <a href="https://metrika.yandex.ru/stat/?id=97245871&amp;from=informer"
@@ -89,7 +89,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
             <div class="scroll-bar">
                 <div class="bar-inner"></div>
             </div>
-            <div class="scroll-bar-text g_color_2">Go To Top</div>
+            <div class="scroll-bar-text g_color_2 text--resize text--resize--fa">Go To Top</div>
         </div>
     </div>
 </div>

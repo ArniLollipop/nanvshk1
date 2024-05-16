@@ -56,13 +56,13 @@
         <div class="shape-2 hero-shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-35.png);"></div>
     </div>
     <div class="pattern-layer p_absolute l_0 b_0 z_2" style="background-image: url(assets/images/shape/shape-33.png);"></div>
-    <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
+    <div class="banner-carousel owl-theme owl-carousel owl-dots-none dissapear--block">
         <div class="slide-item p_relative">
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
             <div class="auto-container">
                 <div class="content-box p_relative d_block z_5">
                     <!-- <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">НАН ВШК </span><br /><span class="slider-text-anim">34 года</span></h2> -->
-                    <p class="d_block fs_18 mb_45"> <br /></p>
+                    <p class="d_block fs_18 mb_45 text--resize"> <br /></p>
                     <div class="btn-box clearfix">
                     </div>
                 </div> 
@@ -142,7 +142,7 @@
 
 <!-- about-two -->
 <section class="about-two p_relative sec-pad">
-    <div class="shape parallax-scene parallax-scene-1">
+    <div class="shape parallax-scene parallax-scene-1 dissapear--block">
         <div data-depth="0.40" class="shape-1 p_absolute"></div>
         <div data-depth="0.50" class="shape-2 p_absolute w_95 h_95" style="background-image: url(assets/images/shape/shape-36.png);"></div>
         <div data-depth="0.30" class="shape-3 p_absolute w_95 h_95" style="background-image: url(assets/images/shape/shape-36.png);"></div>
@@ -153,19 +153,19 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_150">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.about')</span>
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17 text--resize color--change">@lang('main.about.about')</span>
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2> -->
-                        <p class="fs_20 color_black font_family_oxygen mb_0">@lang('main.about.info1')</p>
+                        <p class="fs_20 color_black font_family_oxygen mb_0 text--resize">@lang('main.about.info1')</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25">@lang('main.about.info2')</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize">@lang('main.about.info2')</p>
                             <!-- <p class="fs_16 font_family_oxygen"></p> -->
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25">@lang('main.about.info3')</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize">@lang('main.about.info3')</p>
                             <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
@@ -187,50 +187,50 @@
     <div class="auto-container">
     <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.about.partners')</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50 text--resize color--change">@lang('main.about.partners')</span><br />
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                     </div>
                 </div>
         <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl1.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl1.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl1.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl1.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl2.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl2.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl2.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl2.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl3.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl3.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl3.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl3.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl4.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl4.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl4.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl4.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl5.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl5.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl5.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl5.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl6.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl6.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl6.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl6.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl7.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl7.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl8.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl8.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl8.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl8.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl9.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl9.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl9.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl9.jpg" alt=""></div></a></figure>
             </div>
             <div class="clients-logo-box">
-                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
-                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
+                <figure class="image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl10.jpg" alt=""></div></a></figure>
+                <figure class="overlay-image"><a href="index.html"><div class="img--change"><img src="assets/images/clients/cl10.jpg" alt=""></div></a></figure>
             </div>
         </div>
     </div>
@@ -369,7 +369,7 @@
             <div class="auto-container">
                  <div class="col-lg-12 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.about.team')</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50 text--resize color--change">@lang('main.about.team')</span><br />
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                     </div>
                 </div>
@@ -378,17 +378,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block mb_50">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm1.png" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm1.png" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team1')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team11')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold text--resize"><a href="team-details.html" class="text--resize">@lang('main.about.team1')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team11')</span>
                                     </div>
                                 </div>
                             </div>
@@ -398,17 +398,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block mb_50">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm2.jpg" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm2.jpg" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team2')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team22')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html" class=" text--resize">@lang('main.about.team2')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team22')</span>
                                     </div>
                                 </div>
                             </div>
@@ -418,17 +418,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block mb_50">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm3.jpg" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm3.jpg" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team3')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team33')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html" class=" text--resize">@lang('main.about.team3')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team33')</span>
                                     </div>
                                 </div>
                             </div>
@@ -438,17 +438,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm4.jpg" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm4.jpg" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team4')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team44')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html" class=" text--resize">@lang('main.about.team4')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team44')</span>
                                     </div>
                                 </div>
                             </div>
@@ -458,17 +458,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm5.jpg" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm5.jpg" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team5')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team55')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html" class=" text--resize">@lang('main.about.team5')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team55')</span>
                                     </div>
                                 </div>
                             </div>
@@ -478,17 +478,17 @@
                         <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block">
                                 <div class="image-box p_relative d_block b_radius_10">
-                                    <figure class="image p_relative d_block"><img src="assets/images/team/cm6.png" alt=""></figure>
+                                    <figure class="image p_relative d_block"><div class="img--change"><img src="assets/images/team/cm6.png" alt=""></div></figure>
                                     <ul class="social-links-two">
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-twitter text--resize"></i></a></li>
+                                        <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50 color--change"><i class="fab fa-linkedin-in text--resize"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="lower-content p_relative d_block ml_40 mr_40">
-                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html">@lang('main.about.team6')</a></h4>
-                                        <span class="designation fs_16 p_relative d_block font_family_poppins">@lang('main.about.team66')</span>
+                                    <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6 color--change">
+                                        <h4 class="p_relative d_block fs_20 lh_30 fw_sbold"><a href="team-details.html" class=" text--resize">@lang('main.about.team6')</a></h4>
+                                        <span class="designation fs_16 p_relative d_block font_family_poppins text--resize">@lang('main.about.team66')</span>
                                     </div>
                                 </div>
                             </div>
@@ -533,40 +533,40 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="32">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="32">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform1')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform1')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="43">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="43">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform2')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform2')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="136">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="136">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform3')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform3')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="1.2">0</span><span>M</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="1.2">0</span><span>M</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform4')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform4')</p>
                                         </div>
                                     </div>
                                 </div>
@@ -585,7 +585,7 @@
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.projects')</span><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17 text--resize color--change">@lang('main.about.projects')</span><br />
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                     </div>
                 </div>
@@ -600,120 +600,120 @@
             <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/univer1.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer1.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize">@lang('main.projects.prtitle')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/univer.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize">@lang('main.projects.prtitle')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize"><i class="icon-4 text--resize"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/univer2.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer2.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}">@lang('main.projects.prtitle')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class="text--resize">@lang('main.projects.prtitle')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project2.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/project2.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}">@lang('main.project2.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}" class="text--resize">@lang('main.project2.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/pr42.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/pr42.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project4.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/project4.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/projects4.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/projects4.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}">@lang('main.project4.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 "><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project5.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/project5.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.project5.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize">@lang('main.project5.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/projects5.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/projects5.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}">@lang('main.project5.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize">@lang('main.project5.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project6.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/project6.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}">@lang('main.project6.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}" class="text--resize">@lang('main.project6.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/color-logo.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/color-logo.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}">@lang('main.project7.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}" class="text--resize">@lang('main.project7.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="project-block-one">
                     <div class="inner-box p_relative d_block b_radius_5">
-                        <figure class="image-box"><img src="assets/images/project/project8.jpg" alt=""></figure>
+                        <figure class="image-box"><div class="img--change"><img src="assets/images/project/project8.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}">@lang('main.project8.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}" class="text--resize">@lang('main.project8.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -941,8 +941,8 @@
             <div class="row align-items-center clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">@lang('main.about.news')</span><br />
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen">@lang('main.about.news1')</h2><br />
+                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17 text--resize color--change">@lang('main.about.news')</span><br />
+                        <h2 class="d_block fs_40 fw_bold font_family_oxygen text--resize">@lang('main.about.news1')</h2><br />
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 text-column">
@@ -958,8 +958,8 @@
                     <div class="news-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
                             <div class="image-box p_relative d_block">
-                                <figure class="image p_relative d_block"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}"><img src="{{ asset('storage/'.$info->image) }}" alt=""></a></figure>
-                                <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20">{{ $info->created_at->format('d') }} <span class="d_block">{{ $info->created_at->format('M') }}</span></h4></div>
+                                <figure class="image p_relative d_block"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}"><div class="img--change"><img src="{{ asset('storage/'.$info->image) }}" alt=""></div></a></figure>
+                                <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10"><h4 class="fs_20 font_family_oxygen fw_bold lh_20 text--resize">{{ $info->created_at->format('d') }} <span class="d_block text--resize">{{ $info->created_at->format('M') }}</span></h4></div>
                             </div>
                             <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
                                 <ul class="post-info clearfix p_relative d_block mb_5">
@@ -967,15 +967,15 @@
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li> -->
                                 </ul>
                                                  @if(app()->getLocale() == 'ru')
-                                                 <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_kz}}</a></h4>
+                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_kz}}</a></h4>
                                                 @else
-                                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_en }}</a></h4>
+                                                <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_en }}</a></h4>
                                                 @endif
                                 <!-- <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p> -->
                                 <div class="btn-box">
-                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
+                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two text--resize"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
                                 </div>
                             </div>
                         </div>

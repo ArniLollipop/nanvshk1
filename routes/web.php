@@ -112,7 +112,8 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-
+Route::post('/set-session', 'App\Http\Controllers\WCAGController@setwcag');
+Route::get('/show-session', 'App\Http\Controllers\WCAGController@show');
 require __DIR__.'/auth.php';
 
 
