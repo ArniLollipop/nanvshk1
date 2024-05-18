@@ -96,7 +96,7 @@
                                                 <li><a href="{{ route('projects', app()->getLocale()) }}">@lang('main.about10')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="{{ route('project-details7', app()->getLocale()) }}">ACADEM KITAP</a>
+                                        <li class="current dropdown"><a href="{{ route('project-details77', app()->getLocale()) }}">ACADEM KITAP</a>
                                             
                                         </li>
                                         <li class="current dropdown"><a href="{{ route('news', app()->getLocale()) }}">@lang('main.about11')</a>

@@ -47,6 +47,11 @@ class ProjectsController extends Controller
         
         return view('project-details7');
     }
+    public function detail77()
+    {
+        
+        return view('project-details77');
+    }
     public function detail8()
     {
         

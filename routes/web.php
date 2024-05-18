@@ -63,6 +63,7 @@ Route::get('/project-details4', [ProjectsController::class, 'detail4'])->name('p
 Route::get('/project-details5', [ProjectsController::class, 'detail5'])->name('project-details5');
 Route::get('/project-details6', [ProjectsController::class, 'detail6'])->name('project-details6');
 Route::get('/project-details7', [ProjectsController::class, 'detail7'])->name('project-details7');
+Route::get('/project-details77', [ProjectsController::class, 'detail77'])->name('project-details77');
 Route::get('/project-details8', [ProjectsController::class, 'detail8'])->name('project-details8');
 
 Route::get('/news', [NewsController::class, 'index'])->name('news');

@@ -363,7 +363,7 @@ return [
     ],
 
     'project6' => [
-        'title' => 'National Academy of Sciences of Higher School of Kazakhstan (NAS YSK)',
+        'title' => 'NATIONAL ACADEMY OF SCIENCES OF HIGHER SCHOOL OF KAZAKHSATN (NAS HSK)',
         'info1' => 'It was created in 2017 by a decision of the Presidium of the National Academy of Sciences of Sciences of Higher School of Kazakhstan on behalf of the Minister of Education and Science of the Republic of Kazakhstan E.K. Sagadiev.',
         'info2' => 'An agreement was signed with the President of IREG Observatory on Academic Ranking and Excellence (IREG Observatory) Jan Sadlak.',
         'info3' => 'RRA STRATEGIC PARTNERS',
@@ -372,7 +372,7 @@ return [
     ],
 
     'project7' => [
-        'title' => '«AKADEM KITAP» Publishing House / “Өнегелі өмір” (Moral Life) Series',
+        'title' => '«AKADEM KITAP» PUBLISHING HOUSE / “ӨНЕГЕЛІ ӨМІР” (MORAL LIFE) SERIES',
         'info1' => '«The book brings knowledge and enlightenment to humanity. The book contains the secrets of the human race. The book is the most patient teacher. There is nothing more precious to a thinking person than a book!» ',
         'info2' => 'Books are sources of knowledge about spiritual and moral life. Their role in education, upbringing, intellectual development of young people is very great. Through an appeal to a book, reading, a person joins spiritual values, develops, expands his horizons. Reading highly artistic literature contributes to the formation of a harmonious personality - a personality of active, creative, combining spiritual wealth, moral purity, physical perfection.',
         'info3' => 'Life makes increased demands on humanity, and the task of each educational institution is to prepare young specialists who will be in demand in later life, to show them the right guidelines. In 2010, the release of books of the series « Өнегелі өмір» about the life and work of famous statesmen and public figures, scientists began.',
