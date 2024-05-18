@@ -20,6 +20,7 @@ return [
     'prevnews' => 'Previous news',
     'nextnews' => 'Next news',
     'comments' => 'Your comments',
+    'comments1' => 'Your comments',
     'mess' => 'Message',
     
 

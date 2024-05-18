@@ -55,6 +55,7 @@ Route::group([
 ], function () {
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
+Route::post('/contacts', [ContactsController::class, 'store'])->name('contacts.store');
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects');
 Route::get('/project-details1', [ProjectsController::class, 'detail1'])->name('project-details1');
 Route::get('/project-details2', [ProjectsController::class, 'detail2'])->name('project-details2');
@@ -68,6 +69,7 @@ Route::get('/project-details8', [ProjectsController::class, 'detail8'])->name('p
 
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/news-details', [NewsController::class, 'detail'])->name('news-details');
+Route::post('/news-details', [NewsController::class, 'store'])->name('review.store');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/about-2', [AboutController::class, 'about2'])->name('about-2');
 Route::get('/about-3', [AboutController::class, 'about3'])->name('about-3');

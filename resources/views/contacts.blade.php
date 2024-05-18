@@ -73,7 +73,10 @@
                             <div class="text p_relative d_block mb_35">
                                 <h3 class="d_block fs_30 lh_40 fw_bold">@lang('main.contacts.adr2')</h3>
                             </div>
-                            <form method="post" action="sendemail.php" id="contact-form"> 
+                            	
+                            <form method="post" action="{{ route('contacts.store',app()->getLocale()) }}" method="post" id="contact-form"> 
+                              {{ csrf_field() }}
+
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">

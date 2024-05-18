@@ -183,20 +183,22 @@
                         <div class="group-title p_relative d_block mb_15">
                             <h3 class="fs_30 lh_40">@lang('main.comments')</h3>
                         </div>
-                        <div class="form-inner">
-                            <form method="post" action="sendemail.php" id="contact-form"> 
+                        <div class="form-inner">																
+                            <form method="post" action="{{ route('review.store',app()->getLocale())}}" method="POST" id="contact-form"> 
+                                {{ csrf_field() }}
+                                <input type="hidden" name="news_id" value="{{ $info->id }}" />
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">
+                                        <input type="text" name="name"  placeholder="@lang('main.contacts.name')" required="">
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <!-- <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="email" name="email" placeholder="Еmail" required="">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <input type="text" name="phone" required="" placeholder="Телефон">
-                                    </div>
+                                    </div> -->
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="@lang('main.mess')"></textarea>
+                                        <textarea name="comment" placeholder="@lang('main.mess')"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <!-- <div class="check-box">
@@ -209,6 +211,24 @@
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="comments-form-area mt_100">
+                        <div class="group-title p_relative d_block mb_15">
+                          
+                            <h3 class="fs_30 lh_40">@lang('main.comments1')</h3>
+                         
+                        </div>
+                        <div class="form-inner">																
+                            
+                                                                @foreach($reviews as $review)
+																<div class="book_description_reviews mb_30">																
+																	<p class="book_description_reviews_name">{{ $review->name }}</p>
+															
+																			<p class="book_description_reviews_date">{{ $review->created_at }}</p>
+																			<p class="book_description_reviews_text">{{ $review->comment }}</p>
+																</div>
+																@endforeach
                         </div>
                     </div>
                 </div>
