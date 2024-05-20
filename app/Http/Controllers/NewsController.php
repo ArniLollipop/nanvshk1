@@ -46,4 +46,45 @@ class NewsController extends Controller
         Review::create($request->all());
         return back()->with($request->news_id);
     }
+
+    public function search(Request $request)
+    {
+        
+        $request->validate([
+            'query' => 'required|min:3',
+            ]);
+
+        $q = $request->input('query');
+
+        $terms = explode(" ",$request->input('query'));
+            foreach($terms as $term){
+                $array[] =  '%' . mb_strtoupper($term) . '%';
+            }
+
+        $news = News::when(isset($q), function ($query) use ($q) {
+                $query  ->where(\DB::raw('UPPER(title)'), 'LIKE', '%' . mb_strtoupper($q) . '%')
+                ->orWhere(\DB::raw('UPPER(body)'), 'LIKE', '%' . mb_strtoupper($q) . '%');
+
+        });
+        $count = $news->count();
+        $view = 'search-results';
+
+      if($count == 0){
+            $news = News::when(isset($q), function ($query) use ($array) {
+              foreach($array as $term){
+                  $query  ->where(\DB::raw('UPPER(title)'), 'LIKE', $term)
+                  ->orWhere(\DB::raw('UPPER(body)'), 'LIKE', '%' . $term);
+              }
+
+          });
+          $count = $news->count();
+          $view = 'search-results';
+      }
+
+        $news = $news->paginate(6);
+
+        return view($view)->with([
+            'news' => $news
+            ]);
+    }
 }

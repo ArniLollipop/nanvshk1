@@ -8,14 +8,15 @@
                 <div class="overlay-layer"></div>
                 <div class="auto-container">
                     <div class="search-form">
-                        <form method="post" action="index.html">
+                        <form action="{{ route('search',app()->getLocale()) }}" method="GET">
                             <div class="form-group">
                                 <fieldset>
-                                    <input type="search" class="form-control" name="search-input" value="" placeholder="@lang('main.search')" required >
+                                    <input type="search" class="form-control" name="query" value="{{ request()->input('query') }}" placeholder="@lang('main.search')" required >
                                     <button type="submit"><i class="icon-1"></i></button>
                                 </fieldset>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>

@@ -76,6 +76,8 @@ Route::get('/about-3', [AboutController::class, 'about3'])->name('about-3');
 Route::get('/about-4', [AboutController::class, 'about4'])->name('about-4');
 Route::get('/about-5', [AboutController::class, 'about5'])->name('about-5');
 
+Route::get('/search', [NewsController::class, 'search'])->name('search');
+
     Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
