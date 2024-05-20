@@ -51,7 +51,7 @@
                         <div class="widget-content">
                             <ul class="info-list clearfix">
                                 <li>@lang('main.about.contactinfo')</li>
-                                <li><a href="tel:77770565527">+7 (777)- 056-55-27</a></li>
+                                <li><a href="tel:77717091125">+7 (771) 709-11-25</a></li>
                                 <li><a href="mailto:nanvshk@gmail.com">nanvshk@gmail.com</a></li>
                             </ul>
                         </div>
