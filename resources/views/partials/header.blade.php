@@ -2,7 +2,7 @@
  <div id="search-popup" class="search-popup">
             <div class="popup-inner">
                 <div class="upper-box clearfix">
-                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo-16.png" alt=""></a></figure>
+                    <figure class="logo-box pull-left"><a href="/"><img src="{{ asset('assets/images/logo-3new.png') }}" alt=""></a></figure>
                     <div class="close-search pull-right"><span class="icon-179"></span></div>
                 </div>
                 <div class="overlay-layer"></div>
