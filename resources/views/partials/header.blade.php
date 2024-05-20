@@ -33,7 +33,7 @@
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-instagram"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="https://wa.me/77717091125?text=urlencodedtext" class="p_relative d_iblock fs_16"><i class="fab fa-whatsapp"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class='fab fa-telegram-plane'></i> </a></li>
                                 <!-- <li class="p_relative d_iblock float_left  lh_55">
                                     <a href="{{ route('settinglocale', ['lang' => 'ru']) }}"><img src="{{ asset('assets/images/russia.png') }}" alt="язык"></a>                                   

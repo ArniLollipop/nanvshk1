@@ -59,187 +59,37 @@
          <section class="shop-page-section shop-page-2 p_relative sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
+                 @foreach ($products as $product)
                     <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
                         <div class="shop-block-one">
                             <div class="inner-box p_relative d_block tran_5 mb_30">
                                 <div class="image-box p_relative d_block">
                                     <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
+                                    <figure class="image p_relative d_block"><img src="{{ asset('storage/'.$product->image) }}" alt=""></figure>
                                   
                                 </div>
                                 <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
+                                                @if(app()->getLocale() == 'ru')
+                                                <h6 class="d_block fs_15 lh_20 mb_4"><a href="#" class="d_iblock color_black">{{ $product->name_ru }}</a></h6>
+                                              
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                 <h6 class="d_block fs_15 lh_20 mb_4"><a href="#" class="d_iblock color_black">{{ $product->name_kz }}</a></h6>
+
+                                                @else
+                                                <h6 class="d_block fs_15 lh_20 mb_4"><a href="#" class="d_iblock color_black">{{ $product->name_en }}</a></h6>
+                                            
+                                                @endif
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 shop-block">
-                        <div class="shop-block-one">
-                            <div class="inner-box p_relative d_block tran_5 mb_30">
-                                <div class="image-box p_relative d_block">
-                                    <!-- <span class="category hot p_absolute l_10 t_10 fs_13 fw_medium font_family_poppins z_1">Hot</span> -->
-                                    <figure class="image p_relative d_block"><img src="{{ asset('assets/images/3001.jpg') }}" alt=""></figure>
-                                  
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25 pb_30">
-                                    <h6 class="d_block fs_15 lh_20 mb_4"><a href="shop-details.html" class="d_iblock color_black">ASRock DeskMini H470 Portable Mini PC</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                 @endforeach 
                    
                 </div>
                 <div class="pagination-wrapper centred mt_30">
-                    
-                    <ul class="pagination clearfix">
-                        <li><a href="shop-2.html" class="current">1</a></li>
-                        <li><a href="shop-2.html">2</a></li>
-                        <li><a href="shop-2.html">3</a></li>
-                        <li class="dot">...</li>
-                        <li><a href="shop-2.html">9</a></li>
-                        <li><a href="shop-2.html"><i class="icon-4"></i></a></li>
-                    </ul>
+                    @if(!is_array($products))
+                        {{ $products->appends(request()->input())->links('pagination') }}
+                    @endif
                 </div>
             </div>
         </section>
