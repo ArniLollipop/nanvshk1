@@ -366,7 +366,7 @@ return [
     ],
 
     'project6' => [
-        'title' => 'NATIONAL ACADEMY OF SCIENCES OF HIGHER SCHOOL OF KAZAKHSATN (NAS HSK)',
+        'title' => 'NATIONAL ACADEMY OF SCIENCES OF HIGHER SCHOOL OF KAZAKHSTAN(NAS HSK)',
         'info1' => 'It was created in 2017 by a decision of the Presidium of the National Academy of Sciences of Sciences of Higher School of Kazakhstan on behalf of the Minister of Education and Science of the Republic of Kazakhstan E.K. Sagadiev.',
         'info2' => 'An agreement was signed with the President of IREG Observatory on Academic Ranking and Excellence (IREG Observatory) Jan Sadlak.',
         'info3' => 'RRA STRATEGIC PARTNERS',
