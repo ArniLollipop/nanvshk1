@@ -22,6 +22,7 @@ return [
     'comments' => 'Your comments',
     'comments1' => 'Your comments',
     'mess' => 'Message',
+    'search' => 'Type a text for searching',
     
 
     'about' => [
@@ -340,8 +341,9 @@ return [
         'info1' => 'CAAAE is a representative as well as a member of the following international organizations:',
         'info2' => '• International Consortium of Engineering Education Societies IFEES.',
         'info3' => '• European Federation of National Engineering Communities FEANI.',
-        'info4' => '• IGIP International Society of Engineering Pedagogy.',
-        'info5' => '• INQAAHE International Quality Assurance Network.',
+        'info212' => '• IGIP International Society of Engineering Pedagogy.',
+        'info4' => '• INQAAHE International Quality Assurance Network.',
+        'info5' => '• European Engineering Education Accreditation Network ENAEE.',
         'info6' => '• A partnership agreement has been concluded with the Association of Engineering Education of Russia, Portugal and the accreditation agency in the field of engineering QUACING.',
         'info7' => '• Trilateral cooperation agreements have been concluded between the Consortium of universities for the training of specialists within the framework of the state program of industrial and innovative development (SPIID), CAAAE and ENAEE and the Consortium of universities for the training of specialists within the SPIID, CAAAE and IGIP.',
         'info8' => 'The Khujand agreement of Central Asian societies of engineering education is concluded.',

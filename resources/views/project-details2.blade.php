@@ -105,6 +105,10 @@
                         <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl6.jpg') }}" alt=""></a></figure>
                     </div>
                     <div class="clients-logo-box">
+                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl66.jpg') }}" alt=""></a></figure>
+                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl66.jpg') }}" alt=""></a></figure>
+                    </div>
+                    <div class="clients-logo-box">
                         <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl7.jpg') }}" alt=""></a></figure>
                         <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl7.jpg') }}" alt=""></a></figure>
                     </div>

@@ -43,6 +43,7 @@
                                 <ul class="info-list clearfix">
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info2')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info3')</li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info212')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info4')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info5')</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12 color_black">@lang('main.project5.info6')</li>

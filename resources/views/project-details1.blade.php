@@ -29,7 +29,7 @@
 <!-- project-details -->
 <section class="project-details p_relative pb_110">
     <div class="auto-container">
-        <div class="project-info p_relative d_block mb_110">
+        <div class="project-info p_relative d_block mb_30">
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
@@ -68,58 +68,58 @@
                          <!-- clients-one -->
         <section class="clients-one p_relative pb_70 pt_40">
             <div class="auto-container">
-            <div class="col-lg-6 col-md-12 col-sm-12 title-column">
+                        <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                             <div class="sec-title-two p_relative d_block mr_100">
                                 <!-- <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_50">@lang('main.project2.partners')</span><br /> -->
                                 <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen">The Best Solutions for Best Business</h2> -->
                             </div>
                         </div>
-                <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p1.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p1.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p2.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p2.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p3.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p3.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p4.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p4.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p5.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p5.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p6.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p6.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p7.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p7.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p8.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p8.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p9.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p9.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p10.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p10.jpg') }}" alt=""></a></figure>
-                    </div>
-                    <div class="clients-logo-box">
-                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p11.jpg') }}" alt=""></a></figure>
-                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p11.jpg') }}" alt=""></a></figure>
-                    </div>
-                </div>
+                        <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p1.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p1.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p2.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p2.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p3.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p3.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p4.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p4.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p5.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p5.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p6.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p6.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p7.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p7.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p8.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p8.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p9.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p9.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p10.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p10.jpg') }}" alt=""></a></figure>
+                            </div>
+                            <div class="clients-logo-box">
+                                <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/p11.jpg') }}" alt=""></a></figure>
+                                <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/p11.jpg') }}" alt=""></a></figure>
+                            </div>
+                        </div>
             </div>
         </section>
         <!-- clients-one end -->
@@ -148,7 +148,7 @@
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.projects.info12')</p>
                         <p class="font_family_poppins mb_25 color_black fs_18"> @lang('main.projects.info13')</p>
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.projects.info14')</p>
-                        <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.projects.info15')</p>
+                        <p class="font_family_poppins  color_black fs_18">@lang('main.projects.info15')</p>
 
                     </div>
                 </div>

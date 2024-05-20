@@ -1,4 +1,25 @@
-
+ <!--Search Popup-->
+ <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo-16.png" alt=""></a></figure>
+                    <div class="close-search pull-right"><span class="icon-179"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value="" placeholder="@lang('main.search')" required >
+                                    <button type="submit"><i class="icon-1"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- main header -->
 <header class="main-header">
             <!-- header-top-one -->
@@ -33,12 +54,12 @@
                         </div>
                         <div class="top-right pull-left">
                             <ul class="info clearfix">
-                                <!-- <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
+                                <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
                                     <i class="icon-1"></i>
-                                </li> -->
+                                </li>
                                 <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                                     <i class="icon-2"></i>
-                                    <p> <a href="tel:77770565527">+7 (777)- 056-55-27</a></p>
+                                    <p><a href="tel:77717091125">+7 (771) 709-11-25</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3"></i>
