@@ -34,6 +34,16 @@
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
                                 <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info1')</h3>
+                                <div data-animation-box class="image-box p_relative d_block mb_70">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/logo1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/logo1.jpg') }}" alt=""></a></figure>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/logo2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/logo2.jpg') }}" alt=""></a></figure>
+                                        </div>                            
+                                    </div>
+                                </div>
                                 <p class="font_family_poppins fs_20  mb_25 color_black"> @lang('main.academy.info2')</p>
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info3')</p>                               
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info4')</p>

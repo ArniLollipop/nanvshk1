@@ -26,9 +26,9 @@
 
 
         <!-- shop-details -->
-        <section class="shop-details p_relative pt_140 pb_80">
+        <section class="shop-details p_relative pt_140 pb_10">
             <div class="auto-container">
-                <div class="product-details-content p_relative d_block mb_100">
+                <div class="product-details-content p_relative d_block mb_30">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div class="image-box p_relative d_block">
@@ -38,12 +38,17 @@
                         
                         <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div class="product-details p_relative d_block ml_20">
-                                <h2 class="d_block fs_30 lh_40 fw_sbold font_family_inter mb_5">@lang('main.project7.title')</h2>
+                                <h2 class="d_block fs_30 lh_40 fw_sbold font_family_inter mb_15">@lang('main.project77.title7')</h2>
                                <div class="text p_relative d_block mb_30">
-                                    <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info1')</p>
-                                    <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info2')</p>
-                                    <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info3')</p>
-                                    <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info4')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info17')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info27')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info37')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info47')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info57')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info67')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info77')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info87')</p>
+                                    <p class="font_family_poppins mb_15 color_black fs_18">@lang('main.project77.info97')</p>
                                 </div>
                                
                                

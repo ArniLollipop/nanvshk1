@@ -41,8 +41,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                                     <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/univer.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/univer.jpg') }}" alt=""></a></figure>
-                                </div>
-                            
+                                </div>                            
                             </div>
                         </div>
 
