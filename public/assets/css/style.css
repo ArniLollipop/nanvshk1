@@ -794,7 +794,7 @@
   left: 100% !important;
   top: 70% !important;
   margin-left: -110px;
-  background: #f8f8f8;
+  background: #3a0eda;
   width: 220px;
   height: 220px;
 }
@@ -2972,7 +2972,7 @@
 
 .skills-two .image_block_three .image-box .shape .shape-3{
   top: -85px !important;
-  background: #f7f7f7;
+  background: #4509e9;
   border-radius: 50%;
   z-index: -1;
 }
@@ -3498,7 +3498,7 @@
   height: 135px;
   left: 78% !important;
   top: 65% !important;
-  border: 17px solid #90dfbc;
+  border: 17px solid #4509e9;
   border-radius: 50%;
 }
 
@@ -6623,7 +6623,7 @@ div[class^="bubble-"] {
 .pricing-four .pricing-block-one.active-block .shape .shape-3{
   width: 240px;
   height: 200px;
-  background: #f9ae46;
+  background: #4509e9;
   border-radius: 50%;
   left: -50px;
   top: -170px;
@@ -8167,7 +8167,7 @@ div[class^="bubble-"] {
   top: 60% !important;
   width: 100px;
   height: 100px;
-  background: #fab567;
+  background: #4509e9;
   border-radius: 50%;
 }
 
@@ -8356,7 +8356,7 @@ div[class^="bubble-"] {
   top: 110px;
   width: 40px;
   height: 40px;
-  background: #48c88e;
+  background: #4509e9;
   border-radius: 50%;
   -webkit-animation: zoom-fade-two 4s infinite linear;
   animation: zoom-fade-two 4s infinite linear;
@@ -13004,7 +13004,7 @@ div[class^="bubble-"] {
 .service-21 .tabs-content .shape .shape-3{
   bottom: -65px;
   right: -80px;
-  background: #f0f0f0;
+  background: #4509e9;
   -webkit-animation: zoom-fade 4s infinite linear;
   animation: zoom-fade 4s infinite linear;
 }

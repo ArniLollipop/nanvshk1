@@ -5,6 +5,7 @@ use App\News;
 use App\Review;
 
 
+
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
