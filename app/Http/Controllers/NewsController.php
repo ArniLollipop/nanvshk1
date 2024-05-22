@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\News;
 use App\Review;
-
+use App\Anons;
 
 
 use Illuminate\Http\Request;
@@ -24,9 +24,18 @@ class NewsController extends Controller
             $info = News::where('slug',request()->info)->first();            
         }
 
-        $images = json_decode($info->images);
+
+        if($info == null){
+            $info = Anons::where('slug',request()->info)->first();            
+        }
         
-        $reviews = Review::where('news_id', $info->id)->get();
+      
+
+        $images = (isset($images) ? json_decode($info->images) : null);
+        
+        if($info->id){
+            $reviews = Review::where('news_id', $info->id)->get();
+        }
 
         $info_prev = News::inRandomOrder()->first();
         $info_next = News::inRandomOrder()->first();

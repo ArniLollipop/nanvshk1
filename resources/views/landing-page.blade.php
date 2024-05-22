@@ -197,7 +197,10 @@
                                                     <p class="d_block mb_20">{{ $info->title_kz }}</p>                                   
                                                 @else
                                                     <p class="d_block mb_20">{{ $info->title_en }}</p>                                                                               
-                                                @endif                         
+                                                @endif    
+                                                <div class="btn-box">
+                                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+                                                </div>                     
                                         </div> 
                                     </div>
                                   
