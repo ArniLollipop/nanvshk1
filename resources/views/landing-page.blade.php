@@ -199,7 +199,7 @@
                                                     <p class="d_block mb_20">{{ $info->title_en }}</p>                                                                               
                                                 @endif    
                                                 <div class="btn-box">
-                                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+                                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
                                                 </div>                     
                                         </div> 
                                     </div>
