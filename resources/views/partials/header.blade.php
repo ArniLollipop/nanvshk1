@@ -34,7 +34,7 @@
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55">
                                     <div class="wcag--icon">
                                         
-                                        <img src="{{ asset('assets/images/blind-glasses-icon-simple.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/eye-icon.png') }}" alt="">
                                     </div>
                                 </li>
                                 
