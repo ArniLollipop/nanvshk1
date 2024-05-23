@@ -256,6 +256,10 @@
                 <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl6.jpg" alt=""></a></figure>
             </div>
             <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/cl66.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl66.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
                 <figure class="image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
                 <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl7.jpg" alt=""></a></figure>
             </div>
@@ -270,6 +274,24 @@
             <div class="clients-logo-box">
                 <figure class="image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
                 <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/cl10.jpg" alt=""></a></figure>
+            </div>
+            <div class="clients-logo-box">
+                @if(app()->getLocale() == 'ru')
+                    <figure class="image"><a href="index.html"><img src="assets/images/clients/pr62.jpg" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/pr62.jpg" alt=""></a></figure>
+                @elseif(app()->getLocale() == 'kz')
+                    <figure class="image"><a href="index.html"><img src="assets/images/clients/pr62kz.jpg" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/pr62kz.jpg" alt=""></a></figure>
+                
+                @else
+                    <figure class="image"><a href="index.html"><img src="assets/images/clients/pr62en.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/pr62en.png" alt=""></a></figure>
+                
+                @endif
+            </div>
+            <div class="clients-logo-box">
+                <figure class="image"><a href="index.html"><img src="assets/images/clients/pr61.jpg" alt=""></a></figure>
+                <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/pr61.jpg" alt=""></a></figure>
             </div>
         </div>
     </div>
