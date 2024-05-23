@@ -182,13 +182,13 @@
                         <div class="blog-sidebar p_relative d_block ml_20">                           
                             <div class="sidebar-widget post-widget p_relative d_block pt_35 pr_40 pb_20 pl_40 b_radius_10 mb_70">
                                 <div class="widget-title p_relative d_block mb_10">
-                                    <h3 class="d_block fs_24 lh_30">Анонсы и мероприятия</h3>
+                                    <h3 class="d_block fs_24 lh_30">@lang('main.about.anons')</h3>
                                 </div>
                                 <div class="post-inner">
                                 @foreach($anons as $info)
                                     <div class="image-box p_relative d_block">
                                         <div class="post-date p_absolute l_30 t_30 b_shadow_6 pt_1 pr_19 pb_1 pl_19 z_1">
-                                            <h6 class="p_relative d_iblock fs_15 fw_medium g_color">{{ $info->created_at->format('M') }} {{ $info->created_at->format('d')}}, {{ $info->created_at->format('Y') }}</h6>
+                                            <h6 class="p_relative d_iblock fs_15 fw_medium g_color">{{ $info->created_at->format('d')}}.{{ $info->created_at->format('m') }}.{{ $info->created_at->format('Y') }}</h6>
                                         </div><br><br>
                                         <div class="lower-content p_relative d_block pt_20 pr_30 pb_20 pl_40">  
                                                 @if(app()->getLocale() == 'ru')

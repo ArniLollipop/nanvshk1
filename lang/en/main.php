@@ -27,6 +27,7 @@ return [
 
     'about' => [
         'about' => 'About us',
+        'anons' => 'Announcements and events',
         'info1' => 'The Academy of Sciences of the Higher School of Kazakhstan was founded as the Kazakhstan branch of the International Academy of Sciences of the Higher School (IASHS) in 1992.',
         'info2' => 'NAS HSK is a non-governmental organization that unites almost 1,200 major and famous scientists and teachers of the vocational education system in 45 countries. The Academy includes 43 universities in the country, more than 136 members from all regions.',
         'info3' => 'In 2012, the academy was transformed into the National Academy of the Sciences of Higher Education of Kazakhstan.',
