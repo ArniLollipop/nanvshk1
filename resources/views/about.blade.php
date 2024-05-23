@@ -2,21 +2,29 @@
 @section('content')    
 
 <div class="boxed_wrapper">
-
-
-
 <!-- Page Title -->
-<section class="page-title p_relative centred">
-    <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/page-title.jpg);"></div>
+<section class="page-title style-two p_relative centred">
+    <!-- <div class="shape-layer">
+        <div class="shape-1 hero-shape-two p_absolute l_0" style="background-image: url({{ asset('assets/images/shape/shape-34.png') }});"></div>
+        <div class="shape-2 hero-shape p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-35.png') }});"></div>
+    </div>
+    <div class="pattern-layer p_absolute l_0 b_0 z_2" style="background-image: url({{ asset('assets/images/shape/shape-33.png') }});"></div> -->
+   
+    <div class="pattern-layer">
+        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
+        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
+        <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
+
+    </div>
     <div class="auto-container">
-        <!-- <div class="content-box">
-            <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us Classic</h1>
+        <div class="content-box">
+            <!-- <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Artboard Studio</h1>
             <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="index.html">Home</a></li>
-                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Pages</li>
-                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us Classic</li>
+                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="index.html">Home</a></li>
+                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Project</li>
+                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Details 2</li> -->
             </ul>
-        </div> -->
+        </div>
     </div>
 </section>
 <!-- End Page Title -->
@@ -32,6 +40,20 @@
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
                                 <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info1')</h3>
+                                <div data-animation-box class="image-box p_relative d_block mb_70">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-3 image-column">
+                                        </div>
+                                        <div class="col-lg-3 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/logo1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/logo1.jpg') }}" alt=""></a></figure>
+                                        </div>
+                                        <div class="col-lg-3 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/logo2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/logo2.jpg') }}" alt=""></a></figure>
+                                        </div> 
+                                        <div class="col-lg-3 image-column">
+                                        </div>                            
+                                    </div>
+                                </div>
                                 <p class="font_family_poppins fs_20  mb_25 color_black"> @lang('main.academy.info2')</p>
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info3')</p>                               
                                 <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info4')</p>

@@ -3,12 +3,13 @@
 
 <div class="boxed_wrapper">
 
-
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
     <div class="pattern-layer">
-        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url(assets/images/shape/shape-176.png);"></div>
-        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url(assets/images/shape/shape-56.png);"></div>
+        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
+        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
+        <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
+
     </div>
     <div class="auto-container">
         <div class="content-box">
@@ -102,6 +103,10 @@
                     <div class="clients-logo-box">
                         <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl6.jpg') }}" alt=""></a></figure>
                         <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl6.jpg') }}" alt=""></a></figure>
+                    </div>
+                    <div class="clients-logo-box">
+                        <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl66.jpg') }}" alt=""></a></figure>
+                        <figure class="overlay-image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl66.jpg') }}" alt=""></a></figure>
                     </div>
                     <div class="clients-logo-box">
                         <figure class="image"><a href="index.html"><img src="{{ asset('assets/images/clients/cl7.jpg') }}" alt=""></a></figure>

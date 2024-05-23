@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
+
 
 class ProjectsController extends Controller
 {
@@ -46,6 +48,13 @@ class ProjectsController extends Controller
     {
         
         return view('project-details7');
+    }
+    public function detail77()
+    {
+        $products = Product::paginate(12);
+        return view('project-details77')->with([
+            'products' => $products
+        ]);
     }
     public function detail8()
     {

@@ -1,4 +1,26 @@
-
+ <!--Search Popup-->
+ <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box pull-left"><a href="/"><img src="{{ asset('assets/images/logo-3new.png') }}" alt=""></a></figure>
+                    <div class="close-search pull-right"><span class="icon-179"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form action="{{ route('search',app()->getLocale()) }}" method="GET">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="query" value="{{ request()->input('query') }}" placeholder="@lang('main.search')" required >
+                                    <button type="submit"><i class="icon-1"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- main header -->
 <header class="main-header">
             <!-- header-top-one -->
@@ -17,10 +39,12 @@
                                 </li>
                                 
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"></li>
+
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16 text--resize--fa"><i class="fab fa-facebook-f text--resize"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16 text--resize--fa"><i class="fab fa-instagram text--resize"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16 text--resize--fa"><i class="fab fa-whatsapp text--resize"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="https://wa.me/77717091125?text=urlencodedtext" class="p_relative d_iblock fs_16 text--resize--fa"><i class="fab fa-whatsapp text--resize"></i></a></li>
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16 text--resize--fa"><i class='fab fa-telegram-plane text--resize'></i> </a></li>
+
                                 <!-- <li class="p_relative d_iblock float_left  lh_55">
                                     <a href="{{ route('settinglocale', ['lang' => 'ru']) }}"><img src="{{ asset('assets/images/russia.png') }}" alt="язык"></a>                                   
                                 </li>
@@ -41,12 +65,12 @@
                         </div>
                         <div class="top-right pull-left">
                             <ul class="info clearfix">
-                                <!-- <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
+                                <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
                                     <i class="icon-1"></i>
-                                </li> -->
+                                </li>
                                 <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                                     <i class="icon-2 text--resize--fa"></i>
-                                    <p class="text--resize"> <a href="tel:77770565527" class="text--resize--fa">+7 (777)- 056-55-27</a></p>
+                                    <p class="text--resize"><a href="tel:77717091125" class="text--resize--fa">+7 (771) 709-11-25</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3 text--resize--fa"></i>
@@ -165,7 +189,9 @@
                                                 <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize">@lang('main.about10')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="{{ route('project-details7', app()->getLocale()) }}" class="text--resize">ACADEM KITAP</a>
+
+                                        <li class="current dropdown"><a href="{{ route('project-details77', app()->getLocale()) }}" class="text--resize">ACADEM KITAP</a>
+
                                             
                                         </li>
                                         <li class="current dropdown"><a href="{{ route('news', app()->getLocale()) }}" class="text--resize">@lang('main.about11')</a>

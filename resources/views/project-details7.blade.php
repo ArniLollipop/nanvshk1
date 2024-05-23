@@ -3,12 +3,13 @@
 
 <div class="boxed_wrapper">
 
-
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
     <div class="pattern-layer">
-        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url(assets/images/shape/shape-176.png);"></div>
-        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url(assets/images/shape/shape-56.png);"></div>
+        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
+        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
+        <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
+
     </div>
     <div class="auto-container">
         <div class="content-box">
@@ -32,8 +33,14 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
                         <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project7.title')</h3>
+                        <div data-animation-box class="image-box p_relative d_block mb_30">
+                            <div class="row clearfix">
+                                <div class="col-lg-12 col-md-6 col-sm-12 image-column">
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/acdemkitap.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/acdemkitap.jpg') }}" alt=""></a></figure>
+                                </div>                                
+                            </div>
+                        </div>
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info1')</p>
-
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info2')</p>
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info3')</p>
                         <p class="font_family_poppins mb_25 color_black fs_18">@lang('main.project7.info4')</p>

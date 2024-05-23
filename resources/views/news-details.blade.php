@@ -3,19 +3,22 @@
 <body>
 <div class="boxed_wrapper">
 
-
 <!-- Page Title -->
-<section class="page-title blog-details p_relative centred">
-    <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/page-title-6.jpg);"></div>
+<section class="page-title style-two p_relative centred">
+    <div class="pattern-layer">
+        <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
+        <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
+        <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
+
+    </div>
     <div class="auto-container">
         <div class="content-box">
-            <!-- <div class="post-title p_relative d_block mb_60">
-                <div class="category p_relative d_block mb_7"><a href="blog-details.html" class="d_iblock fs_16 font_family_poppins uppercase">Business</a></div>
-                <h2 class="d_block fs_40 lh_50 fw_bold mb_7">The Best Remote UX and UI Design <br />Conferences</h2>
-                <ul class="post-info clearfix p_relative d_block">
-                    <li class="p_relative d_iblock mr_30 fs_16">Oct 20, 2021</li>
-                </ul>
-            </div> -->
+            <!-- <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Artboard Studio</h1>
+            <ul class="bread-crumb p_relative d_block mb_8 clearfix">
+                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="index.html">Home</a></li>
+                <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Project</li>
+                <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Details 2</li> -->
+            </ul>
         </div>
     </div>
 </section>
@@ -180,20 +183,22 @@
                         <div class="group-title p_relative d_block mb_15">
                             <h3 class="fs_30 lh_40">@lang('main.comments')</h3>
                         </div>
-                        <div class="form-inner">
-                            <form method="post" action="sendemail.php" id="contact-form"> 
+                        <div class="form-inner">																
+                            <form method="post" action="{{ route('review.store',app()->getLocale())}}" method="POST" id="contact-form"> 
+                                {{ csrf_field() }}
+                                <input type="hidden" name="news_id" value="{{ $info->id }}" />
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">
+                                        <input type="text" name="name"  placeholder="@lang('main.contacts.name')" required="">
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <!-- <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="email" name="email" placeholder="Еmail" required="">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <input type="text" name="phone" required="" placeholder="Телефон">
-                                    </div>
+                                    </div> -->
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="@lang('main.mess')"></textarea>
+                                        <textarea name="comment" placeholder="@lang('main.mess')"></textarea>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <!-- <div class="check-box">
@@ -206,6 +211,24 @@
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="comments-form-area mt_100">
+                        <div class="group-title p_relative d_block mb_15">
+                          
+                            <h3 class="fs_30 lh_40">@lang('main.comments1')</h3>
+                         
+                        </div>
+                        <div class="form-inner">																
+                            
+                                                                @foreach($reviews as $review)
+																<div class="book_description_reviews mb_30">																
+																	<p class="book_description_reviews_name">{{ $review->name }}</p>
+															
+																			<p class="book_description_reviews_date">{{ $review->created_at }}</p>
+																			<p class="book_description_reviews_text">{{ $review->comment }}</p>
+																</div>
+																@endforeach
                         </div>
                     </div>
                 </div>

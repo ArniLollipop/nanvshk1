@@ -63,7 +63,7 @@
                                         <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
                                     </div>
                                     <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">@lang('main.contacts.adr1')</h4>
-                                    <p class="font_family_poppins"><a href="tel:77770565527">+7 (777)- 056-55-27</a><br /></p>
+                                    <p class="font_family_poppins"><a href="tel:77717091125">+7 (771) 709-11-25</a><br /></p>
                                 </li>
                             </ul>
                         </div>
@@ -73,7 +73,10 @@
                             <div class="text p_relative d_block mb_35">
                                 <h3 class="d_block fs_30 lh_40 fw_bold">@lang('main.contacts.adr2')</h3>
                             </div>
-                            <form method="post" action="sendemail.php" id="contact-form"> 
+                            	
+                            <form method="post" action="{{ route('contacts.store',app()->getLocale()) }}" method="post" id="contact-form"> 
+                              {{ csrf_field() }}
+
                                 <div class="row clearfix">
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <input type="text" name="username" placeholder="@lang('main.contacts.name')" required="">

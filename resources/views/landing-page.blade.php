@@ -151,16 +151,26 @@
         <div data-depth="0.40" class="shape-4 p_absolute"></div>
     </div>
     <div class="auto-container">
-        <div class="upper-box p_relative d_block mb_100">
+        <div class="upper-box p_relative d_block mb_70">
             <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 title-column">
-                    <div class="sec-title-two p_relative d_block mr_150">
+
+                <div class="col-lg-8 col-md-12 col-sm-12 title-column">
+                    <div class="sec-title-two p_relative d_block mr_150 mb_30">
                         <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17 text--resize color--change">@lang('main.about.about')</span>
+                                <div data-animation-box class="image-box p_relative d_block mb_70">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/l1.jpg') }}" alt=""></a></figure>
+                                        </div>
+                                        <div class="col-lg-6 image-column">
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/l2.jpg') }}" alt=""></a></figure>
+                                        </div>                           
+                                    </div>
+                                </div>
+
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2> -->
                         <p class="fs_20 color_black font_family_oxygen mb_0 text--resize">@lang('main.about.info1')</p>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
                             <p class="fs_20 color_black font_family_oxygen mb_25 text--resize">@lang('main.about.info2')</p>
@@ -172,6 +182,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="blog-sidebar p_relative d_block ml_20">                           
+                            <div class="sidebar-widget post-widget p_relative d_block pt_35 pr_40 pb_20 pl_40 b_radius_10 mb_70">
+                                <div class="widget-title p_relative d_block mb_10">
+                                    <h3 class="d_block fs_24 lh_30">@lang('main.about.anons')</h3>
+                                </div>
+                                <div class="post-inner">
+                                @foreach($anons as $info)
+                                    <div class="image-box p_relative d_block">
+                                        <div class="post-date p_absolute l_30 t_30 b_shadow_6 pt_1 pr_19 pb_1 pl_19 z_1">
+                                            <h6 class="p_relative d_iblock fs_15 fw_medium g_color">{{ $info->created_at->format('d')}}.{{ $info->created_at->format('m') }}.{{ $info->created_at->format('Y') }}</h6>
+                                        </div><br><br>
+                                        <div class="lower-content p_relative d_block pt_20 pr_30 pb_20 pl_40">  
+                                                @if(app()->getLocale() == 'ru')
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title }}</p>                                   
+                                                 @elseif(app()->getLocale() == 'kz')
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title_kz }}</p>                                   
+                                                @else
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title_en }}</p>                                                                               
+                                                @endif    
+                                                <div class="btn-box">
+                                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
+                                                </div>                     
+                                        </div> 
+                                    </div>
+                                  
+                                @endforeach                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
         <div class="video-inner p_relative d_block pt_200 pb_200 b_radius_5 centred wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/background/video-bg-2.png);">

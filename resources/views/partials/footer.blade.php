@@ -50,9 +50,11 @@
                         </div>
                         <div class="widget-content">
                             <ul class="info-list clearfix">
+
                                 <li class="text--resize">@lang('main.about.contactinfo')</li>
-                                <li><a href="tel:77770565527" class="text--resize">+7 (777)- 056-55-27</a></li>
+                                <li><a href="tel:77717091125" class="text--resize">+7 (771) 709-11-25</a></li>
                                 <li><a href="mailto:nanvshk@gmail.com" class="text--resize">nanvshk@gmail.com</a></li>
+
                             </ul>
                         </div>
                     </div>

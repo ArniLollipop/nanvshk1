@@ -20,11 +20,14 @@ return [
     'prevnews' => 'Previous news',
     'nextnews' => 'Next news',
     'comments' => 'Your comments',
+    'comments1' => 'Your comments',
     'mess' => 'Message',
+    'search' => 'Type a text for searching',
     
 
     'about' => [
         'about' => 'About us',
+        'anons' => 'Announcements and events',
         'info1' => 'The Academy of Sciences of the Higher School of Kazakhstan was founded as the Kazakhstan branch of the International Academy of Sciences of the Higher School (IASHS) in 1992.',
         'info2' => 'NAS HSK is a non-governmental organization that unites almost 1,200 major and famous scientists and teachers of the vocational education system in 45 countries. The Academy includes 43 universities in the country, more than 136 members from all regions.',
         'info3' => 'In 2012, the academy was transformed into the National Academy of the Sciences of Higher Education of Kazakhstan.',
@@ -339,8 +342,9 @@ return [
         'info1' => 'CAAAE is a representative as well as a member of the following international organizations:',
         'info2' => '• International Consortium of Engineering Education Societies IFEES.',
         'info3' => '• European Federation of National Engineering Communities FEANI.',
-        'info4' => '• IGIP International Society of Engineering Pedagogy.',
-        'info5' => '• INQAAHE International Quality Assurance Network.',
+        'info212' => '• IGIP International Society of Engineering Pedagogy.',
+        'info4' => '• INQAAHE International Quality Assurance Network.',
+        'info5' => '• European Engineering Education Accreditation Network ENAEE.',
         'info6' => '• A partnership agreement has been concluded with the Association of Engineering Education of Russia, Portugal and the accreditation agency in the field of engineering QUACING.',
         'info7' => '• Trilateral cooperation agreements have been concluded between the Consortium of universities for the training of specialists within the framework of the state program of industrial and innovative development (SPIID), CAAAE and ENAEE and the Consortium of universities for the training of specialists within the SPIID, CAAAE and IGIP.',
         'info8' => 'The Khujand agreement of Central Asian societies of engineering education is concluded.',
@@ -363,7 +367,7 @@ return [
     ],
 
     'project6' => [
-        'title' => 'National Academy of Sciences of Higher School of Kazakhstan (NAS YSK)',
+        'title' => 'NATIONAL ACADEMY OF SCIENCES OF HIGHER SCHOOL OF KAZAKHSTAN(NAS HSK)',
         'info1' => 'It was created in 2017 by a decision of the Presidium of the National Academy of Sciences of Sciences of Higher School of Kazakhstan on behalf of the Minister of Education and Science of the Republic of Kazakhstan E.K. Sagadiev.',
         'info2' => 'An agreement was signed with the President of IREG Observatory on Academic Ranking and Excellence (IREG Observatory) Jan Sadlak.',
         'info3' => 'RRA STRATEGIC PARTNERS',
@@ -372,7 +376,7 @@ return [
     ],
 
     'project7' => [
-        'title' => '«AKADEM KITAP» Publishing House / “Өнегелі өмір” (Moral Life) Series',
+        'title' => '«AKADEM KITAP» Publishing House / “Өнегелі өмір” (Moral Life) Series.',
         'info1' => '«The book brings knowledge and enlightenment to humanity. The book contains the secrets of the human race. The book is the most patient teacher. There is nothing more precious to a thinking person than a book!» ',
         'info2' => 'Books are sources of knowledge about spiritual and moral life. Their role in education, upbringing, intellectual development of young people is very great. Through an appeal to a book, reading, a person joins spiritual values, develops, expands his horizons. Reading highly artistic literature contributes to the formation of a harmonious personality - a personality of active, creative, combining spiritual wealth, moral purity, physical perfection.',
         'info3' => 'Life makes increased demands on humanity, and the task of each educational institution is to prepare young specialists who will be in demand in later life, to show them the right guidelines. In 2010, the release of books of the series « Өнегелі өмір» about the life and work of famous statesmen and public figures, scientists began.',
@@ -383,6 +387,21 @@ return [
         'info8' => 'Dedicated to Mukhtar Omarkhanovich Auezov. «Have you read Abai yet? You haven\'t read anything at all. It\'s amazing, it\'s amazing! "Said German writer Alfred Kurella, who did not know the author of the work, translated into ninety languages ​ ​ of the world. Because, as Auezov says, «The Way of Abai», «The Way of Abai» is a phenomenon of the life of the nomadic Kazakh people of the 19th century. A special issue of the series "Іnegelііmіr" is dedicated to the work of the great Kazakh writer, public figure, scientist, teacher, academician of the Academy of Sciences of Kazakhstan, doctor of philological sciences, professor.',
         'info9' => 'In honor of the 100th anniversary of Baiken Ashimov, one of such men, a famous statesman and public figure, Hero of Socialist Labor, who, together with D. Kunaev, held an honorary position at the head of the government and made every effort to raise the country\'s economy and the well-being of the people, a special issue of the "Unegelіmіr" series was released.',
         'info10' => 'Baiken Ashimov, who led several regions of the Kazakh country and served as chairman of the Council of Ministers and the Presidium of the Supreme Council of the Kazakh SSR, had «a school from life, and teachers from his own people».',
+
+
+    ],
+
+    'project77' => [
+        'title7' => 'ABOUT AKADEM KITAP / SERIES «ӨНЕГЕЛІ ӨМІР»',
+        'info17' => 'The image project  «Өнегелі өмір», launched in 2011, tells about the life and work of outstanding personalities, government and public figures, organizers of science and education of the Republic of Kazakhstan.',
+        'info27' => 'In total, during this time, a series of books was released, consisting of 252 issues of  «Өнегелі өмір», each of which represented a school of morality for young people. These were books that attracted public attention to the work of government and public figures, scientists and simply talented people who lived a complex life full of drama.',
+        'info37' => 'Among them, scientists, teachers, writers and artists who selflessly served their people – these are Mukhtar Auezov, Kanysh Satbayev, Akhmet Zhubanov, Salik Zimanov, Khairzhan Behozhin, Omirbek Zholdasbekov, Olzhas Suleimenov Abiken Bekturov, Omirzak Sultangazin, Batyrbek Birimzhanov, Esmagambet Ismayilov, Asabai Mamytov, Tauman Amandosov, Kenzhegali Sagadiev, Matipulla Azhenov, Sultan Sartaev, Marat Barmankulov, Zeynolla Kabdolov, Leninshil Rustemov, Azilkhan Nurshayikov, Serikbai Beisembayev, Nagashybai Shaikenov, Kopzhasar Naribayev, Tursynbek Kakishev, Kamal Smayylov, Temirbai Darkanbayev, Asanali Ashimov and others.',
+        'info47' => '«Өнегелі өмір» has become a special series, the release of which is eagerly awaited by representatives of the public of Kazakhstan and is published at the National Academy of Sciences of the Higher School of Kazakhstan.',
+        'info57' => 'Book reviewers are people from different fields, well-known specialists. ',
+        'info67' => '«Өнегелі өмір» is a series worthy of wide distribution at the national level. ',
+        'info77' => 'The spiritual field «Өнегелі өмір», which embodies the life and destiny of the great personalities of our nation, should become recognizable and serve as a moral guide for the younger generation! The books published in the « Өнегелі өмір» series reveal in detail the personality of a person, his life path, works, memories, archival documents and epistolary heritage.',
+        'info87' => 'In addition, the publishing house "Akadem kitap" is always ready to assist in the preparation of textbooks, teaching aids and teaching aids, monographs, fiction, and publish the book in accordance with the necessary requirements.',
+        'info97' => 'The work of the country\'s outstanding organizers of higher education and science, talented citizens who deeply combine ability and work, hard work and enthusiasm, will always be highly valued.',
 
 
     ],
