@@ -5,7 +5,7 @@
 
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
-    <div class="pattern-layer">
+    <div class="pattern-layer img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
@@ -32,19 +32,19 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-column">
                     <div class="text p_relative d_block mr_40">
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project8.title')</h3></br>
-                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15">@lang('main.project8.title1')</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15 text--resize">@lang('main.project8.title')</h3></br>
+                        <h3 class="d_block fs_30 lh_40 fw_sbold mb_15 text--resize">@lang('main.project8.title1')</h3></br>
                        
                         <div data-animation-box class="image-box p_relative d_block mb_70">
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-6 col-sm-12 image-column">
-                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project8.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project8.jpg') }}" alt=""></a></figure>
+                                    <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/project/project8.jpg') }}" class="lightbox-image img--change" data-fancybox="gallery"><img src="{{ asset('assets/images/project/project8.jpg') }}" alt=""></a></figure>
                                 </div>                              
                             </div>
                         </div>
                       
                            
-                        <h4 class="d_block fs_30 lh_40 fw_sbold mt_50 mb_50">@lang('main.project8.info1')</h4>
+                        <h4 class="d_block fs_30 lh_40 fw_sbold mt_50 mb_50 text--resize">@lang('main.project8.info1')</h4>
                         <ul class="clearfix p_relative d_block">
                             @lang('main.project8.body')
                         </ul>
@@ -59,11 +59,11 @@
        
        
         <div class="nav-btn clearfix">
-            <div class="single-btn prev-btn pull-left">
-                <a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
+           <div class="single-btn prev-btn pull-left">
+                <a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black text--resize" aria-label="Предыдущий проект"><i class="far fa-long-arrow-left"></i>@lang('main.projects.prev')</a>
             </div>
             <div class="single-btn next-btn pull-right">
-                <a href="{{ route('project-details3', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
+                <a href="{{ route('project-details3', app()->getLocale()) }}" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black  text--resize"  aria-label="Следующий проект">@lang('main.projects.next')<i class="far fa-long-arrow-right"></i></a>
             </div>
         </div>
     </div>

@@ -11,10 +11,11 @@
     <div class="pattern-layer p_absolute l_0 b_0 z_2" style="background-image: url({{ asset('assets/images/shape/shape-33.png') }});"></div> -->
    
     <div class="pattern-layer">
+        <div class="img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
-
+        </div>
     </div>
     <div class="auto-container">
         <div class="content-box">
@@ -39,7 +40,7 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
-                                <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info1')</h3>
+                                <h3 class="d_block fs_30 lh_30 mb_30 text--resize">@lang('main.academy.info1')</h3>
                                 <div data-animation-box class="image-box p_relative d_block mb_70">
                                     <div class="row clearfix">
                                         <div class="col-lg-3 image-column">
@@ -54,28 +55,28 @@
                                         </div>                            
                                     </div>
                                 </div>
-                                <p class="font_family_poppins fs_20  mb_25 color_black"> @lang('main.academy.info2')</p>
-                                <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info3')</p>                               
-                                <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info4')</p>
-                                <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info5')</p>
-                                <p class="font_family_poppins fs_20  mb_25 color_black">@lang('main.academy.info6')</p>
-                                    <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.academy.info7')</h3>
+                                <p class="font_family_poppins fs_20  mb_25 color_black text--resize"> @lang('main.academy.info2')</p>
+                                <p class="font_family_poppins fs_20  mb_25 color_black text--resize">@lang('main.academy.info3')</p>                               
+                                <p class="font_family_poppins fs_20  mb_25 color_black text--resize">@lang('main.academy.info4')</p>
+                                <p class="font_family_poppins fs_20  mb_25 color_black text--resize">@lang('main.academy.info5')</p>
+                                <p class="font_family_poppins fs_20  mb_25 color_black text--resize">@lang('main.academy.info6')</p>
+                                    <h3 class="d_block fs_30 lh_30 mb_30 text--resize">@lang('main.academy.info7')</h3>
                                     <ul class="list clearfix p_relative d_block">
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info8')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info9')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25  mb_12 color_black">@lang('main.academy.info10')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info11') </li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info12')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info13') </li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info14')</li>                                        
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info8')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info9')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25  mb_12 color_black text--resize">@lang('main.academy.info10')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info11') </li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info12')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info13') </li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info14')</li>                                        
                                     </ul>
-                                    <h3 class="d_block fs_30 lh_30 mb_30 mt_50">@lang('main.academy.info15')</h3>
+                                    <h3 class="d_block fs_30 lh_30 mb_30 mt_50 text--resize">@lang('main.academy.info15')</h3>
                                     <ul class="list clearfix p_relative d_block">
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info16')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info17')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25  mb_12 color_black">@lang('main.academy.info18')</li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info19') </li>
-                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black">@lang('main.academy.info20')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info16')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info17')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25  mb_12 color_black text--resize">@lang('main.academy.info18')</li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info19') </li>
+                                        <li class="p_relative d_block fs_20 lh_25 fw_medium font_family_inter pl_25 mb_12 color_black text--resize">@lang('main.academy.info20')</li>
                                     </ul>
                             </div>
                         </div>
@@ -88,40 +89,40 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="32">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="32">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform1')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform1')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="43">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="43">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform2')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform2')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="136">0</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="136">0</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform3')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform3')</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
                                     <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                         <div class="inner-box p_relative d_block">
-                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19">
-                                                <span class="count-text" data-speed="2500" data-stop="1.2">0</span><span>M</span>
+                                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 g_color_2 fw_bold mb_19 text--resize--fa color--change">
+                                                <span class="count-text text--resize" data-speed="2500" data-stop="1.2">0</span><span>M</span>
                                             </div>
-                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white">@lang('main.about.inform4')</p>
+                                            <p class="p_relative d_block fs_16 lh_20 fw_medium color_white text--resize">@lang('main.about.inform4')</p>
                                         </div>
                                     </div>
                                 </div>

@@ -160,24 +160,24 @@
                                 <div data-animation-box class="image-box p_relative d_block mb_70">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 image-column">
-                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/l1.jpg') }}" alt=""></a></figure>
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l1.jpg') }}" class="lightbox-image" data-fancybox="gallery"><div class="img--change"><img src="{{ asset('assets/images/l1.jpg') }}" alt=""></div></a></figure>
                                         </div>
                                         <div class="col-lg-6 image-column">
-                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset('assets/images/l2.jpg') }}" alt=""></a></figure>
+                                            <figure data-animation-text class="overlay-anim-black-bg image p_relative d_block b_radius_10" data-animation="overlay-animation"><a href="{{ asset('assets/images/l2.jpg') }}" class="lightbox-image" data-fancybox="gallery"><div class="img--change"><img src="{{ asset('assets/images/l2.jpg') }}" alt=""></div></a></figure>
                                         </div>                           
                                     </div>
                                 </div>
 
                         <!-- <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">Национальная академия наук Высшей школы Казахстана</h2> -->
-                        <p class="fs_20 color_black font_family_oxygen mb_0 text--resize">@lang('main.about.info1')</p>
+                        <p class="fs_20 color_black font_family_oxygen mb_0 text--resize color--change">@lang('main.about.info1')</p>
                     </div>
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize">@lang('main.about.info2')</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize color--change">@lang('main.about.info2')</p>
                             <!-- <p class="fs_16 font_family_oxygen"></p> -->
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 text">
-                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize">@lang('main.about.info3')</p>
+                            <p class="fs_20 color_black font_family_oxygen mb_25 text--resize color--change">@lang('main.about.info3')</p>
                             <p class="fs_16 font_family_oxygen"></p>
                         </div>
                     </div>
@@ -646,8 +646,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer1.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize">@lang('main.projects.prtitle')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize" aria-label="Переход на @lang('main.projects.prtitle')">@lang('main.projects.prtitle')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -656,8 +656,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize">@lang('main.projects.prtitle')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize"><i class="icon-4 text--resize"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details1', app()->getLocale()) }}" class=" text--resize" aria-label="Переход на @lang('main.projects.prtitle')">@lang('main.projects.prtitle')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize" aria-label="Переход на @lang('main.projects.prtitle')"><i class="icon-4 text--resize"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -666,8 +666,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/univer2.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class="text--resize">@lang('main.projects.prtitle')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen text--resize"><a href="{{ route('project-details1', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects.prtitle')">@lang('main.projects.prtitle')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details1', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 text--resize" aria-label="Переход на @lang('main.projects.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -676,8 +676,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/project2.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}" class="text--resize">@lang('main.project2.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details2', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects2.prtitle')">@lang('main.project2.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details2', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects2.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -686,7 +686,7 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/pr42.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects4.prtitle')">@lang('main.project4.title')</a></h4>
                             <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
@@ -696,8 +696,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/project4.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects4.prtitle')">@lang('main.project4.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects4.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -706,8 +706,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/projects4.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize">@lang('main.project4.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 "><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details4', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects4.prtitle')">@lang('main.project4.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details4', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14 " aria-label="Переход на @lang('main.projects4.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -716,8 +716,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/project5.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize">@lang('main.project5.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects5.prtitle')">@lang('main.project5.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects5.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -726,8 +726,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/projects5.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize">@lang('main.project5.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details5', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects5.prtitle')">@lang('main.project5.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details5', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects5.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -736,8 +736,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/project6.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}" class="text--resize">@lang('main.project6.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details6', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects6.prtitle')">@lang('main.project6.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details6', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects6.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -746,8 +746,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/color-logo.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}" class="text--resize">@lang('main.project7.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details7', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects7.prtitle')">@lang('main.project7.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details7', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects7.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -756,8 +756,8 @@
                         <figure class="image-box"><div class="img--change"><img src="assets/images/project/project8.jpg" alt=""></div></figure>
                         <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                             <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}" class="text--resize">@lang('main.project8.title')</a></h4>
-                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                            <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="{{ route('project-details8', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.projects8.prtitle')">@lang('main.project8.title')</a></h4>
+                            <div class="link p_absolute b_20 r_30"><a href="{{ route('project-details8', app()->getLocale()) }}" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14" aria-label="Переход на @lang('main.projects8.prtitle')"><i class="icon-4"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -1010,15 +1010,15 @@
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li> -->
                                 </ul>
                                                  @if(app()->getLocale() == 'ru')
-                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title }}</a></h4>
+                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}"  aria-label="Перейти на {{ $info->title }}">{{ $info->title }}</a></h4>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_kz}}</a></h4>
+                                                 <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" aria-label="Перейти на {{ $info->title }}">{{ $info->title_kz}}</a></h4>
                                                 @else
-                                                <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}">{{ $info->title_en }}</a></h4>
+                                                <h4 class="d_block fs_20 lh_30 mb_15 text--resize"><a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" aria-label="Перейти на {{ $info->title }}">{{ $info->title_en }}</a></h4>
                                                 @endif
                                 <!-- <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p> -->
                                 <div class="btn-box">
-                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two text--resize"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
+                                    <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two text--resize" aria-label="Перейти на {{ $info->title }}"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>
                                 </div>
                             </div>
                         </div>

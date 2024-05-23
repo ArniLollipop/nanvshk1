@@ -1040,6 +1040,7 @@
 		expertizeRoundCircle ();
 		expertizeRoundCircle2 ();
 		tabpane();
+		$('.clearfix li').addClass('text--resize');
 		wcagOn();
 
 
@@ -1073,7 +1074,7 @@
   //                      console.log(request);
   //                   }});
 	});
-var sizeDiff = $.cookie('WCAGFont');;
+var sizeDiff = $.cookie('WCAGFont');
 	$('.plus--size').on('click', function(e) {
 		$('.plus--size').prop('disabled',true);
 		$('.text--resize').each(function( index ) {
@@ -1113,12 +1114,12 @@ var sizeDiff = $.cookie('WCAGFont');;
 		$('.text--resize').css('color', '#000');
 		$('.text--resize--fa').css('background', '#000');
 		$('.dissapear--block').show();
-		$.cookie('WCAGOn', 'visit', { expires: 365, path: '/' });
-		$.cookie('WCAGFont', 0, { expires: 365, path: '/' });	
-		$.cookie('WCAGColor', 0, { expires: 365, path: '/' });
-		$.cookie('WCAGImage', 0, { expires: 365, path: '/' });
-		$.cookie('WCAGInterval', 0, { expires: 365, path: '/' });
-		$.cookie('WCAGKegel', 0, { expires: 365, path: '/' });
+		$.cookie('WCAGOn', 'visit');
+		$.cookie('WCAGFont', 0);	
+		$.cookie('WCAGColor', 0);
+		$.cookie('WCAGImage', 0);
+		$.cookie('WCAGInterval', 0);
+		$.cookie('WCAGKegel', 0);
 		});
 
 	$('.wsag--settings--wrap').on('click', function(e) {
@@ -1138,7 +1139,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.img--change').css('filter', 'grayscale(0%)');
 			$('.img--change').css('border', 'none');
 			$('.dissapear--block').show();
-			$.cookie('WCAGImage', 0, { expires: 365, path: '/' });
+			$.cookie('WCAGImage', 0);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--img--off').on('click', function(e) {
@@ -1149,7 +1150,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.img--change').css('filter', 'grayscale(0%)');
 			$('.img--change').css('border', '1px dotted #000');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGImage', 1, { expires: 365, path: '/' });
+			$.cookie('WCAGImage', 1);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--img--bw').on('click', function(e) {
@@ -1160,7 +1161,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$(this).css('color', 'red');
 			$('.img--change').css('border', 'none');
 			$('.dissapear--block').css('filter', 'grayscale(100%)');
-			$.cookie('WCAGImage', 2, { expires: 365, path: '/' });
+			$.cookie('WCAGImage', 2);
 			$.cookie('WCAGOn', 'on');
 	});
 
@@ -1168,21 +1169,21 @@ var sizeDiff = $.cookie('WCAGFont');;
 		$('.wcag--kerning .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('font-kerning', 'auto');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGKegel', 0, { expires: 365, path: '/' });
+			$.cookie('WCAGKegel', 0);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.kerning--middle').on('click', function(e) {
 		$('.wcag--kerning .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('font-kerning', 'normal');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGKegel', 1, { expires: 365, path: '/' });
+			$.cookie('WCAGKegel', 1);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.kerning--big').on('click', function(e) {
 		$('.wcag--kerning .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('font-kerning', 'none');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGKegel', 2, { expires: 365, path: '/' });
+			$.cookie('WCAGKegel', 2);
 			$.cookie('WCAGOn', 'on');
 	});
 
@@ -1190,7 +1191,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 		$('.wcag--interval .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('line-height', '1');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGInterval', 1, { expires: 365, path: '/' });
+			$.cookie('WCAGInterval', 1);
 			$.cookie('WCAGOn', 'on');
 	});
 
@@ -1198,7 +1199,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 		$('.wcag--interval .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('line-height', '1.5');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGInterval', 0, { expires: 365, path: '/' });
+			$.cookie('WCAGInterval', 0);
 			$.cookie('WCAGOn', 'on');
 	});
 
@@ -1206,7 +1207,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 		$('.wcag--interval .wcag--settings--item--wrap div').css('background-color', '#f2f2f2');
 			$('body').css('line-height', '2');
 			$(this).css('background-color', '#fff');
-			$.cookie('WCAGInterval', 2, { expires: 365, path: '/' });
+			$.cookie('WCAGInterval', 2);
 			$.cookie('WCAGOn', 'on');
 	});
 
@@ -1229,7 +1230,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.text--resize').css('color', '#000');
 			$('.text--resize--fa').css('background', '#000');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGColor', 0, { expires: 365, path: '/' });
+			$.cookie('WCAGColor', 0);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--color--item--2').on('click', function(e) {
@@ -1239,7 +1240,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.text--resize').css('color', '#fff');
 			$('.text--resize--fa').css('background', '#fff');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGColor', 1, { expires: 365, path: '/' });
+			$.cookie('WCAGColor', 1);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--color--item--3').on('click', function(e) {
@@ -1249,7 +1250,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.text--resize').css('color', '#fff');
 			$('.text--resize--fa').css('background', '#fff');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGColor', 2, { expires: 365, path: '/' });
+			$.cookie('WCAGColor', 2);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--color--item--4').on('click', function(e) {
@@ -1259,7 +1260,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.text--resize').css('color', '#000');
 			$('.text--resize--fa').css('background', '#000');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGColor', 3, { expires: 365, path: '/' });
+			$.cookie('WCAGColor', 3);
 			$.cookie('WCAGOn', 'on');
 	});
 	$('.wcag--color--item--5').on('click', function(e) {
@@ -1269,7 +1270,7 @@ var sizeDiff = $.cookie('WCAGFont');;
 			$('.text--resize').css('color', '#a9e44d');
 			$('.text--resize--fa').css('background', '#a9e44d');
 			$('.dissapear--block').hide();
-			$.cookie('WCAGColor', 4, { expires: 365, path: '/' });
+			$.cookie('WCAGColor', 4);
 			$.cookie('WCAGOn', 'on');
 	});
 

@@ -27,13 +27,13 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                                <li><a href="{{ route('about', app()->getLocale()) }}" class="text--resize">@lang('main.about2')</a></li>
-                                                <li><a href="{{ route('about-2', app()->getLocale()) }}" class="text--resize">@lang('main.about3')</a></li>
-                                                <li><a href="{{ route('about-3', app()->getLocale()) }}" class="text--resize">@lang('main.about4')</a></li>  
-                                                <li><a href="{{ route('about-4', app()->getLocale()) }}" class="text--resize">@lang('main.about6')</a></li>                                                                                 
-                                                <li><a href="{{ route('about-5', app()->getLocale()) }}" class="text--resize">@lang('main.about8')</a></li> 
-                                                <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize">@lang('main.about10')</a></li>   
-                                                <li><a href="{{ route('news', app()->getLocale()) }}" class="text--resize">@lang('main.about.news')</a> </li> 
+                                                <li><a href="{{ route('about', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about2')">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about3')">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about4')">@lang('main.about4')</a></li>  
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about6')">@lang('main.about6')</a></li>                                                                                 
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about8')">@lang('main.about8')</a></li> 
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about10')">@lang('main.about10')</a></li>   
+                                                <li><a href="{{ route('news', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about.news')">@lang('main.about.news')</a> </li> 
                                               
 
                                                
@@ -52,8 +52,8 @@
                             <ul class="info-list clearfix">
 
                                 <li class="text--resize">@lang('main.about.contactinfo')</li>
-                                <li><a href="tel:77717091125" class="text--resize">+7 (771) 709-11-25</a></li>
-                                <li><a href="mailto:nanvshk@gmail.com" class="text--resize">nanvshk@gmail.com</a></li>
+                                <li><a href="tel:77717091125" class="text--resize" aria-label="Позвонить на +7 (771) 709-11-25">+7 (771) 709-11-25</a></li>
+                                <li><a href="mailto:nanvshk@gmail.com" class="text--resize" aria-label="Написать на почту nanvshk@gmail.com">nanvshk@gmail.com</a></li>
 
                             </ul>
                         </div>
@@ -91,7 +91,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
             <div class="scroll-bar">
                 <div class="bar-inner"></div>
             </div>
-            <div class="scroll-bar-text g_color_2 text--resize text--resize--fa">Go To Top</div>
+            <div class="scroll-bar-text g_color_2 text--resize text--resize--fa"  aria-label="Вернуться наверх">Go To Top</div>
         </div>
     </div>
 </div>

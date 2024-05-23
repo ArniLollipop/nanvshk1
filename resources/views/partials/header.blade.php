@@ -12,7 +12,7 @@
                             <div class="form-group">
                                 <fieldset>
                                     <input type="search" class="form-control" name="query" value="{{ request()->input('query') }}" placeholder="@lang('main.search')" required >
-                                    <button type="submit"><i class="icon-1"></i></button>
+                                    <button type="submit" class="text--resize--fa"  aria-label="Поиск"><i class="icon-1 color--change"></i></button>
                                 </fieldset>
                             </div>
                         </form>
@@ -54,9 +54,9 @@
                                 <li class="p_relative d_iblock float_left lh_55">
                                     <a href="{{route('settinglocale', ['lang' => 'en']) }}"><img src="{{ asset('assets/images/en.png') }}" alt="язык" ></a>
                                 </li> -->
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'kz']) }}" class="p_relative d_iblock fs_16 text--resize"><div class="img--change"><img src="{{ asset('assets/images/world.png') }}" alt=""></div></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'ru']) }}" class="p_relative d_iblock fs_16 text--resize"><div class="img--change"><img src="{{ asset('assets/images/russia.png') }}" alt=""></div></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="{{ route('settinglocale', ['lang' => 'en']) }}" class="p_relative d_iblock fs_16 text--resize"><div class="img--change"><img src="{{ asset('assets/images/en.png') }}" alt=""></div></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'kz']) }}" class="p_relative d_iblock fs_16 text--resize" aria-label="казахский язык"><div class="img--change"><img src="{{ asset('assets/images/world.png') }}" alt=""></div></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="{{ route('settinglocale', ['lang' => 'ru']) }}" class="p_relative d_iblock fs_16 text--resize" aria-label="русский язык"><div class="img--change"><img src="{{ asset('assets/images/russia.png') }}" alt=""></div></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="{{ route('settinglocale', ['lang' => 'en']) }}" class="p_relative d_iblock fs_16 text--resize" aria-label="английский язык"><div class="img--change"><img src="{{ asset('assets/images/en.png') }}" alt=""></div></a></li>
                                
                                 
                                 
@@ -66,15 +66,15 @@
                         <div class="top-right pull-left">
                             <ul class="info clearfix">
                                 <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_60 lh_55">
-                                    <i class="icon-1"></i>
+                                    <i class="icon-1 text--resize--fa"></i>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                                     <i class="icon-2 text--resize--fa"></i>
-                                    <p class="text--resize"><a href="tel:77717091125" class="text--resize--fa">+7 (771) 709-11-25</a></p>
+                                    <p class="text--resize"><a href="tel:77717091125" class="text--resize--fa" aria-label="Позвонить на +7 (771) 709-11-25">+7 (771) 709-11-25</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_60 pl_25 fs_16">
                                     <i class="icon-3 text--resize--fa"></i>
-                                    <p class="text--resize">Email: <a href="mailto:nanvshk@gmail.com" class="text--resize--fa">nanvshk@gmail.com</a></p>
+                                    <p class="text--resize">Email: <a href="mailto:nanvshk@gmail.com" class="text--resize--fa" aria-label="Написать на почту nanvshk@gmail.com">nanvshk@gmail.com</a></p>
                                 </li>
                                
                             </ul>
@@ -167,34 +167,34 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="" class="text--resize">@lang('main.about1')</a>
+                                        <li class="current dropdown"><a href="" class="text--resize" aria-label="Переход на @lang('main.about1')">@lang('main.about1')</a>
                                              <ul class="color--change">
-                                                <li><a href="{{ route('about', app()->getLocale()) }}" class="text--resize">@lang('main.about2')</a></li>
-                                                <li><a href="{{ route('about-2', app()->getLocale()) }}" class="text--resize">@lang('main.about3')</a></li>
-                                                <li><a href="{{ route('about-3', app()->getLocale()) }}" class="text--resize">@lang('main.about4')</a></li>
+                                                <li><a href="{{ route('about', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about2')">@lang('main.about2')</a></li>
+                                                <li><a href="{{ route('about-2', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about3')">@lang('main.about3')</a></li>
+                                                <li><a href="{{ route('about-3', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about4')">@lang('main.about4')</a></li>
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="" class="text--resize">@lang('main.about5')</a>
+                                        <li class="current dropdown"><a href="" class="text--resize" aria-label="Переход на @lang('main.about5')">@lang('main.about5')</a>
                                              <ul class="color--change">
-                                                <li><a href="{{ route('about-4', app()->getLocale()) }}" class="text--resize">@lang('main.about6')</a></li>                                                
+                                                <li><a href="{{ route('about-4', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about6')">@lang('main.about6')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="" class="text--resize">@lang('main.about7')</a>
+                                        <li class="current dropdown"><a href="" class="text--resize" aria-label="Переход на @lang('main.about7')">@lang('main.about7')</a>
                                              <ul class="color--change">
-                                                <li><a href="{{ route('about-5', app()->getLocale()) }}" class="text--resize">@lang('main.about8')</a></li>                                                
+                                                <li><a href="{{ route('about-5', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about8')">@lang('main.about8')</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li class="current dropdown"><a href="" class="text--resize">@lang('main.about9')</a>
+                                        <li class="current dropdown"><a href="" class="text--resize" aria-label="Переход на @lang('main.about9')">@lang('main.about9')</a>
                                              <ul class="color--change">
-                                                <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize">@lang('main.about10')</a></li>                                                
+                                                <li><a href="{{ route('projects', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about10')">@lang('main.about10')</a></li>                                                
                                             </ul>
                                         </li>
 
-                                        <li class="current dropdown"><a href="{{ route('project-details77', app()->getLocale()) }}" class="text--resize">ACADEM KITAP</a>
+                                        <li class="current dropdown"><a href="{{ route('project-details77', app()->getLocale()) }}" class="text--resize" aria-label="Переход на  ACADEM KITAP">ACADEM KITAP</a>
 
                                             
                                         </li>
-                                        <li class="current dropdown"><a href="{{ route('news', app()->getLocale()) }}" class="text--resize">@lang('main.about11')</a>
+                                        <li class="current dropdown"><a href="{{ route('news', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about11')">@lang('main.about11')</a>
                                             <!-- <div class="megamenu">
                                                 <div class="row clearfix">
                                                     <div class="col-lg-3 column">
@@ -282,7 +282,7 @@
                                                 </div>                                            
                                             </div> -->
                                         </li>
-                                        <li class="current dropdown"><a href="{{ route('contacts', app()->getLocale()) }}" class="text--resize">@lang('main.about12')</a>
+                                        <li class="current dropdown"><a href="{{ route('contacts', app()->getLocale()) }}" class="text--resize" aria-label="Переход на @lang('main.about12')">@lang('main.about12')</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog Standard 1</a></li>
                                                 <li><a href="blog-2.html">Blog Standard 2</a></li>
@@ -323,7 +323,7 @@
                             </nav>
                         </div>
                         <div class="btn-box">
-                            <a href="{{ route('contacts', app()->getLocale()) }}" class="theme-btn theme-btn-one color--change">@lang('main.write')<i class="icon-4"></i></a>
+                            <a href="{{ route('contacts', app()->getLocale()) }}" class="theme-btn theme-btn-one color--change" aria-label="@lang('main.write')" aria-label="Переход на @lang('main.write')">@lang('main.write')<i class="icon-4"></i></a>
                         </div>
                     </div>
                 </div>
@@ -343,17 +343,17 @@
             <h4>Contact Info</h4>
             <ul>
                 <li class=" text--resize">Казахстан, г. Алматы, мкрн Коктем-3,24</li>
-                <li><a href="tel:+8801682648101" class=" text--resize">+88 01682648101</a></li>
-                <li><a href="mailto:info@example.com" class=" text--resize">info@example.com</a></li>
+                <li><a href="tel:+8801682648101" class=" text--resize"aria-label="@lang('main.write')" aria-label="Позвонить на +88 01682648101">+88 01682648101</a></li>
+                <li><a href="mailto:info@example.com" class=" text--resize" aria-label="Написать на info@example.com">info@example.com</a></li>
             </ul>
         </div>
         <div class="social-links">
             <ul class="clearfix">
-                <li><a href="index.html" class=" text--resize"><span class="fab fa-twitter"></span></a></li>
-                <li><a href="index.html" class=" text--resize"><span class="fab fa-facebook-square"></span></a></li>
-                <li><a href="index.html" class=" text--resize"><span class="fab fa-pinterest-p"></span></a></li>
-                <li><a href="index.html" class=" text--resize"><span class="fab fa-instagram"></span></a></li>
-                <li><a href="index.html" class=" text--resize"><span class="fab fa-youtube"></span></a></li>
+                <li><a href="index.html" class=" text--resize" aria-label="Ссылка на твиттер"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="index.html" class=" text--resize" aria-label="Ссылка на фейсбук"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="index.html" class=" text--resize" aria-label="Ссылка на пинтерест"><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href="index.html" class=" text--resize" aria-label="Ссылка на инстаграм"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="index.html" class=" text--resize" aria-label="Ссылка на ютуб"><span class="fab fa-youtube"></span></a></li>
             </ul>
         </div>
     </nav>
