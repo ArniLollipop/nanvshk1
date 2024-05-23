@@ -6,10 +6,11 @@
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
     <div class="pattern-layer">
+        <div class="img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
-
+    </div>
     </div>
     <div class="auto-container">
         <div class="content-box">
@@ -32,15 +33,15 @@
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-12 col-sm-12 image-column">
                         <div class="image-box p_relative d_block centred mr_20">
-                            <figure class="image p_relative d_block b_radius_50 mb_25"><img src="{{ asset('assets/images/team/team-60.jpg') }}" alt=""></figure>
+                            <figure class="image p_relative d_block b_radius_50 mb_25"><div class="img--change"><img src="{{ asset('assets/images/team/team-60.jpg') }}" alt=""></div></figure>
                             <div class="team-info">
-                                <h4 class="d_block fs_20 lh_30 mb_2">@lang('main.president.info1')</h4>
-                                <p class="font_family_poppins">@lang('main.president.info2')</p>
-                                <p class="font_family_poppins mb_30">@lang('main.president.info3')</p>
+                                <h4 class="d_block fs_20 lh_30 mb_2 text--resize">@lang('main.president.info1')</h4>
+                                <p class="font_family_poppins text--resize">@lang('main.president.info2')</p>
+                                <p class="font_family_poppins mb_30 text--resize">@lang('main.president.info3')</p>
                                 <ul class="social-links clearfix">
-                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15 "><i class="fab fa-facebook-f text--resize"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-twitter  text--resize"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="team-details.html" class="p_relative d_iblock w_40 h_40 lh_40 centred b_radius_50 fs_15"><i class="fab fa-google-plus-g  text--resize"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -50,10 +51,10 @@
                             
                             <div class="content-two p_relative d_block mb_55">
                                 <div class="text">
-                                    <h3 class="d_block fs_27 lh_30 mb_16">@lang('main.president.info4')</h3>
-                                    <p class="font_family_poppins mb_25 fs_20 color_black">@lang('main.president.info5')</p>
-                                    <p class="font_family_poppins mb_25 fs_20 color_black">@lang('main.president.info6')</p>
-                                    <p class="font_family_poppins fs_20 color_black">@lang('main.president.info7')</p>
+                                    <h3 class="d_block fs_27 lh_30 mb_16 text--resize">@lang('main.president.info4')</h3>
+                                    <p class="font_family_poppins mb_25 fs_20 color_black text--resize">@lang('main.president.info5')</p>
+                                    <p class="font_family_poppins mb_25 fs_20 color_black text--resize">@lang('main.president.info6')</p>
+                                    <p class="font_family_poppins fs_20 color_black text--resize">@lang('main.president.info7')</p>
                                 </div>
                             </div>
                         </div>

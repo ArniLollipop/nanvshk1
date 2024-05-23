@@ -5,7 +5,7 @@
 
 <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
-    <div class="pattern-layer">
+    <div class="pattern-layer img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
@@ -48,29 +48,29 @@
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
                                                 @if(app()->getLocale() == 'ru')
-                                                <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title }}</h3>                                            
+                                                <h3 class="d_block fs_30 lh_30 mb_30 text--resize">{{ $info->title }}</h3>                                            
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title_kz}}</h3>
+                                                 <h3 class="d_block fs_30 lh_30 mb_30 text--resize">{{ $info->title_kz}}</h3>
                                                 @else
-                                                <h3 class="d_block fs_30 lh_30 mb_30">{{ $info->title_en }}</h3>
+                                                <h3 class="d_block fs_30 lh_30 mb_30 text--resize">{{ $info->title_en }}</h3>
                                                 @endif
                                 <div class="image-box p_relative d_block mb_60">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image2) }}" alt=""></figure>
+                                            <figure class="image p_relative d_block b_radius_5 img--change"><img src="{{ asset('storage/'.$info->image2) }}" alt=""></figure>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure class="image p_relative d_block b_radius_5"><img src="{{ asset('storage/'.$info->image3) }}" alt=""></figure>
+                                            <figure class="image p_relative d_block b_radius_5 img--change"><img src="{{ asset('storage/'.$info->image3) }}" alt=""></figure>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- <figure class="author-thumb p_absolute l_40 t_40 w_100 h_100 b_radius_50"><img src="{{ asset('storage/'.$info->image) }}" alt=""></figure> -->
                                                 @if(app()->getLocale() == 'ru')
-                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body !!}</p>
+                                                <p class="font_family_poppins mb_25 color_black fs_20 text--resize">{!! $info->body !!}</p>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body_kz !!}</p>
+                                                 <p class="font_family_poppins mb_25 color_black fs_20 text--resize">{!! $info->body_kz !!}</p>
                                                 @else
-                                                <p class="font_family_poppins mb_25 color_black fs_20">{!! $info->body_en !!}</p>
+                                                <p class="font_family_poppins mb_25 color_black fs_20 text--resize">{!! $info->body_en !!}</p>
                                                 @endif
                                 <!-- <p class="font_family_poppins mb_60">Nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipis elit sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> -->
                                 <!-- <blockquote class="p_relative d_block pt_30 pr_150 pb_30 pl_40 b_radius_5 b_shadow_6 mb_65">
@@ -117,7 +117,7 @@
                         @foreach($images as $image)
                             <div class="project-block-one">
                                 <div class="inner-box p_relative d_block b_radius_5">
-                                    <figure class="image-box"><img src="{{ asset('storage/'.$image) }}" alt=""></figure>
+                                    <figure class="image-box img--change"><img src="{{ asset('storage/'.$image) }}" alt=""></figure>
                                     <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                         <!-- <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div> -->
                                         <!-- <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4> -->
@@ -152,23 +152,23 @@
                                 <div class="single-btn prev-btn p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
                                     <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_prev->slug, app()->getLocale()] ) }}" class="d_iblock color_black"><i class="far fa-long-arrow-left"></i>@lang('main.prevnews')</a></h6>
                                                 @if(app()->getLocale() == 'ru')
-                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title }}</h5>
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_prev->title }}</h5>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title_kz }}</h5>
+                                                 <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_prev->title_kz }}</h5>
                                                 @else
-                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_prev->title_en }}</h5>
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_prev->title_en }}</h5>
                                                 @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 btn-column">
                                 <div class="single-btn next-btn text-right p_relative d_block b_radius_5 pt_25 pr_30 pb_25 pl_30 tran_5">
-                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black">@lang('main.nextnews')<i class="far fa-long-arrow-right"></i></a></h6>
+                                    <h6 class="d_block fs_15 fw_sbold mb_11"><a href="{{ route('news-details', ['info' => $info_next->slug, app()->getLocale()] ) }}" class="d_iblock color_black text--resize" aria-label="Переход на @lang('main.nextnews')">@lang('main.nextnews')<i class="far fa-long-arrow-right"></i></a></h6>
                                                 @if(app()->getLocale() == 'ru')
-                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title }}</h5>
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_next->title }}</h5>
                                                  @elseif(app()->getLocale() == 'kz')
-                                                 <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title_kz }}</h5>
+                                                 <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_next->title_kz }}</h5>
                                                 @else
-                                                <h5 class="d_block fs_17 lh_24 fw_sbold">{{ $info_next->title_en }}</h5>
+                                                <h5 class="d_block fs_17 lh_24 fw_sbold text--resize">{{ $info_next->title_en }}</h5>
                                                 @endif
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                     </div> -->
                     <div class="comments-form-area">
                         <div class="group-title p_relative d_block mb_15">
-                            <h3 class="fs_30 lh_40">@lang('main.comments')</h3>
+                            <h3 class="fs_30 lh_40 text--resize">@lang('main.comments')</h3>
                         </div>
                         <div class="form-inner">																
                             <form method="post" action="{{ route('review.store',app()->getLocale())}}" method="POST" id="contact-form"> 
@@ -207,7 +207,7 @@
                                         </div> -->
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
-                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form">@lang('main.contacts.send') <i class="icon-4"></i></button>
+                                        <button class="theme-btn theme-btn-five" type="submit" name="submit-form"  aria-label="@lang('main.contacts.send')">@lang('main.contacts.send') <i class="icon-4"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -216,17 +216,17 @@
                     <div class="comments-form-area mt_100">
                         <div class="group-title p_relative d_block mb_15">
                           
-                            <h3 class="fs_30 lh_40">@lang('main.comments1')</h3>
+                            <h3 class="fs_30 lh_40 text--resize">@lang('main.comments1')</h3>
                          
                         </div>
                         <div class="form-inner">																
                             
                                                                 @foreach($reviews as $review)
 																<div class="book_description_reviews mb_30">																
-																	<p class="book_description_reviews_name">{{ $review->name }}</p>
+																	<p class="book_description_reviews_name text--resize">{{ $review->name }}</p>
 															
-																			<p class="book_description_reviews_date">{{ $review->created_at }}</p>
-																			<p class="book_description_reviews_text">{{ $review->comment }}</p>
+																			<p class="book_description_reviews_date text--resize">{{ $review->created_at }}</p>
+																			<p class="book_description_reviews_text text--resize">{{ $review->comment }}</p>
 																</div>
 																@endforeach
                         </div>

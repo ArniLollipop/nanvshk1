@@ -5,7 +5,7 @@
 
  <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
-    <div class="pattern-layer">
+    <div class="pattern-layer img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
@@ -34,7 +34,7 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                             <div class="text">
-                                <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.presidium.prtitle')</h3>
+                                <h3 class="d_block fs_30 lh_30 mb_30 text--resize">@lang('main.presidium.prtitle')</h3>
                                
                                     <ul class="clearfix p_relative d_block">
                                         @lang('main.presidium.prbody')

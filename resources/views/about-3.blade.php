@@ -7,7 +7,7 @@
 
        <!-- Page Title -->
 <section class="page-title style-two p_relative centred">
-    <div class="pattern-layer">
+    <div class="pattern-layer img--change">
         <div class="shape-1 p_absolute l_120 t_60 rotate-me" style="background-image: url({{ asset('assets/images/shape/shape-176.png') }});"></div>
         <div class="shape-2 p_absolute t_120 r_170 float-bob-y" style="background-image: url({{ asset('assets/images/shape/shape-56.png') }});"></div>
         <div class="shape-3 p_absolute l_0 b_0" style="background-image: url({{ asset('assets/images/shape/shape-189.png') }});"></div>
@@ -33,10 +33,10 @@
                 <div class="sortable-masonry">
                     <div class="filters mb_70">
                         <ul class="filter-tabs filter-btns clearfix centred">
-                            <li class="active filter" data-role="button" data-filter=".all">@lang('main.allmembers.all')</li>
-                            <li class="filter" data-role="button" data-filter=".analytis">@lang('main.allmembers.a1')</li>
-                            <li class="filter" data-role="button" data-filter=".finance">@lang('main.allmembers.a2')</li>
-                            <li class="filter" data-role="button" data-filter=".business">@lang('main.allmembers.a3')</li>
+                            <li class="active filter  text--resize color--change" data-role="button" data-filter=".all"  aria-label="Применить фильтр  @lang('main.allmembers.all')">@lang('main.allmembers.all')</li>
+                            <li class="filter  text--resize color--change" data-role="button" data-filter=".analytis"  aria-label="Применить фильтр  @lang('main.allmembers.a1')">@lang('main.allmembers.a1')</li>
+                            <li class="filter  text--resize color--change" data-role="button" data-filter=".finance"  aria-label="Применить фильтр  @lang('main.allmembers.a2')">@lang('main.allmembers.a2')</li>
+                            <li class="filter  text--resize color--change" data-role="button" data-filter=".business"  aria-label="Применить фильтр  @lang('main.allmembers.a3')">@lang('main.allmembers.a3')</li>
                         </ul>
                     </div>
                     <div class="items-container row clearfix">
@@ -50,8 +50,8 @@
                                                 <div class="row clearfix">
                                                     <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                                                         <div class="text">
-                                                        <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.allmembers.a1')</h3>
-                                                                <ul class="clearfix p_relative d_block">
+                                                        <h3 class="d_block fs_30 lh_30 mb_30 text--resize">@lang('main.allmembers.a1')</h3>
+                                                                <ul class="clearfix p_relative d_block text--resize">
                                                                     @lang('main.allmembers.a4')
                                                                                                                   
                                                                 </ul>
@@ -80,7 +80,7 @@
                                                 <div class="row clearfix">
                                                     <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                                                         <div class="text">
-                                                        <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.allmembers.a2')</h3>
+                                                        <h3 class="d_block fs_30 lh_30 mb_30  text--resize">@lang('main.allmembers.a2')</h3>
                                                                  <ul class="clearfix p_relative d_block">
                                                                      @lang('main.allmembers.a5')
                                                                     
@@ -109,7 +109,7 @@
                                                 <div class="row clearfix">
                                                     <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 big-column">
                                                         <div class="text">
-                                                        <h3 class="d_block fs_30 lh_30 mb_30">@lang('main.allmembers.a3')</h3>
+                                                        <h3 class="d_block fs_30 lh_30 mb_30 text--resize">@lang('main.allmembers.a3')</h3>
                                                                 <ul class="clearfix p_relative d_block">
                                                                     @lang('main.allmembers.a6')
                                                                      </ul>

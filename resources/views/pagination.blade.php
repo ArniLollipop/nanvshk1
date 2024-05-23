@@ -16,12 +16,12 @@
     @if (is_array($element))
         @foreach ($element as $page => $url)
                 @if ($page == $paginator->currentPage())
-                        <li><a href="{{ $url }}" class="current">{{ $page }}</a>
+                        <li><a href="{{ $url }}" class="current"  aria-label="Сейчас страница {{ $page }}">{{ $page }}</a>
                            
                         </li>
                 @else
                         <li>
-                            <a href="{{ $url }}">{{ $page }}</a>
+                            <a href="{{ $url }}"  aria-label="Перейти на {{ $page }} страницу">{{ $page }}</a>
                         </li>
                 @endif
                 @endforeach
@@ -30,7 +30,7 @@
 
         {{-- Next Page Link --}}
         @if ($paginator->hasMorePages())
-             <li><a href="{{ $paginator->nextPageUrl() }}" rel="next"><i class="icon-4"></i></a></li>           
+             <li><a href="{{ $paginator->nextPageUrl() }}" rel="next"   aria-label="Больше страниц"><i class="icon-4"></i></a></li>           
         @endif
        
     </ul>
