@@ -192,11 +192,11 @@
                                         </div><br><br>
                                         <div class="lower-content p_relative d_block pt_20 pr_30 pb_20 pl_40">  
                                                 @if(app()->getLocale() == 'ru')
-                                                    <p class="d_block mb_20">{{ $info->title }}</p>                                   
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title }}</p>                                   
                                                  @elseif(app()->getLocale() == 'kz')
-                                                    <p class="d_block mb_20">{{ $info->title_kz }}</p>                                   
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title_kz }}</p>                                   
                                                 @else
-                                                    <p class="d_block mb_20">{{ $info->title_en }}</p>                                                                               
+                                                    <p class="d_block mb_20 color_black ">{{ $info->title_en }}</p>                                                                               
                                                 @endif    
                                                 <div class="btn-box">
                                                     <a href="{{ route('news-details', ['info' => $info->slug, app()->getLocale()] ) }}" class="theme-btn theme-btn-two"><span data-text="@lang('main.about.more')">@lang('main.about.more')</span></a>

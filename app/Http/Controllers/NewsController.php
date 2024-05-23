@@ -31,7 +31,7 @@ class NewsController extends Controller
         
       
 
-        $images = (isset($images) ? json_decode($info->images) : null);
+        $images = (isset($info->images) ? json_decode($info->images) : null);
         
         if($info->id){
             $reviews = Review::where('news_id', $info->id)->get();
