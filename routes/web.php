@@ -113,7 +113,7 @@ Route::get('/dashboard', function () {
 
 
 Route::post('/set-session', 'App\Http\Controllers\WCAGController@setwcag');
-Route::get('/show-session', 'App\Http\Controllers\WCAGController@show');
+Route::post('/show-session', 'App\Http\Controllers\WCAGController@show');
 require __DIR__.'/auth.php';
 
 

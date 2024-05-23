@@ -51,12 +51,13 @@
 
 <!-- banner-section -->
 <section class="slider-two centred p_relative">
+    <div class="img--change">
     <div class="shape-layer">
         <div class="shape-1 hero-shape-two p_absolute l_0" style="background-image: url(assets/images/shape/shape-34.png);"></div>
         <div class="shape-2 hero-shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-35.png);"></div>
     </div>
     <div class="pattern-layer p_absolute l_0 b_0 z_2" style="background-image: url(assets/images/shape/shape-33.png);"></div>
-    <div class="banner-carousel owl-theme owl-carousel owl-dots-none dissapear--block">
+    <div class="banner-carousel owl-theme owl-carousel owl-dots-none ">
         <div class="slide-item p_relative">
             <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
             <div class="auto-container">
@@ -90,6 +91,7 @@
                 </div> 
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!-- banner-section end -->

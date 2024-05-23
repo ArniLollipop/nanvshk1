@@ -82,7 +82,7 @@
                         <div class="wcag--color--item wcag--color--item--5">A</div>
                     </td>
                     <td>
-                        <div class="wcag--img--wrap"><div class="wcag--img--on">Вкл.</div> | <div class="wcag--img--off">Выкл.</div> | <div class="wcag--img--bw">ЧБ</div></div>
+                        <div class="wcag--img--wrap"><div class="wcag--img--on">Вкл.</div> | <div class="wcag--img--off" id="image--set--1">Выкл.</div> | <div class="wcag--img--bw" id="image--set--2">ЧБ</div></div>
                     </td>
                     <td>
                         <div class="wcag--more"><div class="wsag--settings--wrap"><img src="{{ asset('assets/images/settings-icon-14963.png') }}" alt=""> Настройки</div></div>
@@ -93,16 +93,16 @@
                     <div class="wcag--settings--window">
                         <div class="wcag--kerning">Кернинг
                             <div class="wcag--settings--item--wrap">
-                                <div class="wcag--settings--item kerning--standart">Стандартный</div>
-                                <div class="wcag--settings--item kerning--middle">Средний</div>
-                                <div class="wcag--settings--item kerning--big">Большой</div>
+                                <div class="wcag--settings--item kerning--standart" id="kerning--set--0">Стандартный</div>
+                                <div class="wcag--settings--item kerning--middle" id="kerning--set--1">Средний</div>
+                                <div class="wcag--settings--item kerning--big" id="kerning--set--2">Большой</div>
                             </div>
                         </div>
                         <div class="wcag--interval">Интервал
                             <div class="wcag--settings--item--wrap">
-                                <div class="wcag--settings--item interval--1">Одинарный</div>
-                                <div class="wcag--settings--item interval--15">Полуторный</div>
-                                <div class="wcag--settings--item interval--2">Двойной</div>
+                                <div class="wcag--settings--item interval--1" id="interval--set--1">Одинарный</div>
+                                <div class="wcag--settings--item interval--15" id="interval--set--0">Полуторный</div>
+                                <div class="wcag--settings--item interval--2" id="interval--set--2">Двойной</div>
                             </div>
                         </div>
                         <!-- <div class="wcag--serif">Гарнитура

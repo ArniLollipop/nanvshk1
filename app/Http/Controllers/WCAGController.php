@@ -4,14 +4,21 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Session;
+
 class WCAGController extends Controller
 {
+
     public function show(Request $request)
     {
-        echo 'go';
+ var_dump($request->sessiolog());   
     }
+
+
      public function setwcag(Request $request)
     {
-        echo 'go';
+        var_dump($request->sessiolog());
     }
+
+    
 }

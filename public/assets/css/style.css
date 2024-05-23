@@ -17220,7 +17220,7 @@ body.out .mouse-pointer {
   background: #f2f2f2;
   position: fixed;
   z-index: 9999;
-  /*top: -100%;*/
+  top: -100%;
   left: 15px;
   color: #000;
 }

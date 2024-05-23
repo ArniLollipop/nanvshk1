@@ -70,6 +70,7 @@
 <script src="{{ asset('assets/js/parallax-scroll.js') }}"></script>
 <script src="{{ asset('assets/js/isotope.js') }}"></script>
 <script src="{{ asset('assets/js/jquery.paroller.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.cookie.js') }}"></script>
 
 <!-- main-js -->
 <script src="{{ asset('assets/js/script.js') }}"></script>
