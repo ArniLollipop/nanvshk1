@@ -226,7 +226,7 @@
 
 
 <!-- clients-one -->
-<section class="clients-one p_relative pb_70">
+<section class="clients-one p_relative pb_30">
     <div class="auto-container">
     <div class="col-lg-6 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
@@ -431,7 +431,7 @@
 
 
   <!-- team-three -->
-  <section class="team-three team-page-3 p_relative centred pt_130 pb_150">
+  <section class="team-three team-page-3 p_relative centred pt_30 pb_50">
             <div class="auto-container">
                  <div class="col-lg-12 col-md-12 col-sm-12 title-column">
                     <div class="sec-title-two p_relative d_block mr_100">
@@ -1001,7 +1001,7 @@
 
 
 <!-- news-two -->
-<section class="news-two p_relative sec-pad">
+<section class="news-two p_relative mb_30">
     <div class="auto-container">
         <div class="upper-box p_relative d_block z_1 pb_50">
             <div class="row align-items-center clearfix">
