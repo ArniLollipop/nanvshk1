@@ -45,7 +45,7 @@
                         <div class="post-date-two p_absolute l_30 t_30 w_60 centred pt_10 pb_10 b_shadow_6">
                             <h4 class="fs_20 font_family_oxygen fw_bold lh_20 text--resize">
                                 @if ($loop->index === 2) {{-- 3-й элемент (индексация с нуля) --}}
-                                    01
+                                    09
                                     <span class="d_block fs_14 text--resize">{{ $info->created_at->format('M') }}</span>
                                 @else
                                     {{ $info->created_at->format('d') }}
